@@ -1,14 +1,20 @@
-# IDS6145(SimTech 2018) - Research Plan (Template)
-(remember all text between brackets to be removed in proposal and final, like template above)
+# IDS6145(SimTech 2018) - DISNEYWORLD "MAGIC KINGDOM" VISITORS ENTRANCE SYSTEM 
 
-> * Group Name: (be creative!)
-> * Group participants names: (alphabetically sorted by last name)
-> * Project Title: (can be changed later)
+# MouseHeadz
+![**Mickey.png**](images/Mickey.png)
 
-(Abstract here - basically your pitch with some modification - but short overview)
-(TEASER IMAGE HERE - should wow me to read your work)
+> * ADAM HARDNEY
+> * BLAKE NGUYEN
+> * MICHAEL STERKEL
+> * RACHEL STRANEY
+> * Project Title: MAGIC KINGDOM VISITORS ENTRANCE SYSTEM
+
+# Abstract
+Magic Kingdom, at Walt Disney World in Orlando Florida, has lived up to its tagline as being "The most Magical Place on Earth" by becoming one of the most visited theme parks in the world. According to the Themed Entertainment Association Global Attractions Attendance Report in 2015, Walt Disney's Magic Kingdom hosted over 20 million vistors. (http://www.teaconnect.org/images/files/TEA_160_611852_160525.pdf). For anyone who has the visited Magic Kingdom theme park, the size of the crowds can affect guests' overall experience and impose safety issues. Compounding this issue is the bottleneck created by the Transportation and Ticket Center (TTC) where guests must take the water ferry, monorail or bus to get to the official main street entrance to Magic Kingdom. The goal of our system is to model the time it would take guests to arrive at Magic Kingdom based on which mode of transportation taken from the TTC.
 
 
+
+![**MKE.png**](images/MKE.png)
 
 (directions, - remove)
 * (this Readme should "evolve" over time as you add and edit it)
