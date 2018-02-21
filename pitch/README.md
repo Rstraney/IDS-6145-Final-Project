@@ -1,4 +1,4 @@
-# IDS6145(SimTech 2018) - Research Plan (Template)
+# IDS6145(SimTech 2018) - Research Plan
 
 
 > * Group Name: The Limit Does Not Exist
