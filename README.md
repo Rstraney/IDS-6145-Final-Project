@@ -1,4 +1,4 @@
-# IDS6145(SimTech 2018) - DISNEYWORLD "MAGIC KINGDOM" VISITORS ENTRANCE SYSTEM 
+# IDS6145(SimTech 2018) - DISNEYWORLD "MAGIC KINGDOM" GUESTS ENTRANCE SYSTEM
 
 # MouseHeadz
 ![**Mickey.png**](images/Mickey.png)
@@ -7,7 +7,7 @@
 > * BLAKE NGUYEN
 > * MICHAEL STERKEL
 > * RACHEL STRANEY
-> * Project Title: MAGIC KINGDOM VISITORS ENTRANCE SYSTEM
+> * Project Title: MAGIC KINGDOM GUESTS ENTRANCE SYSTEM
 
 # Abstract
 Magic Kingdom, at Walt Disney World in Orlando Florida, has lived up to its tagline as being "The most Magical Place on Earth" by becoming one of the most visited theme parks in the world. According to the Themed Entertainment Association Global Attractions Attendance Report in 2015, Walt Disney's Magic Kingdom hosted over 20 million vistors. (http://www.teaconnect.org/images/files/TEA_160_611852_160525.pdf). For anyone who has the visited Magic Kingdom theme park, the size of the crowds can affect guests' overall experience and impose safety issues. Compounding this issue is the bottleneck created by the Transportation and Ticket Center (TTC) where guests must take the water ferry, monorail or bus to get to the official main street entrance to Magic Kingdom. The goal of our system is to model the time it would take guests to arrive at Magic Kingdom based on which mode of transportation taken from the TTC.
@@ -22,6 +22,10 @@ Magic Kingdom, at Walt Disney World in Orlando Florida, has lived up to its tagl
 
 
 ## General Introduction
+
+
+Walt Disney theme parks are one of the most well-known amusement parks in the world. Specifically, Magic Kingdom, which is located in Orlando, Florida is popularly known as the most happiest place on earth. The popular title is due to the innovaation of Walt Disney himself. Walt Disney built his first themepark in Anaheim, Calfornia, known as Disneyland. When he first built Disneyland, he ran out of property to build so he sought out more property in Orlando, Florida. He then began to build Disney World theme park in Orlando, Florida. From our initial research, we found that Disney's Magic Kingdom averages about 53,000 guests per day. We can assume that the high volume of guests that visted the theme park can experience extensive wait times to travel from the transportation and ticket center (TTC) 
+
 
 (States your motivation clearly: why is it important / interesting to solve this problem?)
 (Add real-world examples, if any)
