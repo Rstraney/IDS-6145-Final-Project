@@ -68,18 +68,18 @@ The overarching fundamental questions are
 		
 The sub questions that flow from the 3 funamental questions are
 		
--What is the time, in minutes, that it takes to get to the Magic Kingdom Entrance from the TTC via the water Ferry, via the Monorail, via the buses adn via the Minni Vans?
+- What is the time, in minutes, that it takes to get to the Magic Kingdom Entrance from the TTC via the water Ferry, via the Monorail, via the buses adn via the Minni Vans?
 			
--What is the capacity of the water Ferry, Monorail, bus and Minnie Van, respectively?
+- What is the capacity of the water Ferry, Monorail, bus and Minnie Van, respectively?
 				
--How often to each of the four methods run?
--Are any of the transportation methods on a set schedule?
+- How often to each of the four methods run?
+- Are any of the transportation methods on a set schedule?
 		
--Does travel time of the four methods vary depending on the time of day?
--What are the hours of operation of the four transportation methods?
--Is there a cost associated with each of the transportation methods?
+- Does travel time of the four methods vary depending on the time of day?
+- What are the hours of operation of the four transportation methods?
+- Is there a cost associated with each of the transportation methods?
 		
--If there was an emergency could park visitors exit the park in a safe and efficient manner?
+- If there was an emergency could park visitors exit the park in a safe and efficient manner?
 	
 (At the end of the project you want to find the answer to these questions) (Formulate a few, clear questions. Articulate them in sub-questions, from the more general to the more specific. )
 
