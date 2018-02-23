@@ -65,7 +65,7 @@ Walt Disney theme parks are one of the most well-known amusement parks in the wo
 
 So I'm not sure if this is correct.  The paragraph above says screenshot of an agent, though i'm not sure what it means by that.  Does it mean an agent in Anylogic or what an agent would be, which in our case are visitors to Disney.
 
-![Mike Space Mountain](images/MikeSpaceMountain)
+![Mike Space Mountain](images/MikeSpaceMountain.png)
 
 ## Research Methods
 (Cellular Automata, Agent-Based Model, Discrete Event Continuous Modeling...)(Python or Anylogic) (If you are not sure here: 1. Consult your colleagues, 2. ask the teachers, 3. remember that you can change it afterwards) (Steps in the process)
