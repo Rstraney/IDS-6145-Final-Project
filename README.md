@@ -56,7 +56,7 @@ Walt Disney theme parks are one of the most well-known amusement parks in the wo
 (explicitly list your requirements of what the model will have and simulate for the proposal)
 
 ## Fundamental Questions
-In order to make a final determination on a systema dn the function of a designed system a series of fundamental questions must be asked and answered.  For this system, which involves transportation methods to and from Magic Kingdom, the following questions apply.
+In order to make a final determination on the function of a designed system a series of fundamental questions must be asked and answered.  For this system, which involves transportation methods to and from Magic Kingdom, the following questions apply.
 
 The overarching fundamental questions are
 
@@ -86,6 +86,20 @@ The sub questions that flow from the 3 funamental questions are
 (From Mike) I'll have my section completed on 23 Feb, hopefully not too late in the day either.
 
 ## Expected Results
+
+The fundamental questions are to be answered by the simulation created to represent the system.  However, before the simulation is built there are notions of what answers to some of the questiosn will be and the simulation will be used to determine if these pre stated answers are correct. 
+
+The expected results for travel time are that the buses and Minnie vans are the quickest route into the park, that the monorail is the second quickest route and that the ferry is the slowest route into the park.  Using google maps and its measuring tool to determine the distance of the bus route (and the Minnie Van route), the distance comes to about 1.12 miles, the distance the Monorail takes comes to about 1.56 miles and the distance the ferry takes is about .67 miles.  
+
+For this system the time it takes to travel from the TTC to the MK entrance, regardless of transportation method, is expected to increase during peak visiting hours during the day.  This expectation is from personal experience at the parks during peak times and the perception that the time it took was statistically significantly longer.  This also applies to the direction of travel.  Getting into the park during normal business hours is expected to take longer than exiting the park and conversely as the park is nearing closing time the time to get into the park will decrease will the time to get out of the park will increase.
+
+All modes of transportation are expected to run during the entire time the park is open except when a mode is not running due to a mechanical issue.
+
+The expectation, before running the simulation, is that a bottleneck is created at the TTC during peak hours due to not being designed to handle the current capacity it receives at peak hours.
+
+All modes of transportation, excluding the Minnie Vans, are included in the price of admission, while a ride in a Minnie Van is $20 per ride.
+
+
 (What are the answers to the above questions that you expect to find before starting your research?) (This changes from Expected (Proposal) to just Results (final report)) (you should verbally define them) (sketch a few graphs of what you are roughly going for - not the data but histogram of this, line graph of that, screen shot of an agent - use paper and pencil sketches)
 
 So I'm not sure if this is correct.  The paragraph above says screen shot of an agent, though i'm not sure what it means by that.  Does it mean an agent in Anylogic or what an agent would be, which in our case are visitors to Disney.
