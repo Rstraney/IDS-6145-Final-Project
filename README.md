@@ -56,6 +56,81 @@ Walt Disney theme parks are one of the most well-known amusement parks in the wo
 (explicitly list your requirements of what the model will have and simulate for the proposal)
 
 ## Fundamental Questions
+In order to make a final determination on a systema dn the function of a designed system a series of fundamental questions must be asked and answered.  For this system, which involves transportation methods to and from Magic Kingdom, the following questions apply.
+
+The overarching fundamental questions are:
+
+	Which transportation method (Monorail, Ferry, Bus or Minnie Van) is the quickest method to get from the Transportation and Ticket Center to the entrance to Magic Kingdom?
+	
+	
+
+is which transportation method is the
+
+The overarching funamental que
+What is the quickest route to get from the Transportation
+and Ticket Center to Magic Kingdom?
+
+                How
+long does it take to get to the park entrance via the water Ferry?
+
+                                Is
+the travel time dependent on time of day?
+
+                                                Does
+this mode of transportation run all day?
+
+                                                                Is
+there a cost associated with this mode of transportation?
+
+                How
+long does it take to get to the park entrance via the monorail?
+
+                                Is
+the travel time dependent on time of day?
+
+                                                Does
+this mode of transportation run all day?
+
+                                                                Is
+there a cost associated with this mode of transportation?
+
+                How
+long does it take to get to the park entrance via the bus?
+
+                                Is
+the travel time dependent on time of day?
+
+                                                Does
+this mode of transportation run all day?
+
+                                                                Is
+there a cost associated with this mode of transportation?
+
+How long does it take to get to the
+park entrance via the Minni Vans?
+
+                                Is
+the travel time dependent on time of day?
+
+                                                Does
+this mode of transportation run all day?
+
+                                                Is
+there a cost associated with this mode of transportation?
+
+Does the use of a central hub, in this case the
+Transportation and Ticket Center cause any safety issues for visitors at the
+park?
+
+                Is a
+bottleneck created at peak times due to the Magic Kingdom entrance setup?
+
+                If
+there was an emergency could everyone get out of the park in safe and efficient
+manner?
+
+
+
 (At the end of the project you want to find the answer to these questions) (Formulate a few, clear questions. Articulate them in sub-questions, from the more general to the more specific. )
 
 (From Mike) I'll have my section completed on 23 Feb, hopefully not too late in the day either.
