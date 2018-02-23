@@ -103,7 +103,7 @@ For the presented system the data will be presented in the form of line graphs, 
 
 A histogram will be used to plot the average time (in minutes) it takes to get into the park by the four different modes of transportation.
 
-![Histogram Example](images/HistogramExample1)
+![Histogram Example](images/HistogramExample1.jpg)
 
 A scatter plot will be used to track transit times (in minutes) of individual agents.  The scatter plot will visually show where most of the transit times fall.
 
