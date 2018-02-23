@@ -24,16 +24,16 @@ Magic Kingdom, at Walt Disney World in Orlando Florida, has lived up to its tagl
 ## General Introduction
 
 
-Walt Disney theme parks are one of the most well-known amusement parks in the world. Specifically, Magic Kingdom, which is located in Orlando, Florida is popularly known as the most happiest place on earth. The popular title is due to the innovaation of Walt Disney himself. Walt Disney built his first themepark in Anaheim, Calfornia, known as Disneyland. When he first built Disneyland, he ran out of property to build so he sought out more property in Orlando, Florida. He then began to build Disney World theme park in Orlando, Florida. From our initial research, we found that Disney's Magic Kingdom averages about 53,000 guests per day. We can assume that the high volume of guests that visted the theme park can experience extensive wait times to travel from the transportation and ticket center (TTC) 
+Walt Disney theme parks are one of the most well-known amusement parks in the world. Specifically, Magic Kingdom, which is located in Orlando, Florida is popularly known as the most happiest place on earth. The popular title is due to the innovation of Walt Disney himself. Walt Disney built his first theme park in Anaheim, California, known as Disneyland. When he first built Disneyland, he ran out of property to build so he sought out more property in Orlando, Florida. He then began to build Disney World theme park in Orlando, Florida. From our initial research, we found that Disney's Magic Kingdom averages about 53,000 guests per day. We can assume that the high volume of guests that visited the theme park can experience extensive wait times to travel from the transportation and ticket center (TTC) 
 
 
 (States your motivation clearly: why is it important / interesting to solve this problem?)
 (Add real-world examples, if any)
 (Put the problem into a historical context, from what does it originate? Are there already some proposed solutions?)
 
-(You should begin by introducing your topic. In this section, you should define the core terminology specific to the field, introduce the problem statement, and make clear the benefits (motivate!) of resolving that problem statement. The main difference between the ABSTRACT and Introduction sections is that the abstract summarizes the entire project, including results, whereas the introduc-tion only provides the motivation of the problem and an overview of the proposed solution.)
+(You should begin by introducing your topic. In this section, you should define the core terminology specific to the field, introduce the problem statement, and make clear the benefits (motivate!) of resolving that problem statement. The main difference between the ABSTRACT and Introduction sections is that the abstract summarizes the entire project, including results, whereas the introduction only provides the motivation of the problem and an overview of the proposed solution.)
 
-(I tell sutdents to answer the questions, one paragaph each to start if you are lost)
+(I tell students to answer the questions, one paragaph each to start if you are lost)
 
 (Problem Statement. One paragraph to describe the prob-lem that you are tackling.)
 
@@ -61,45 +61,51 @@ Walt Disney theme parks are one of the most well-known amusement parks in the wo
 (From Mike) I'll have my section completed on 23 Feb, hopefully not too late in the day either.
 
 ## Expected Results
-(What are the answers to the above questions that you expect to find before starting your research?) (This changes from Expected (Proposal) to just Results (final report)) (you should verbally define them) (sketch a few graphs of what you are roughly going for - not the data but histogram of this, line graph of that, screenshot of an agent - use paper and pencil sketches)
+(What are the answers to the above questions that you expect to find before starting your research?) (This changes from Expected (Proposal) to just Results (final report)) (you should verbally define them) (sketch a few graphs of what you are roughly going for - not the data but histogram of this, line graph of that, screen shot of an agent - use paper and pencil sketches)
 
-So I'm not sure if this is correct.  The paragraph above says screenshot of an agent, though i'm not sure what it means by that.  Does it mean an agent in Anylogic or what an agent would be, which in our case are visitors to Disney.
+So I'm not sure if this is correct.  The paragraph above says screen shot of an agent, though i'm not sure what it means by that.  Does it mean an agent in Anylogic or what an agent would be, which in our case are visitors to Disney.
+**RS - I think we only need to describe an agent if we plan to use agent-based modeling.
+QUESTIONS TO YOU ALL: which mode of transport will be the fastest - bus, rail or ferry? And why?
+** 
+
 
 ![Mike Space Mountain](images/MikeSpaceMountain.png)
 
 ## Research Methods
 (Cellular Automata, Agent-Based Model, Discrete Event Continuous Modeling...)(Python or Anylogic) (If you are not sure here: 1. Consult your colleagues, 2. ask the teachers, 3. remember that you can change it afterwards) (Steps in the process)
 
-- Past research has been conducted to estimate visitors at amusement parks and evalute guest trafic flow. A few relevant publications to our project include:
+- Past research has been conducted to estimate visitors at amusement parks and evaluate guest traffic flow. A few relevant publications to our project include:
 	- Managing Capacity and Flow at Theme Parks by Reza H. Ahmadi
-		- Focused on the Six Flags Magic Mountain theme park to address questions of daily operations such as manageing traffic flow in the park and suggesting routing tours for guests. In his paper published in Operations Research, Ahmadi constructs two mathemeatical models to design touring plans of the park to avoid congestion. He also defined a Flow Pattern Model to identify visitor transitions within the park moving from one location to the next.
-		- Data used in the anaylsis included primary data from a visitor questionare and direct measures provided by the park which included park attendance and queue lengths at rides.  
+		- Focused on the Six Flags Magic Mountain theme park to address questions of daily operations such as managing traffic flow in the park and suggesting routing tours for guests. In his paper published in Operations Research, Ahmadi constructs two mathematical models to design touring plans of the park to avoid congestion. He also defined a Flow Pattern Model to identify visitor transitions within the park moving from one location to the next.
+		- Data used in the analysis included primary data from a visitor questionnaire and direct measures provided by the park which included park attendance and queue lengths at rides.  
 		
 - It's a Small World : Worldwide Declining Attendance and Disney Theme Parks by Robert Gigliotti, et al.
-	- This is a report published through Disney with a purpose of assessing markets and cometition in the theme park industry. The main points of interest from this report include attendence projections. Although this report was partially published in response to the decrease in attendance during recession years, the information summarized is from a direct and relevant source. 
+	- This is a report published through Disney with a purpose of assessing markets and competition in the theme park industry. The main points of interest from this report include attendance projections. Although this report was partially published in response to the decrease in attendance during recession years, the information summarized is from a direct and relevant source. 
 - Modeling Pedestrian Mobility in Disaster Areas by Gurkan Solmaz and DamlaTurgut
-	- This study focused on the foot traffic patterns of guests in amusement parks to evaluate mobility in the event of a disater. The researchers used information collected from mobile devices carried by 11 volunteers to simulate visitor movement and travel around the park. The simulation used in the study was an agent-based model.
+	- This study focused on the foot traffic patterns of guests in amusement parks to evaluate mobility in the event of a disaster. The researchers used information collected from mobile devices carried by 11 volunteers to simulate visitor movement and travel around the park. The simulation used in the study was an agent-based model.
 
 - An agent-based simulation approach to experience management in theme parks by Shih-Fen Cheng, et al.
-	- This paper was presented at the 2013 Winter Simulation Conference. The researchers developed and constructed a very large agent-based model. It is very relevant work....
+	- This paper was presented at the 2013 Winter Simulation Conference. The researchers developed and constructed a very large agent-based model. 
 
-<font color="red">Take directly from paper:
+	- <font color="red">Taken directly from Shih-Fen Cheng paper:
 The tourism and entertainment industry plays an increasingly important role in global economy. In recent years, theme parks have been an important driver in the growth of the tourism and entertainment industry. Unfortunately, vibrant growth in the theme park industry comes hand-in-hand with worsening congestion and increased wait times. From field observations and our computational experiments, we can conclude that there are at least three major causes for severe congestions to happen predictably in a theme park: 1) the fact that a small set of highly popular attractions are preferred universally, 2) the design of connecting paths that would cause visitors to converge at a few bottlenecks, and 3) the lack of global information on both real-time and historical queue lengths at attractions.<br /><br /></font>
+	- Crowd diversion systems have been an area of focus for the theme park industry for a while. Disney's FASTPASS and Universal Studios' Express Pass have both been implemented to reduce lines and wait times once guests are inside the park. (Shih-Fen Cheng, 2013)However, these solutions do not extend beyond that. Specifically, these strategies do very little to remedy the time it takes guests to enter the park.
 
+- Analysis and Simulation of Theme Park Queuing System by Liou Chu, et al.
+	- Chu and his team describe the strategies they used to design a Theme Park Queuing System and how it was used to improve customer satisfaction. 
+	- According to Ohtani, a cited reference by the researchers, wait time before being served is one of the most significant factors to customer satisfaction.  
+	- Although the authors modeled multiple rides within a theme park using Arena, this work can be generalized to our research by substituting rides with the main queuing points of the Magic Kingdom entrance, namely, the ticketing & transport center and the three modes of transport.  
 
-<font color="green">Rachel Notes: 
-- Can we combine a queue (discrete-based) with agent based model? For example, our agents would be visitor groups... with attributes (family vs adults, avg age, etc.). Then we can simulate transpotration for different types of visitor groups. Thoughts?
-</font>
+**Rachel Notes: 
+- Can we combine a queue (discrete-based) with agent based model? For example, our agents would be visitor groups... with attributes (family vs adults, avg age, etc.). Then we can simulate transportation for different types of visitor groups. Thoughts?
+**
 
-Although there are several approches to simulating foot traffic and movement throughout an amusement park, our team has elected to develop a discrete based model to address the said research topic. As described in the Model section, there are assumptions and parametters that need to be estimated to develop a meaningful simulation. Specifically, resources mentioned above and others will assit us in identifying the following:
-- Daily park attendence by way of the park lot
+Although there are several approaches to simulating foot traffic and movement throughout an amusement park, our team has elected to develop a discrete-event based model to address the said research topic. As described in the Model section, there are assumptions and parameters that need to be estimated to develop a meaningful simulation. Specifically, resources mentioned above and others will assist us in identifying the following:
+- Daily park attendance by way of the parking lot (this may be estimated by total parking spots)
 - Typical travel time required for each mode of transport into park (bus, ferry, monorail)
 - Typical wait time in line at the transport center
 
-To simplyify our scope, our system is focused on the point at which a guest parks to the point they reach the park entrance.
-
-
-
+To simplify our scope, our system is focused on the point at which a guest parks to the point they reach the park entrance.
 
 
 
