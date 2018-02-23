@@ -105,13 +105,19 @@ A histogram will be used to plot the average time (in minutes) it takes to get i
 
 ![Histogram Example](images/HistogramExample1.jpg)
 
+![Histogram Example](images/HistogramExample2.jpg)
+
 A scatter plot will be used to track transit times (in minutes) of individual agents.  The scatter plot will visually show where most of the transit times fall.
 
-![Scatter Plot Example](images/ScatterExample1)
+![Scatter Plot Example](images/ScatterExample1.jpg)
+
+![Scatter Plot Example](images/ScatterExample2.jpg)
 
 A line graph will be used to show the change in transit time (in minutes) as the time of the day changes from the time the park opens until it closes.
 
-![Line Graph Pot Example](images/LineGraphExample1)
+![Line Graph Pot Example](images/LineGraphExample1.jpg)
+
+![Line Graph Pot Example](images/LineGraphExample2.jpg)
 
 
 
