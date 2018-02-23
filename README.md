@@ -58,7 +58,7 @@ Walt Disney theme parks are one of the most well-known amusement parks in the wo
 ## Fundamental Questions
 In order to make a final determination on a systema dn the function of a designed system a series of fundamental questions must be asked and answered.  For this system, which involves transportation methods to and from Magic Kingdom, the following questions apply.
 
-The overarching fundamental questions are:
+The overarching fundamental questions are
 
 	Which transportation method (Monorail, Ferry, Bus or Minnie Van) is the quickest method to get from the Transportation and Ticket Center to the entrance to Magic Kingdom?
 	
@@ -66,7 +66,7 @@ The overarching fundamental questions are:
 	
 		Does the design of the Transportation and Ticket Center lead to uneccessary wait times that can lead to a negative visitor experience?
 		
-The sub questions that flow from the 3 funamental questions are:
+The sub questions that flow from the 3 funamental questions are
 		
 		What is the time, in minutes, that it takes to get to the Magic Kingdom Entrance from the TTC via the water Ferry, via 		       the Monorail, via the buses adn via the Minni Vans?
 			
