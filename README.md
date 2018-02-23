@@ -103,6 +103,8 @@ For the presented system the data will be presented in the form of line graphs, 
 
 A histogram will be used to plot the average time (in minutes) it takes to get into the park by the four different modes of transportation.
 
+**(Mike Comment) In the directions for this section is said to hand draw some graphs, which I have given below, but it said something about not showing data but I wasn't sure, so I have graphs with Example Data and those without.  I can always remake these on the computer if you think its needed.  Please use whichever one you think would be best.
+
 ![Histogram Example](images/HistogramExample1.jpg)
 
 ![Histogram Example](images/HistogramExample2.jpg)
