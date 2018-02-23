@@ -99,6 +99,21 @@ The expectation, before running the simulation, is that a bottleneck is created 
 
 All modes of transportation, excluding the Minnie Vans, are included in the price of admission, while a ride in a Minnie Van is $20 per ride.
 
+For the presented system the data will be presented in the form of line graphs, scatter plots and histograms.
+
+A histogram will be used to plot the average time (in minutes) it takes to get into the park by the four different modes of transportation.
+
+![Histogram Example](images/HistogramExample1)
+
+A scatter plot will be used to track transit times (in minutes) of individual agents.  The scatter plot will visually show where most of the transit times fall.
+
+![Scatter Plot Example](images/ScatterExample1)
+
+A line graph will be used to show the change in transit time (in minutes) as the time of the day changes from the time the park opens until it closes.
+
+![Line Graph Pot Example](images/LineGraphExample1)
+
+
 
 (What are the answers to the above questions that you expect to find before starting your research?) (This changes from Expected (Proposal) to just Results (final report)) (you should verbally define them) (sketch a few graphs of what you are roughly going for - not the data but histogram of this, line graph of that, screen shot of an agent - use paper and pencil sketches)
 
