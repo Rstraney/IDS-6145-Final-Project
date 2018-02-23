@@ -56,30 +56,29 @@ Walt Disney theme parks are one of the most well-known amusement parks in the wo
 (explicitly list your requirements of what the model will have and simulate for the proposal)
 
 ## Fundamental Questions
-In order to make a final determination on the function of a designed system a series of fundamental questions must be asked and answered.  For this system, which involves transportation methods to and from Magic Kingdom, the following questions apply.
+The described system, entering Magic Kingdom, is being designed for simulation to answer fundamental questions that will ultimatley lead to the answers the system was built to find.  For this system, which involves transportation methods to and from Magic Kingdom, the following questions apply.
 
 The overarching fundamental questions are
 
 - Which transportation method (Monorail, Ferry, Bus or Minnie Van) is the quickest method to get from the Transportation and              Ticket Center to the entrance to Magic Kingdom?
 	
-- Does the design of the Transportation and Ticket Center create a bottleneck during high volume times that could lead safety            issues for the visitors?
+- Does the design of the Transportation and Ticket Center create a bottleneck during high volume times that could lead to safety            issues for the visitors?
 	
 - Does the design of the Transportation and Ticket Center lead to uneccessary wait times that can lead to a negative visitor             experience?
 		
 The sub questions that flow from the 3 funamental questions are
 		
-- What is the time, in minutes, that it takes to get to the Magic Kingdom Entrance from the TTC via the water Ferry, via the Monorail, via the buses adn via the Minni Vans?
-			
+- What is the time, in minutes, that it takes to get to the Magic Kingdom Entrance from the TTC via the water Ferry, via the Monorail, via the buses and via the Minnei Vans?
 - What is the capacity of the water Ferry, Monorail, bus and Minnie Van, respectively?
-				
-- How often to each of the four methods run?
+- How often do each of the four methods run?
 - Are any of the transportation methods on a set schedule?
-		
 - Does travel time of the four methods vary depending on the time of day?
+- What is the travel time at different times of the day?
 - What are the hours of operation of the four transportation methods?
 - Is there a cost associated with each of the transportation methods?
-		
 - If there was an emergency could park visitors exit the park in a safe and efficient manner?
+ 
+
 	
 (At the end of the project you want to find the answer to these questions) (Formulate a few, clear questions. Articulate them in sub-questions, from the more general to the more specific. )
 
@@ -89,21 +88,21 @@ The sub questions that flow from the 3 funamental questions are
 
 The fundamental questions are to be answered by the simulation created to represent the system.  However, before the simulation is built there are notions of what answers to some of the questiosn will be and the simulation will be used to determine if these pre stated answers are correct. 
 
-The expected results for travel time are that the buses and Minnie vans are the quickest route into the park, that the monorail is the second quickest route and that the ferry is the slowest route into the park.  Using google maps and its measuring tool to determine the distance of the bus route (and the Minnie Van route), the distance comes to about 1.12 miles, the distance the Monorail takes comes to about 1.56 miles and the distance the ferry takes is about .67 miles.  
+The buses and Minnie Vans are expected to have the shortest travel times, the monorial the second shortest travel time adn the ferry the slowest travel time. Using google maps distance measuring tool the distance of the bus route (and the Minnie Van route) is approximately 1.12 miles, the distance of the Monorail route is approximately 1.56 miles and the distance of the ferry route is approximately .67 miles.  
 
-For this system the time it takes to travel from the TTC to the MK entrance, regardless of transportation method, is expected to increase during peak visiting hours during the day.  This expectation is from personal experience at the parks during peak times and the perception that the time it took was statistically significantly longer.  This also applies to the direction of travel.  Getting into the park during normal business hours is expected to take longer than exiting the park and conversely as the park is nearing closing time the time to get into the park will decrease will the time to get out of the park will increase.
+For this system the time it takes to travel from the TTC to the MK entrance, regardless of transportation method, is expected to increase during peak visiting hours during the day.  This expectation is from personal experience at the parks during peak times and the perception that the time it took was statistically significantly longer.  This also applies to the direction of travel.  Getting into the park during normal business hours is expected to take longer than exiting the park and conversely as the park is nearing closing time the time to get into the park will decrease while the time to get out of the park will increase.
 
-All modes of transportation are expected to run during the entire time the park is open except when a mode is not running due to a mechanical issue.
+All modes of transportation are expected to run during the entire time the park is open except when a mode is not operating due to a mechanical issue.
 
-The expectation, before running the simulation, is that a bottleneck is created at the TTC during peak hours due to not being designed to handle the current capacity it receives at peak hours.
+The expectation, before running the simulation, is that a bottleneck is created at the TTC during peak hours due to its design.
 
 All modes of transportation, excluding the Minnie Vans, are included in the price of admission, while a ride in a Minnie Van is $20 per ride.
 
 For the presented system the data will be presented in the form of line graphs, scatter plots and histograms.
 
-A histogram will be used to plot the average time (in minutes) it takes to get into the park by the four different modes of transportation.
-
 **(Mike Comment) In the directions for this section is said to hand draw some graphs, which I have given below, but it said something about not showing data but I wasn't sure, so I have graphs with Example Data and those without.  I can always remake these on the computer if you think its needed.  Please use whichever one you think would be best.
+
+A histogram will be used to plot the average time (in minutes) it takes to get into the park by the four different modes of transportation.
 
 ![Histogram Example](images/HistogramExample1.jpg)
 
@@ -129,7 +128,7 @@ So I'm not sure if this is correct.  The paragraph above says screen shot of an 
 **RS - I think we only need to describe an agent if we plan to use agent-based modeling.
 QUESTIONS TO YOU ALL: which mode of transport will be the fastest - bus, rail or ferry? And why?
 ** 
-
+**MS I think I answered the fastest question, in my update, I'm not sure where else to get info other than what I put int.
 
 ![Mike Space Mountain](images/MikeSpaceMountain.png)
 
@@ -161,6 +160,9 @@ The tourism and entertainment industry plays an increasingly important role in g
 **Rachel Notes: 
 - Can we combine a queue (discrete-based) with agent based model? For example, our agents would be visitor groups... with attributes (family vs adults, avg age, etc.). Then we can simulate transportation for different types of visitor groups. Thoughts?
 **
+** Mike Comments: This is a more accurate route to go b/c more people don't go to Disney by themselves, as it what would be modeled if we didn't give attributes of say family size, everyone would be a size of 1.  it would be interesting to see how this affects travel time.
+
+**The work you did on gathering the papers was very thorough, and seem like good reads for this project.
 
 Although there are several approaches to simulating foot traffic and movement throughout an amusement park, our team has elected to develop a discrete-event based model to address the said research topic. As described in the Model section, there are assumptions and parameters that need to be estimated to develop a meaningful simulation. Specifically, resources mentioned above and others will assist us in identifying the following:
 - Daily park attendance by way of the parking lot (this may be estimated by total parking spots)
