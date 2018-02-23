@@ -62,75 +62,25 @@ The overarching fundamental questions are:
 
 	Which transportation method (Monorail, Ferry, Bus or Minnie Van) is the quickest method to get from the Transportation and Ticket Center to the entrance to Magic Kingdom?
 	
+	Does the design of the Transportation and Ticket Center create a bottleneck during high volume times that could lead safety issues for the visitors?
 	
-
-is which transportation method is the
-
-The overarching funamental que
-What is the quickest route to get from the Transportation
-and Ticket Center to Magic Kingdom?
-
-                How
-long does it take to get to the park entrance via the water Ferry?
-
-                                Is
-the travel time dependent on time of day?
-
-                                                Does
-this mode of transportation run all day?
-
-                                                                Is
-there a cost associated with this mode of transportation?
-
-                How
-long does it take to get to the park entrance via the monorail?
-
-                                Is
-the travel time dependent on time of day?
-
-                                                Does
-this mode of transportation run all day?
-
-                                                                Is
-there a cost associated with this mode of transportation?
-
-                How
-long does it take to get to the park entrance via the bus?
-
-                                Is
-the travel time dependent on time of day?
-
-                                                Does
-this mode of transportation run all day?
-
-                                                                Is
-there a cost associated with this mode of transportation?
-
-How long does it take to get to the
-park entrance via the Minni Vans?
-
-                                Is
-the travel time dependent on time of day?
-
-                                                Does
-this mode of transportation run all day?
-
-                                                Is
-there a cost associated with this mode of transportation?
-
-Does the use of a central hub, in this case the
-Transportation and Ticket Center cause any safety issues for visitors at the
-park?
-
-                Is a
-bottleneck created at peak times due to the Magic Kingdom entrance setup?
-
-                If
-there was an emergency could everyone get out of the park in safe and efficient
-manner?
-
-
-
+		Does the design of the Transportation and Ticket Center lead to uneccessary wait times that can lead to a negative visitor experience?
+		
+The sub questions that flow from the 3 funamental questions are:
+		
+		What is the time, in minutes, that it takes to get to the Magic Kingdom Entrance from the TTC via the water Ferry, via 		       the Monorail, via the buses adn via the Minni Vans?
+			
+		What is the capacity of the water Ferry, Monorail, bus and Minnie Van, respectively?
+				
+		How often to each of the four methods run?
+		Are any of the transportation methods on a set schedule?
+		
+		Does travel time of the four methods vary depending on the time of day?
+		What are the hours of operation of the four transportation methods?
+		Is there a cost associated with each of the transportation methods?
+		
+		If there was an emergency could park visitors exit the park in a safe and efficient manner?
+	
 (At the end of the project you want to find the answer to these questions) (Formulate a few, clear questions. Articulate them in sub-questions, from the more general to the more specific. )
 
 (From Mike) I'll have my section completed on 23 Feb, hopefully not too late in the day either.
