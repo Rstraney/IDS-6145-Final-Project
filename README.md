@@ -60,11 +60,11 @@ In order to make a final determination on a systema dn the function of a designe
 
 The overarching fundamental questions are
 
-      - Which transportation method (Monorail, Ferry, Bus or Minnie Van) is the quickest method to get from the Transportation and               Ticket Center to the entrance to Magic Kingdom?
+- Which transportation method (Monorail, Ferry, Bus or Minnie Van) is the quickest method to get from the Transportation and              Ticket Center to the entrance to Magic Kingdom?
 	
-      - Does the design of the Transportation and Ticket Center create a bottleneck during high volume times that could lead safety             issues for the visitors?
+- Does the design of the Transportation and Ticket Center create a bottleneck during high volume times that could lead safety            issues for the visitors?
 	
-      - Does the design of the Transportation and Ticket Center lead to uneccessary wait times that can lead to a negative visitor               experience?
+- Does the design of the Transportation and Ticket Center lead to uneccessary wait times that can lead to a negative visitor             experience?
 		
 The sub questions that flow from the 3 funamental questions are
 		
