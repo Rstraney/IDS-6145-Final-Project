@@ -10,7 +10,7 @@
 > * Project Title: MAGIC KINGDOM GUESTS ENTRANCE SYSTEM
 
 # Abstract
-Magic Kingdom, at Walt Disney World in Orlando Florida, has lived up to its tagline as being "The most Magical Place on Earth" by becoming one of the most visited theme parks in the world. According to the Themed Entertainment Association Global Attractions Attendance Report in 2015, Walt Disney's Magic Kingdom hosted over 20 million vistors. (http://www.teaconnect.org/images/files/TEA_160_611852_160525.pdf). For anyone who has the visited Magic Kingdom theme park, the size of the crowds can affect guests' overall experience and impose safety issues. Compounding this issue is the bottleneck created by the Transportation and Ticket Center (TTC) where guests must take the water ferry, monorail or bus to get to the official main street entrance to Magic Kingdom. The goal of our system is to model the time it would take guests to arrive at Magic Kingdom based on which mode of transportation taken from the TTC.
+Magic Kingdom, at Walt Disney World theme parks in Orlando Florida, has lived up to its tagline as being "The most Magical Place on Earth" by becoming one of the most visited theme parks in the world. According to the Themed Entertainment Association Global Attractions Attendance Report in 2015, Walt Disney's Magic Kingdom hosted over 20 million vistors. (http://www.teaconnect.org/images/files/TEA_160_611852_160525.pdf). For anyone who has the visited the Magic Kingdom theme park, the size of the crowds can affect guests' overall experience and impose safety issues. Compounding this issue is the bottleneck created by the Transportation and Ticket Center (TTC) where guests must travel by ferry boat, monorail, bus, and Minnie van to get to the official main street entrance (park entrance) to Magic Kingdom. The goal of our system is to model the time it would take guests to arrive at Magic Kingdom based on which mode of transportation taken from the TTC. We believe the two types of transportation that utilize efficency and safety are Disney's buses and Minnie vans.
 
 
 
@@ -24,28 +24,26 @@ Magic Kingdom, at Walt Disney World in Orlando Florida, has lived up to its tagl
 ## General Introduction
 
 
-Walt Disney theme parks are one of the most well-known amusement parks in the world. Specifically, Magic Kingdom, which is located in Orlando, Florida is popularly known as the most happiest place on earth. The popular title is due to the innovation of Walt Disney himself. Walt Disney built his first theme park in Anaheim, California, known as Disneyland. When he first built Disneyland, he ran out of property to build so he sought out more property in Orlando, Florida. He then began to build Disney World theme park in Orlando, Florida. From our initial research, we found that Disney's Magic Kingdom averages about 53,000 guests per day. We can assume that the high volume of guests that visited the theme park can experience extensive wait times to travel from the transportation and ticket center (TTC) 
+Walt Disney theme parks are one of the most well-known amusement parks in the world. Specifically, Magic Kingdom, which is located in Orlando, Florida is popularly known as the most happiest place on earth. The popular title is due to the innovation of Walt Disney himself. Walt Disney built his first theme park in Anaheim, California, known as Disneyland. Unfortunately, when he first builtn the Disneyland theme park, he ran out of property to build on. Therefore, he sought out more property in Orlando, Florida. He then began to build Disney World theme park in Orlando, Florida. While building Magic Kingdom park, Walt Disney and his team discovered a problem. The area directly in front of Magic Kingdom was a swamp and would not be suitable area to build a parking lot. They resolved this problem by building the guests parking lot a mile and a half away from Magic Kingdom. The former swamp was rehabilitaetd into the Seven Seas Lagoon as part of the the parking lot issue. However, Walt Disney faced another issue after combating the swamp problem. As a result of having to build the parking lot a mile and half away from Magic Kingdom, the need for transportation was discovered.
+
+Walt Disney developed the Transportation and Ticket Center (TTC), where guests can buy their admission and secure transportation into Magic Kingdom's park entrance. In the original concept of the TTC, guests would travel to and from Magic Kingdom by ferry boats across the Seven Seas Lagoon or monorail "highway-in-the-sky". Later, Walt Disney built non-monorail hotels on Disney property, which required the use of bus transportation. As Walt Disney continued to build more hotels around the theme park, there became an overload at the TTC. The monorail and ferry boats could not keep up with the demand and high volume of guests coming in and out of Magic Kingdom. To help this, they developed an elaborate bus stop at Magic Kingdom. Currently, the TTC offers four modes of transportation to and from Magic Kingdom (bus, monorail, ferry boat, and Minnie van).
+
+From our initial research, we found that Disney's Magic Kingdom averages about 53,000 guests per day. We can hypothesize that the high volume of guests that visit the Magic Kingdom park experience extensive wait times to travel to and from the TTC. Extensive wait times is a problem that is both interesting and relevant to Disney's Magic Kingdom park vistors, as it may affect the quality of guests experience while also imposing potential safety concerns. We propose the following system: Magic Kingdom Guests Entrance System as an attempt to resolve the problem of extensive wait times for the offered modes of transportation. We are interested in investigating and identifying answers to the following questions: which mode of transportation is the fastest method to get to and from the TTC to the park entrance of Magic Kingdom, does the design of the TTC create bottlenecking during high and low volume times, and does it lead to unnecessary wait times that can lead to negative visitor experiences.
+
+We found limited to no research on Disney's mode of transportation in terms of which option is the fastest or how extensive wait times can affect vistors experience. We also found limited research on whether or not the TTC creates bottlenecking during different volumes of time and whether or not that it leads to extensive wait times. We believe our project makes the following contributions to answering research questions that have yet to be identified or answered. The first contribution, we believe would benefit Disney's Magic Kingdom park vistors. As our research will investigate the fastest type(s) of transportation offered, if bottlenecking occurs and during what time of day does it occurs. Our project's contributions will help Disney's employees as well as their guests in terms of how to approach extensive wait times. Our project will also contribute to the overall limited research in this particular area. We hope that our project's contributions become the starting point for future research as well.
 
 
-(States your motivation clearly: why is it important / interesting to solve this problem?)
-(Add real-world examples, if any)
-(Put the problem into a historical context, from what does it originate? Are there already some proposed solutions?)
 
-(You should begin by introducing your topic. In this section, you should define the core terminology specific to the field, introduce the problem statement, and make clear the benefits (motivate!) of resolving that problem statement. The main difference between the ABSTRACT and Introduction sections is that the abstract summarizes the entire project, including results, whereas the introduction only provides the motivation of the problem and an overview of the proposed solution.)
 
-(I tell students to answer the questions, one paragaph each to start if you are lost)
+This project makes the following contributions:
+•	Identify problems within Walt Disney's TTC.
+•	Identify whether or not extensive wait times affect vistors overall satisfactory experience.
+•	Identify the fastest type(s) of transportation offered at the TTC.
+•	Identify the slow type(s) of transportation offered at the TTC.
+•	Investigate whether or not extensive wait times affect efficency and safety.
+•	To the limitations of our research as well as propose future research directions in this area of research.
 
-(Problem Statement. One paragraph to describe the prob-lem that you are tackling.)
 
-(Motivation. Why is this problem interesting and relevant to the research community?)
-
-(Proposed Solution. How do we propose to tackle this problem (that has been identified in the previous para-graphs, is interesting to the community, and has yet to be tackled by other researchers)?)
-
-(Contributions. An enumeration of the contributions of the senior design project)
-
-(This project makes the following contributions:)(you must have this!!)
-•	(Contribution 1)
-•	(Contribution 2)
 
 
 
@@ -58,18 +56,18 @@ Walt Disney theme parks are one of the most well-known amusement parks in the wo
 ## Fundamental Questions
 The described system, entering Magic Kingdom, is being designed for simulation to answer fundamental questions that will ultimatley lead to the answers the system was built to find.  For this system, which involves transportation methods to and from Magic Kingdom, the following questions apply.
 
-The overarching fundamental questions are
+The overarching fundamental questions are:
 
-- Which transportation method (Monorail, Ferry, Bus or Minnie Van) is the quickest method to get from the Transportation and              Ticket Center to the entrance to Magic Kingdom?
+- Which transportation method (Monorail, ferry boat, bus or Minnie van) is the fastest method to get from the Transportation and Ticket Center to the park entrance of Magic Kingdom?
 	
-- Does the design of the Transportation and Ticket Center create a bottleneck during high volume times that could lead to safety            issues for the visitors?
+- Does the design of the Transportation and Ticket Center (TTC) create a bottleneck during high volume times that could lead to safety issues for the visitors?
 	
-- Does the design of the Transportation and Ticket Center lead to uneccessary wait times that can lead to a negative visitor             experience?
+- Does the design of the Transportation and Ticket Center (TTC) lead to unnecessary wait times that can lead to a negative visitor experience?
 		
-The sub questions that flow from the 3 funamental questions are
+The sub questions that flow from the 3 funamental questions are:
 		
-- What is the time, in minutes, that it takes to get to the Magic Kingdom Entrance from the TTC via the water Ferry, via the Monorail, via the buses and via the Minnei Vans?
-- What is the capacity of the water Ferry, Monorail, bus and Minnie Van, respectively?
+- What is the time, in minutes, that it takes to get to the Magic Kingdom Entrance from the TTC via the Ferry boat, via the Monorail, via the Buses and via the Minnie vans?
+- What is the capacity of the Ferry boat, Monorail, Bus and Minnie Van, respectively?
 - How often do each of the four methods run?
 - Are any of the transportation methods on a set schedule?
 - Does travel time of the four methods vary depending on the time of day?
@@ -86,17 +84,17 @@ The sub questions that flow from the 3 funamental questions are
 
 ## Expected Results
 
-The fundamental questions are to be answered by the simulation created to represent the system.  However, before the simulation is built there are notions of what answers to some of the questiosn will be and the simulation will be used to determine if these pre stated answers are correct. 
+The fundamental questions are to be answered by the simulation created to represent the system.  However, before the simulation is built there are notions of what answers to some of the questions will be and the simulation will be used to determine if these pre stated answers are correct.
 
-The buses and Minnie Vans are expected to have the shortest travel times, the monorial the second shortest travel time adn the ferry the slowest travel time. Using google maps distance measuring tool the distance of the bus route (and the Minnie Van route) is approximately 1.12 miles, the distance of the Monorail route is approximately 1.56 miles and the distance of the ferry route is approximately .67 miles.  
+Disney buses and Minnie vans are expected to have the shortest travel times, the monorail as the second shortest travel time and the ferry boats as the slowest travel time. Using google maps distance measuring tool the distance of the bus route (and the Minnie van route) is approximately 1.12 miles, the distance of the Monorail route is approximately 1.56 miles and the distance of the ferry route is approximately .67 miles.
 
-For this system the time it takes to travel from the TTC to the MK entrance, regardless of transportation method, is expected to increase during peak visiting hours during the day.  This expectation is from personal experience at the parks during peak times and the perception that the time it took was statistically significantly longer.  This also applies to the direction of travel.  Getting into the park during normal business hours is expected to take longer than exiting the park and conversely as the park is nearing closing time the time to get into the park will decrease while the time to get out of the park will increase.
+For this system, the time it takes to travel from the TTC to the Magic Kingdom park entrance, regardless of transportation method, is expected to increase during peak visiting hours during the day. This expectation is from personal experience at the parks during peak times and the perception that the time it took was statistically significantly longer.  This also applies to the direction of travel. Getting into the park during normal business hours is expected to take longer than exiting the park and conversely as the park is nearing closing time, the time to get into the park will decrease while the time to get out of the park will increase.
 
-All modes of transportation are expected to run during the entire time the park is open except when a mode is not operating due to a mechanical issue.
+All modes of transportation are expected to run during the entire time the park is open except when a mode is not operating due to a mechanical issue that may arise.
 
 The expectation, before running the simulation, is that a bottleneck is created at the TTC during peak hours due to its design.
 
-All modes of transportation, excluding the Minnie Vans, are included in the price of admission, while a ride in a Minnie Van is $20 per ride.
+All modes of transportation, excluding the Minnie vans, are included in the price of admission, while a ride in a Minnie van is a flat rate fee of $20 per ride.
 
 For the presented system the data will be presented in the form of line graphs, scatter plots and histograms.
 
@@ -188,6 +186,13 @@ To simplify our scope, our system is focused on the point at which a guest parks
 
 Ahmadi, R. H. (1997). Managing Capacity and Flow at Theme Parks. Operations Research. 
 https://doi.org/10.1287/opre.45.1.1
+
 Cheng, S., & Lin, L. (2013). An agent-based simulation appraoch to eperience management in theme parks. In Winter Simulation Conference (pp. 1527–1538).
+
 Gigliotti, A. R., Russell, A., & Gentry, R. J. (2016). It’s a Small World : Worldwide Declining Attendance and Disney Theme Parks. SAGE Business Cases Originals.
+
 Solmaz, G., & Turgut, D. (2017). Modeling pedestrian mobility in disaster areas. Pervasive and Mobile Computing, 40, 104–122. https://doi.org/10.1016/j.pmcj.2017.05.005
+
+Spence, J. (2011). Transportation and ticket center - TTC. http://land.allears.net/blogs/jackspence/2011/04/transportation_and_ticket_cent.html
+
+Richardson, S. (2014). 9 things you never knew about the walt disney world monorail system. https://www.themeparktourist.com/features/20141219/29760/10-things-you-never-knew-about-disney-world-monorail-system
