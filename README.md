@@ -35,13 +35,13 @@ We found limited to no research on Disney's mode of transportation in terms of w
 
 
 
-This project makes the following contributions:
--	Identify problems within Walt Disney's TTC.
--	Identify whether or not extensive wait times affect vistors overall satisfactory experience.
--	Identify the fastest type(s) of transportation offered at the TTC.
--	Identify the slow type(s) of transportation offered at the TTC.
--	Investigate whether or not extensive wait times affect efficency and safety.
--	To the limitations of our research as well as propose future research directions in this area of research.
+This project makes the following contributions towards:
+-	Identifying problems within Walt Disney's TTC.
+-	Identifying whether or not extensive wait times affect vistors overall satisfactory experience.
+-	Identifiying the fastest type(s) of transportation offered at the TTC.
+-	Identifying the slow type(s) of transportation offered at the TTC.
+-	Investigating whether or not extensive wait times affect efficency and safety.
+-	Limitations of our research as well as propose future research directions in this area of research.
 
 
 
