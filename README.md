@@ -34,7 +34,9 @@ Crowd diversion systems have been an area of focus for the theme park industry f
 -	Limitations of our research as well as propose future research directions in this area of research.
 
 
-<p align="center">[Mike Space Mountain](images/MikeSpaceMountain.png)</p>
+<p align="center">
+	[Mike Space Mountain](images/MikeSpaceMountain.png)
+</p>
 
 A member of our team enjoying Space Mountain.
 
