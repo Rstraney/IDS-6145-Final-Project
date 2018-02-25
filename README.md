@@ -18,7 +18,7 @@ Magic Kingdom, at Walt Disney World theme parks in Orlando Florida, has lived up
 
 Walt Disney theme parks are one of the most well-known theme parks in the world. Specifically, Magic Kingdom, which is located in Orlando, Florida is popularly known as the most happiest place on earth. The popular title is due to the innovation of Walt Disney himself. Walt Disney built his first theme park in Anaheim, California, known as Disneyland. Unfortunately, when he first built the Disneyland theme park, he ran out of property to build on. Therefore, he sought out more property in Orlando, Florida. He then began to build Disney World theme park in Orlando, Florida. While building Magic Kingdom park, Walt Disney and his team discovered a problem. The area directly in front of Magic Kingdom was a swamp and would not be suitable area to build a parking lot. They resolved this problem by building the guests parking lot a mile and a half away from Magic Kingdom. The former swamp was rehabilitated into the Seven Seas Lagoon as part of the the parking lot issue. However, Walt Disney faced another issue after combating the swamp problem. As a result of having to build the parking lot a mile and half away from Magic Kingdom, the need for transportation was discovered.
 
-Walt Disney developed the Transportation and Ticket Center (TTC), where guests can buy their admission and secure transportation into Magic Kingdom's park entrance. In the original concept of the TTC, guests would travel to and from Magic Kingdom by ferry boats across the Seven Seas Lagoon or monorail "highway-in-the-sky". Later, Walt Disney built non-monorail hotels on Disney property, which required the use of bus transportation. As Walt Disney continued to build more hotels around the theme park, there became an overload at the TTC. The monorail and ferry boats could not keep up with the demand and high volume of guests coming in and out of Magic Kingdom. To help this, they developed an elaborate bus stop at Magic Kingdom. Currently, the TTC offers four modes of transportation to and from Magic Kingdom (bus, monorail, ferry boat, and Minnie van). The image below depicts an areil view of the system we are propsing to simulate:
+Walt Disney developed the Transportation and Ticket Center (TTC), where guests can buy their admission and secure transportation into Magic Kingdom's park entrance. In the original concept of the TTC, guests would travel to and from Magic Kingdom by ferry boats across the Seven Seas Lagoon or monorail "highway-in-the-sky". Later, Walt Disney built non-monorail hotels on Disney property, which required the use of bus transportation. As Walt Disney continued to build more hotels around the theme park, there became an overload at the TTC. The monorail and ferry boats could not keep up with the demand and high volume of guests coming in and out of Magic Kingdom. To help this, they developed an elaborate bus stop at Magic Kingdom. Currently, the TTC offers four modes of transportation to and from Magic Kingdom (bus, monorail, ferry boat, and Minnie van). The image below depicts an areal view of the system we are proposing to simulate:
 
 ![**MKE.png**](images/MKE.png)
 
@@ -26,7 +26,7 @@ From our initial research, we found that Disney's Magic Kingdom averages about 5
 
 We found limited to no research on Disney's mode of transportation in terms of which option is the fastest or how extensive wait times can affect visitors experience. We also found limited research on whether or not the TTC creates bottlenecking during different volumes of time and whether or not that it leads to extensive wait times. We believe our project makes the following contributions to answering research questions that have yet to be identified or answered. The first contribution, we believe would benefit Disney's Magic Kingdom park visitors. As our research will investigate the fastest type(s) of transportation offered, if bottlenecking occurs and during what time of day does it occurs. Our project's contributions will help Disney's employees as well as their guests in terms of how to approach extensive wait times. Our project will also contribute to the overall limited research in this particular area. We hope that our project's contributions become the starting point for future research as well.
 
-Crowd diversion systems have been an area of focus for the theme park industry for a number of years. Disney's FASTPASS and Universal Studios' Express Pass have both been implemented to reduce lines and wait times once guests are inside the park. However, these solutions do very little to remedy the time it takes guests to enter the park. As this is the first thing guests experience during their visit to the Magic Kingom, this is a very import piece to the broader park system. Past simulation research can be generalized to our project by substituting rides with the main queuing points of the Magic Kingdom entrance. This project makes the following contributions towards:
+Crowd diversion systems have been an area of focus for the theme park industry for a number of years. Disney's FASTPASS and Universal Studios' Express Pass have both been implemented to reduce lines and wait times once guests are inside the park. However, these solutions do very little to remedy the time it takes guests to enter the park. As this is the first thing guests experience during their visit to the Magic Kingdom, this is a very import piece to the broader park system. Past simulation research can be generalized to our project by substituting rides with the main queuing points of the Magic Kingdom entrance. This project makes the following contributions towards:
 -	Identifying problems within Walt Disney's TTC.
 -	Identifying the fastest type(s) of transportation offered at the TTC.
 -	Identifying the slow type(s) of transportation offered at the TTC.
@@ -34,16 +34,17 @@ Crowd diversion systems have been an area of focus for the theme park industry f
 -	Limitations of our research as well as propose future research directions in this area of research.
 
 ![Mike Space Mountain](images/MikeSpaceMountain.png)
+
 A member of our team enjoying Space Mountain.
 
 ## The Model
 
-An Object Diagram is shown below and summarizes the main objects of the Magic Kingdom Guest Entrance System. As guests arrive they can park in one of two lots, the Hero lot or the Villain lot. From there, guests travel by foot or by tram to security. Guests are asked to go through one of two security lines, one for guests with bags or without bags. Finally, from the Transportation and Ticket Center (TTC) guests have a choice of transportation to the entrentance of the park by bus, monorail, ferry boat or Minnie van.
+An Object Diagram is shown below and summarizes the main objects of the Magic Kingdom Guest Entrance System. As guests arrive they can park in one of two lots, the Hero lot or the Villain lot. From there, guests travel by foot or by tram to security. Guests are asked to go through one of two security lines, one for guests with bags or without bags. Finally, from the Transportation and Ticket Center (TTC) guests have a choice of transportation to the entrance of the park by bus, monorail, ferry boat or Minnie van.
 
 ![**Object Diagram.png**](images/ODFP.png)
 
 ## Fundamental Questions
-The Magic Kingdom Guest Entrance System is being designed for simulation to answer the folowing fundamental questions:
+The Magic Kingdom Guest Entrance System is being designed for simulation to answer the following fundamental questions:
 
 - Which transportation method (Monorail, ferry boat, bus or Minnie van) is the fastest method to get from the Transportation and Ticket Center to the park entrance of Magic Kingdom?
 	
@@ -96,7 +97,7 @@ A line graph will be used to show the change in average transit time (in minutes
 ## Research Methods
 
 ### Methods used in Similar Studies
-There have been numerous publications involving research to estimate visitors at theme parks and evaluate guest traffic flow. The purpose behind much of this research falls into one of two categories: 1. ) Assessment of how wait times impact park visitor experience and 2.) Analysis of emergency or disaster management realtive to congestion in the park. For example, Reza H. Ahmadi focused on the Six Flags Magic Mountain theme park to address questions of daily operations such as managing traffic flow in the park and suggesting routing tours for guests (Ahmadi, 1997). Data used in his analysis included primary data from a visitor questionnaire and direct measures provided by the park which included park attendance and queue lengths at rides. More recent research by Shih-Fen Cheng, et al. in 2013 and Liou Chu, et al. in 2014 also considered guest satisfaction . Whereas  Shih-Fen Cheng and his team developed and constructed a very large agent-based model, Liou Chu approached their work by designing a Theme Park Queuing System using discrete-event simulation (Cheng, 2013; Chu, 2014). A publication by Gurkan Solmaz and Damla Turgut, on the other hand, is a good example of how simulating theme park attendee traffic can address issues of safety. Their study focused on the foot traffic patterns of guests in theme parks to evaluate mobility in the event of a disaster. The researchers used information collected from mobile devices carried by 11 volunteers to simulate visitor movement around the park. The simulation used in the study was an agent-based model (Solmaz, 2017). 
+There have been numerous publications involving research to estimate visitors at theme parks and evaluate guest traffic flow. The purpose behind much of this research falls into one of two categories: 1. ) Assessment of how wait times impact park visitor experience and 2.) Analysis of emergency or disaster management relative to congestion in the park. For example, Reza H. Ahmadi focused on the Six Flags Magic Mountain theme park to address questions of daily operations such as managing traffic flow in the park and suggesting routing tours for guests (Ahmadi, 1997). Data used in his analysis included primary data from a visitor questionnaire and direct measures provided by the park which included park attendance and queue lengths at rides. More recent research by Shih-Fen Cheng, et al. in 2013 and Liou Chu, et al. in 2014 also considered guest satisfaction . Whereas  Shih-Fen Cheng and his team developed and constructed a very large agent-based model, Liou Chu approached their work by designing a Theme Park Queuing System using discrete-event simulation (Cheng, 2013; Chu, 2014). A publication by Gurkan Solmaz and Damla Turgut, on the other hand, is a good example of how simulating theme park attendee traffic can address issues of safety. Their study focused on the foot traffic patterns of guests in theme parks to evaluate mobility in the event of a disaster. The researchers used information collected from mobile devices carried by 11 volunteers to simulate visitor movement around the park. The simulation used in the study was an agent-based model (Solmaz, 2017). 
 
 ### Proposed Methods for our Research
 
@@ -105,9 +106,9 @@ Although there are several approaches to simulating traffic and movement through
 As described in the Model section, there are assumptions and parameters that need to be estimated to develop a meaningful simulation. The resources mentioned above and others will assist us in identifying these estimates. Below are a few of the preliminary estimates for the simulation as well as any relevant assumptions or limitations:
 - The maximum daily park attendance (groups of guests) by way of the parking lot is 12,156 (https://www.wdwmagic.com/facts!.htm)
 
-- The typical travel time required for each mode of transport into park (using google maps distance measuring tool the distance of the bus route (and the Minnie van route) is approximately 1.12 miles, the distance of the Monorail route is approximately 1.56 miles and the distance of the ferry route is approximately .67 miles).
+- The typical travel time required for each mode of transport into park (using Google maps distance measuring tool the distance of the bus route (and the Minnie van route) is approximately 1.12 miles, the distance of the Monorail route is approximately 1.56 miles and the distance of the ferry route is approximately .67 miles).
 
-- The typical wait time through security at the Transportation and Ticket Center (TTC) will depend on whether the guests are carrying bags as there are two security lines - one for guests with bags and the other for guests without. For simplicity, if a group is carying a bag, all members of that group will go through the same security line.
+- The typical wait time through security at the Transportation and Ticket Center (TTC) will depend on whether the guests are carrying bags as there are two security lines - one for guests with bags and the other for guests without. For simplicity, if a group is carrying a bag, all members of that group will go through the same security line.
 
 - Although any mechanical issues for the different modes of transportation (e.g. out of service buses, engine problems) will increase travel time for guests, our model assumes all modes of transportation are running continuously during the time the park is open.
 
@@ -118,13 +119,11 @@ As described in the Model section, there are assumptions and parameters that nee
 ## References
 
 
-Ahmadi, R. H. (1997). Managing Capacity and Flow at Theme Parks. Operations Research. 
-https://doi.org/10.1287/opre.45.1.1
+Ahmadi, R. H. (1997). Managing Capacity and Flow at Theme Parks. Operations Research. https://doi.org/10.1287/opre.45.1.1
 
 Cheng, S., & Lin, L. (2013). An agent-based simulation approach to experience management in theme parks. In Winter Simulation Conference (pp. 1527–1538).
 
 Gigliotti, A. R., Russell, A., & Gentry, R. J. (2016). It’s a Small World: Worldwide Declining Attendance and Disney Theme Parks. SAGE Business Cases Originals.
-
 
 Richardson, S. (2014). 9 things you never knew about the Walt Disney world monorail system. https://www.themeparktourist.com/features/20141219/29760/10-things-you-never-knew-about-disney-world-monorail-system
 
