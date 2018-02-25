@@ -35,8 +35,10 @@ Crowd diversion systems have been an area of focus for the theme park industry f
 
 
 <p align="center">
-	[Mike Space Mountain](images/MikeSpaceMountain.png)
+	src = "images/MikeSpaceMountain.png" 
 </p>
+
+![Mike Space Mountain](images/MikeSpaceMountain.png)
 
 A member of our team enjoying Space Mountain.
 
