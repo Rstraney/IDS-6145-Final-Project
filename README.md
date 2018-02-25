@@ -33,11 +33,6 @@ Crowd diversion systems have been an area of focus for the theme park industry f
 -	Investigating whether or not extensive wait times affect efficiency and safety.
 -	Limitations of our research as well as propose future research directions in this area of research.
 
-
-<p align="center">
-	src = "(images/MikeSpaceMountain.png)" 
-</p>
-
 ![Mike Space Mountain](images/MikeSpaceMountain.png)
 
 A member of our team enjoying Space Mountain.
