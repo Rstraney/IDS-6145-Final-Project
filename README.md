@@ -26,33 +26,21 @@ From our initial research, we found that Disney's Magic Kingdom averages about 5
 
 We found limited to no research on Disney's mode of transportation in terms of which option is the fastest or how extensive wait times can affect visitors experience. We also found limited research on whether or not the TTC creates bottlenecking during different volumes of time and whether or not that it leads to extensive wait times. We believe our project makes the following contributions to answering research questions that have yet to be identified or answered. The first contribution, we believe would benefit Disney's Magic Kingdom park visitors. As our research will investigate the fastest type(s) of transportation offered, if bottlenecking occurs and during what time of day does it occurs. Our project's contributions will help Disney's employees as well as their guests in terms of how to approach extensive wait times. Our project will also contribute to the overall limited research in this particular area. We hope that our project's contributions become the starting point for future research as well.
 
-
-
-
-
-Taking into account our research thus far, Crowd diversion systems have been an area of focus for the theme park industry for a while. Disney's FASTPASS and Universal Studios' Express Pass have both been implemented to reduce lines and wait times once guests are inside the park. (Shih-Fen Cheng, 2013) However, these solutions do very little to remedy the time it takes guests to enter the park.
-
- According to Ohtani, a cited reference by the researchers, wait time before being served is one of the most significant factors to customer satisfaction.  
-	- Although the authors modeled multiple rides within a theme park using Arena, this work can be generalized to our research by substituting rides with the main queuing points of the Magic Kingdom entrance, namely, the ticketing & transport center and the three modes of transport. 
-
-TEST
-
-
-
-
-This project makes the following contributions towards:
+Crowd diversion systems have been an area of focus for the theme park industry for a number of years. Disney's FASTPASS and Universal Studios' Express Pass have both been implemented to reduce lines and wait times once guests are inside the park. However, these solutions do very little to remedy the time it takes guests to enter the park. As this is the first thing guests experience during their visit to the Magic Kingom, this is a very import piece to the broader park system. Past simulation research can be generalized to our project by substituting rides with the main queuing points of the Magic Kingdom entrance. This project makes the following contributions towards:
 -	Identifying problems within Walt Disney's TTC.
 -	Identifying the fastest type(s) of transportation offered at the TTC.
 -	Identifying the slow type(s) of transportation offered at the TTC.
 -	Investigating whether or not extensive wait times affect efficiency and safety.
 -	Limitations of our research as well as propose future research directions in this area of research.
 
+![Mike Space Mountain](images/MikeSpaceMountain.png)
+A member of our team enjoying Space Mountain.
 
 ## The Model
 
-(Provide structural and behavior diagrams of the system you wish to study.) (Why is your model a good abstraction of the problem you want to study?) (Are you capturing all the relevant aspects of the problem?) (Use the model to tell us what is going on.)
+An Object Diagram is shown below and summarizes the main objects of the Magic Kingdom Guest Entrance System. As guests arrive they can park in one of two lots, the Hero lot or the Villain lot. From there, guests travel by foot or by tram to security. Guests are asked to go through one of two security lines, one for guests with bags or without bags. Finally, from the Transportation and Ticket Center (TTC) guests have a choice of transportation to the entrentance of the park by bus, monorail, ferry boat or Minnie van.
 
-(explicitly list your requirements of what the model will have and simulate for the proposal)
+![**Object Diagram.png**](images/ODFP.png)
 
 ## Fundamental Questions
 The Magic Kingdom Guest Entrance System is being designed for simulation to answer the folowing fundamental questions:
@@ -102,11 +90,8 @@ A scatter plot by groups will be used to track transit times (in minutes) of age
 
 A line graph will be used to show the change in average transit time (in minutes) as the time of the day changes from the time the park opens until it closes. This can be useful when validating our model.
 
-
 ![Line Graph Pot Example](images/LineGraphExample2.jpg)
 
-
-![Mike Space Mountain](images/MikeSpaceMountain.png)
 
 ## Research Methods
 
@@ -142,6 +127,7 @@ Gigliotti, A. R., Russell, A., & Gentry, R. J. (2016). It’s a Small World: Wor
 
 
 Richardson, S. (2014). 9 things you never knew about the Walt Disney world monorail system. https://www.themeparktourist.com/features/20141219/29760/10-things-you-never-knew-about-disney-world-monorail-system
+
 Solmaz, G., & Turgut, D. (2017). Modeling pedestrian mobility in disaster areas. Pervasive and Mobile Computing, 40, 104–122. https://doi.org/10.1016/j.pmcj.2017.05.005
 
 Spence, J. (2011). Transportation and ticket center - TTC. http://land.allears.net/blogs/jackspence/2011/04/transportation_and_ticket_cent.html
