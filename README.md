@@ -76,7 +76,7 @@ The fundamental questions are to be answered by the simulation created to repres
 - The expectation, before running the simulation, is that a bottleneck is created at the TTC during peak hours due to its design.
 
 
-For the presented system the data will be presented in the form of line graphs, scatter plots and histograms.
+For the Magic Kingdom Entrance system the data will be presented in the form of line graphs, scatter plots and histograms.
 
 
 Histograms will be used to plot the time (in minutes) it takes to get into the park by the four different modes of transportation.
