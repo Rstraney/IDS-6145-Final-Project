@@ -2,6 +2,7 @@
 
 # MouseHeadz
 <img src="./images/Mickey.png" alt="Mickey" width="180px" height="180px">
+
 > * ADAM HARDNEY
 > * BLAKE NGUYEN
 > * MICHAEL STERKEL
