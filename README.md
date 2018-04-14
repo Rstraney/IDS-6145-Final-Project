@@ -1,8 +1,7 @@
 # IDS6145(SimTech 2018) - DISNEYWORLD "MAGIC KINGDOM" GUESTS ENTRANCE SYSTEM
 
 # MouseHeadz
-![**Mickey.png**](images/Mickey.png)
-
+<img src="./images/Mickey.png" alt="Mickey" width="180px" height="180px">
 > * ADAM HARDNEY
 > * BLAKE NGUYEN
 > * MICHAEL STERKEL
@@ -41,7 +40,7 @@ A member of our team enjoying Space Mountain.
 
 An Object Diagram is shown below and summarizes the main objects of the Magic Kingdom Guest Entrance System. As guests arrive they can park in one of two lots, the Hero lot or the Villain lot. From there, guests travel by foot or by tram to security. Guests are asked to go through one of two security lines, one for guests with bags or without bags. Finally, from the Transportation and Ticket Center (TTC) guests have a choice of transportation to the entrance of the park by bus, monorail, ferry boat or Minnie van.
 
-![**Object Diagram.png**](images/ODFP.png)
+![**Object Diagram.png**](images/BDFP.png)
 
 ## Fundamental Questions
 The Magic Kingdom Guest Entrance System is being designed for simulation to answer the following fundamental questions:
