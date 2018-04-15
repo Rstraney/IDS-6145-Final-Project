@@ -35,11 +35,11 @@ Crowd diversion systems have been an area of focus for the theme park industry f
 
 ![Mike Space Mountain](images/MikeSpaceMountain.png)
 
-A member of our team enjoying Space Mountain.
+A member of our team enjoying Space Mountain at Walt Disney World.
 
 ## The Model
 
-An Object Diagram is shown below and summarizes the main objects of the Magic Kingdom Guest Entrance System. As guests arrive they can park in one of two lots, the Hero lot or the Villain lot. From there, guests travel by foot or by tram to security. Guests are asked to go through one of two security lines, one for guests with bags or without bags. Finally, from the Transportation and Ticket Center (TTC) guests have a choice of transportation to the entrance of the park by bus, monorail, ferry boat or Minnie van.
+An Object Diagram is shown below and summarizes the main objects of the Magic Kingdom Guest Entrance System. As guests arrive they can park in one of two lots, the Hero lot or the Villain lot. From there, guests travel by foot or by tram to security. Guests are asked to go through one of two security lines, one for guests with bags and one with guests without bags. Finally, from the Transportation and Ticket Center (TTC) guests have a choice of transportation to the entrance of the park by bus, monorail, ferry boat or Minnie van.
 
 ![**Object Diagram.png**](images/BDFP.png)
 
@@ -112,7 +112,47 @@ As described in the Model section, there are assumptions and parameters that nee
 
 - Although any mechanical issues for the different modes of transportation (e.g. out of service buses, engine problems) will increase travel time for guests, our model assumes all modes of transportation are running continuously during the time the park is open.
 
-- All modes of transportation, excluding the Minnie vans, are included in the price of admission, while a ride in a Minnie van is a flat rate fee of $20 per ride. While this may be a factor in guests' choices for transportation, this information will not be considered in our model.  
+- All modes of transportation, excluding the Minnie vans, are included in the price of admission, while a ride in a Minnie van is a flat rate fee of $20 per ride. While this may be a factor in guests' choices for transportation, this information will not be considered in our model.
+
+
+
+
+
+
+###Results
+- variable assumptions
+- 
+
+
+
+
+
+
+
+###Discussion
+- limitations of our simulation/study
+- why we didn't use the minnie vans
+- initial assumptions versus our actual results
+- limitations of using anylogic
+
+
+
+
+
+###Limitations
+While we had the opprotunity to explore some aspects of Anylogic, we noticed that the free version has some restrictions to the features offered on Anylogic. For example, we wanted to run our simulation for longer than an hour but that requires us to purchase the full version of Anylogic. Since we were unable to run our simulation for longer than an hour, we feel that our results may vary due to this limitation. If given an opprotunity to work with the full version of Anylogic, we would like to further investigate whether or not running our simulation for more than an hour would alter our results. Future studies should consider purchasing the full version of Anylogic to further investigate this limitation in our study.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
