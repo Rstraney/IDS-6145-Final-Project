@@ -41,7 +41,7 @@ A member of our team enjoying Space Mountain at Walt Disney World.
 
 An Object Diagram is shown below and summarizes the main objects of the Magic Kingdom Guest Entrance System. As guests arrive they can park in one of two lots, the Hero lot or the Villain lot. From there, guests travel by foot or by tram to security. Guests are asked to go through one of two security lines, one for guests with bags and one with guests without bags. Finally, from the Transportation and Ticket Center (TTC) guests have a choice of transportation to the entrance of the park by bus, monorail, ferry boat or Minnie van.
 
-![**Object Diagram.png**](images/BDFP.png)
+![**Object Diagram.png**](images/BDFP1.png)
 
 ## Fundamental Questions
 The Magic Kingdom Guest Entrance System is being designed for simulation to answer the following fundamental questions:
