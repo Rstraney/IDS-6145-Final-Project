@@ -96,10 +96,10 @@ A line graph will be used to show the change in average transit time (in minutes
 
 ## Research Methods
 
-### Methods used in Similar Studies
+## Methods used in Similar Studies
 There have been numerous publications involving research to estimate visitors at theme parks and evaluate guest traffic flow. The purpose behind much of this research falls into one of two categories: 1. ) Assessment of how wait times impact park visitor experience and 2.) Analysis of emergency or disaster management relative to congestion in the park. For example, Reza H. Ahmadi focused on the Six Flags Magic Mountain theme park to address questions of daily operations such as managing traffic flow in the park and suggesting routing tours for guests (Ahmadi, 1997). Data used in his analysis included primary data from a visitor questionnaire and direct measures provided by the park which included park attendance and queue lengths at rides. More recent research by Shih-Fen Cheng, et al. in 2013 and Liou Chu, et al. in 2014 also considered guest satisfaction . Whereas  Shih-Fen Cheng and his team developed and constructed a very large agent-based model, Liou Chu approached their work by designing a Theme Park Queuing System using discrete-event simulation (Cheng, 2013; Chu, 2014). A publication by Gurkan Solmaz and Damla Turgut, on the other hand, is a good example of how simulating theme park attendee traffic can address issues of safety. Their study focused on the foot traffic patterns of guests in theme parks to evaluate mobility in the event of a disaster. The researchers used information collected from mobile devices carried by 11 volunteers to simulate visitor movement around the park. The simulation used in the study was an agent-based model (Solmaz, 2017). 
 
-### Proposed Methods for our Research
+## Proposed Methods for our Research
 
 Although there are several approaches to simulating traffic and movement throughout a theme park, our team has elected to develop a discrete-event simulation to address our research questions. Furthermore, we plan to include an agent-based aspect to our simulation since our preliminary research has concluded that characteristics of the park guests play a significant factor in our system. For example, guests visiting in large groups or with small children may take longer to reach the entrance of the park from the Transportation and Ticket Center (TTC). Therefore, agents in our model will be groups of individuals with attributes like average age and number in the group.
 
@@ -119,7 +119,7 @@ As described in the Model section, there are assumptions and parameters that nee
 
 
 
-###Results
+##Results
 - variable assumptions
 - 
 
@@ -129,7 +129,7 @@ As described in the Model section, there are assumptions and parameters that nee
 
 
 
-###Discussion
+##Discussion
 - limitations of our simulation/study
 - why we didn't use the minnie vans
 - initial assumptions versus our actual results
@@ -139,7 +139,7 @@ As described in the Model section, there are assumptions and parameters that nee
 
 
 
-###Limitations
+##Limitations
 While we had the opprotunity to explore some aspects of Anylogic, we noticed that the free version has some restrictions to the features offered on Anylogic. For example, we wanted to run our simulation for longer than an hour but that requires us to purchase the full version of Anylogic. Since we were unable to run our simulation for longer than an hour, we feel that our results may vary due to this limitation. If given an opprotunity to work with the full version of Anylogic, we would like to further investigate whether or not running our simulation for more than an hour would alter our results. Future studies should consider purchasing the full version of Anylogic to further investigate this limitation in our study.
 
 
@@ -151,7 +151,7 @@ While we had the opprotunity to explore some aspects of Anylogic, we noticed tha
 
 
 
-###Project Roles
+##Project Roles
 For our final project, we felt that it was in our best interst to assign roles to each of our team members. Based on our knowlege, skills and abilities, we wanted to optimize on our indivdual strengths. Rachel has a background in statisics and some knowledge of coding. Therefore, she is responsible for . Adam has experience in research and theme parks. He 
 
 Michael has a background in 
