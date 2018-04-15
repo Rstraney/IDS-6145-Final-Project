@@ -151,7 +151,11 @@ While we had the opprotunity to explore some aspects of Anylogic, we noticed tha
 
 
 
+###Project Roles
+For our final project, we felt that it was in our best interst to assign roles to each of our team members. Based on our knowlege, skills and abilities, we wanted to optimize on our indivdual strengths. Rachel has a background in statisics and some knowledge of coding. Therefore, she is responsible for . Adam has experience in research and theme parks. He 
 
+Michael has a background in 
+Blake has a backround in Psychology, so she is responsible for majority of the formal report. 
 
 
 
