@@ -119,7 +119,7 @@ As described in the Model section, there are assumptions and parameters that nee
 
 
 
-##Results
+## Results
 - variable assumptions
 - 
 
@@ -129,7 +129,7 @@ As described in the Model section, there are assumptions and parameters that nee
 
 
 
-##Discussion
+## Discussion
 - limitations of our simulation/study
 - why we didn't use the minnie vans
 - initial assumptions versus our actual results
@@ -139,7 +139,7 @@ As described in the Model section, there are assumptions and parameters that nee
 
 
 
-##Limitations
+## Limitations
 While we had the opprotunity to explore some aspects of Anylogic, we noticed that the free version has some restrictions to the features offered on Anylogic. For example, we wanted to run our simulation for longer than an hour but that requires us to purchase the full version of Anylogic. Since we were unable to run our simulation for longer than an hour, we feel that our results may vary due to this limitation. If given an opprotunity to work with the full version of Anylogic, we would like to further investigate whether or not running our simulation for more than an hour would alter our results. Future studies should consider purchasing the full version of Anylogic to further investigate this limitation in our study.
 
 
@@ -151,7 +151,7 @@ While we had the opprotunity to explore some aspects of Anylogic, we noticed tha
 
 
 
-##Project Roles
+## Project Roles
 For our final project, we felt that it was in our best interst to assign roles to each of our team members. Based on our knowlege, skills and abilities, we wanted to optimize on our indivdual strengths. Rachel has a background in statisics and some knowledge of coding. Therefore, she is responsible for . Adam has experience in research and theme parks. He 
 
 Michael has a background in 
