@@ -1399,6 +1399,7 @@
 				<Connector>
 					<Id>1524420004022</Id>
 					<Name><![CDATA[connector31]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
 					<X>260</X><Y>1790</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -1432,6 +1433,7 @@
 				<Connector>
 					<Id>1524420010633</Id>
 					<Name><![CDATA[connector32]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
 					<X>340</X><Y>1790</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -1465,6 +1467,7 @@
 				<Connector>
 					<Id>1524420253554</Id>
 					<Name><![CDATA[connector37]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
 					<X>420</X><Y>1790</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -1498,6 +1501,7 @@
 				<Connector>
 					<Id>1524420275626</Id>
 					<Name><![CDATA[connector38]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
 					<X>490</X><Y>1790</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -1531,6 +1535,7 @@
 				<Connector>
 					<Id>1524420369561</Id>
 					<Name><![CDATA[connector41]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
 					<X>570</X><Y>1790</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -1564,6 +1569,7 @@
 				<Connector>
 					<Id>1524420385051</Id>
 					<Name><![CDATA[connector42]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
 					<X>650</X><Y>1790</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -1597,7 +1603,8 @@
 				<Connector>
 					<Id>1524420441794</Id>
 					<Name><![CDATA[connector43]]></Name>
-					<X>720</X><Y>1800</Y>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
+					<X>800</X><Y>1890</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1605,32 +1612,33 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[final_project_15APR2018]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[dropoffPassengers]]></ItemName>
+						<ItemName><![CDATA[getOffBus]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Dropoff]]></ClassName>
-						<ItemName><![CDATA[outDropoff]]></ItemName>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedEnter]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
 					</SourceConnectableItemReference>
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[final_project_15APR2018]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[ExitLot]]></ItemName>
+						<ItemName><![CDATA[SelectLine]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-						<ClassName><![CDATA[PedExit]]></ClassName>
+						<ClassName><![CDATA[PedSelectOutput]]></ClassName>
 						<ItemName><![CDATA[in]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-200</X><Y>130</Y></Point>
-						<Point><X>-200</X><Y>90</Y></Point>
+						<Point><X>-220</X><Y>-245</Y></Point>
+						<Point><X>-252</X><Y>-280</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1524420519697</Id>
 					<Name><![CDATA[connector44]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
 					<X>320</X><Y>1650</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -1664,6 +1672,7 @@
 				<Connector>
 					<Id>1524422201876</Id>
 					<Name><![CDATA[connector47]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
 					<X>260</X><Y>1890</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -1697,6 +1706,7 @@
 				<Connector>
 					<Id>1524422209360</Id>
 					<Name><![CDATA[connector48]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
 					<X>340</X><Y>1890</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -1730,6 +1740,7 @@
 				<Connector>
 					<Id>1524422259096</Id>
 					<Name><![CDATA[connector49]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
 					<X>420</X><Y>1890</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -1831,6 +1842,7 @@
 				<Connector>
 					<Id>1524422870572</Id>
 					<Name><![CDATA[connector52]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
 					<X>845</X><Y>1790</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -5034,7 +5046,7 @@ if (Busqueue.size() < Ferryqueue.size() && Busqueue.size() < Monorailqueue.size(
 					<X>1340</X><Y>1720</Y>
 					<Label><X>-5</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>false</PresentationFlag>
+					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
 					<ActiveObjectClass>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5046,9 +5058,6 @@ if (Busqueue.size() < Ferryqueue.size() && Busqueue.size() < Monorailqueue.size(
 							<ClassName><![CDATA[Batch]]></ClassName>
 							<ItemName><![CDATA[1412336242941]]></ItemName>
 						</GenericParameterSubstituteReference>
-						<GenericParameterSubstituteValue Class="CodeValue">
-							<Code><![CDATA[Guest]]></Code>
-						</GenericParameterSubstituteValue>
 					</GenericParameterSubstitute>
 					<GenericParameterSubstitute>
 						<GenericParameterSubstituteReference>
@@ -8538,6 +8547,7 @@ if (Busqueue.size() < Ferryqueue.size() && Busqueue.size() < Monorailqueue.size(
 				<EmbeddedObject>
 					<Id>1524419443541</Id>
 					<Name><![CDATA[waitBus]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
 					<X>220</X><Y>1880</Y>
 					<Label><X>-5</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -8662,6 +8672,7 @@ if (Busqueue.size() < Ferryqueue.size() && Busqueue.size() < Monorailqueue.size(
 				<EmbeddedObject>
 					<Id>1524419443620</Id>
 					<Name><![CDATA[TramSource]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
 					<X>230</X><Y>1780</Y>
 					<Label><X>-10</X><Y>38</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -8734,14 +8745,14 @@ if (Busqueue.size() < Ferryqueue.size() && Busqueue.size() < Monorailqueue.size(
 							<Value Class="EntityCodeValue">
 								<EntityEmbeddedObject>
 									<ActiveObjectClass>
-										<PackageName><![CDATA[final_project_15APR2018]]></PackageName>
-										<ClassName><![CDATA[LotTram]]></ClassName>
+										<PackageName><![CDATA[pickup_and_dropoff]]></PackageName>
+										<ClassName><![CDATA[Bus]]></ClassName>
 									</ActiveObjectClass>
 									<GenericParameterSubstitute>
 										<GenericParameterSubstituteReference>
-											<PackageName><![CDATA[final_project_15APR2018]]></PackageName>
-											<ClassName><![CDATA[LotTram]]></ClassName>
-											<ItemName><![CDATA[1524423417480]]></ItemName>
+											<PackageName><![CDATA[pickup_and_dropoff]]></PackageName>
+											<ClassName><![CDATA[Bus]]></ClassName>
+											<ItemName><![CDATA[1446726463384]]></ItemName>
 										</GenericParameterSubstituteReference>
 									</GenericParameterSubstitute>
 									<Parameters>
@@ -8917,6 +8928,7 @@ if (Busqueue.size() < Ferryqueue.size() && Busqueue.size() < Monorailqueue.size(
 				<EmbeddedObject>
 					<Id>1524419443745</Id>
 					<Name><![CDATA[moveToStop1]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
 					<X>300</X><Y>1770</Y>
 					<Label><X>-20</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -9074,6 +9086,7 @@ if (Busqueue.size() < Ferryqueue.size() && Busqueue.size() < Monorailqueue.size(
 				<EmbeddedObject>
 					<Id>1524419443824</Id>
 					<Name><![CDATA[pickupPassengers]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
 					<X>450</X><Y>1770</Y>
 					<Label><X>-25</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -9181,6 +9194,7 @@ if (Busqueue.size() < Ferryqueue.size() && Busqueue.size() < Monorailqueue.size(
 				<EmbeddedObject>
 					<Id>1524419443870</Id>
 					<Name><![CDATA[moveToStop2]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
 					<X>530</X><Y>1770</Y>
 					<Label><X>-20</X><Y>50</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -9338,6 +9352,7 @@ if (Busqueue.size() < Ferryqueue.size() && Busqueue.size() < Monorailqueue.size(
 				<EmbeddedObject>
 					<Id>1524419443917</Id>
 					<Name><![CDATA[dropoffPassengers]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
 					<X>690</X><Y>1770</Y>
 					<Label><X>-25</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -9549,6 +9564,7 @@ if (Busqueue.size() < Ferryqueue.size() && Busqueue.size() < Monorailqueue.size(
 				<EmbeddedObject>
 					<Id>1524419444010</Id>
 					<Name><![CDATA[queue]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
 					<X>380</X><Y>1870</Y>
 					<Label><X>-5</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -9667,6 +9683,7 @@ if (Busqueue.size() < Ferryqueue.size() && Busqueue.size() < Monorailqueue.size(
 				<EmbeddedObject>
 					<Id>1524419444057</Id>
 					<Name><![CDATA[getOnBus]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
 					<X>300</X><Y>1880</Y>
 					<Label><X>-5</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -9877,6 +9894,7 @@ if (Busqueue.size() < Ferryqueue.size() && Busqueue.size() < Monorailqueue.size(
 				<EmbeddedObject>
 					<Id>1524419444151</Id>
 					<Name><![CDATA[delay2]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
 					<X>610</X><Y>1770</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -9981,6 +9999,7 @@ if (Busqueue.size() < Ferryqueue.size() && Busqueue.size() < Monorailqueue.size(
 				<EmbeddedObject>
 					<Id>1524419444229</Id>
 					<Name><![CDATA[delay3]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
 					<X>380</X><Y>1770</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -10088,6 +10107,7 @@ if (Busqueue.size() < Ferryqueue.size() && Busqueue.size() < Monorailqueue.size(
 				<EmbeddedObject>
 					<Id>1524422854993</Id>
 					<Name><![CDATA[sink1]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
 					<X>845</X><Y>1780</Y>
 					<Label><X>-5</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -10159,7 +10179,7 @@ if (Busqueue.size() < Ferryqueue.size() && Busqueue.size() < Monorailqueue.size(
 					<Id>1524422855056</Id>
 					<Name><![CDATA[moveToExit]]></Name>
 					<ExcludeFromBuild>true</ExcludeFromBuild>
-					<X>800</X><Y>1690</Y>
+					<X>765</X><Y>1770</Y>
 					<Label><X>-15</X><Y>55</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11872,11 +11892,11 @@ Ticket Center (TTC)]]></Text>
 				<Camera3D>
 					<Id>1523810980183</Id>
 					<Name><![CDATA[cameraTTC]]></Name>
-					<X>1125.26</X><Y>933.55</Y><Z>110.33</Z>
+					<X>1055</X><Y>500</Y><Z>195.71</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ShowLabel>false</ShowLabel>
-					<RotationX>10.12</RotationX>
-					<RotationZ>-72.78</RotationZ>
+					<RotationX>-37.0</RotationX>
+					<RotationZ>300.0</RotationZ>
 				</Camera3D>
 				<Network>
 					<Id>1523820657192</Id>
@@ -18135,40 +18155,6 @@ can be put into this section.]]></Text>
 					<X>0</X><Y>0</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<FileName><![CDATA[x3d/subway_car_open.x3d]]></FileName>
-					<ColorTable>
-						<ColorMapping>
-							<Name><![CDATA[MA_Windows]]></Name>
-							<OriginalColor>-13027015</OriginalColor>
-						</ColorMapping>
-						<ColorMapping>
-							<Name><![CDATA[MA_Floor]]></Name>
-							<OriginalColor>-8492191</OriginalColor>
-						</ColorMapping>
-						<ColorMapping>
-							<Name><![CDATA[MA_Sub_car_part_1]]></Name>
-							<OriginalColor>-1973791</OriginalColor>
-						</ColorMapping>
-						<ColorMapping>
-							<Name><![CDATA[MA_Sub_car_part_3]]></Name>
-							<OriginalColor>-6721280</OriginalColor>
-						</ColorMapping>
-						<ColorMapping>
-							<Name><![CDATA[MA_Doors]]></Name>
-							<OriginalColor>-6721280</OriginalColor>
-						</ColorMapping>
-						<ColorMapping>
-							<Name><![CDATA[MA_Couplers]]></Name>
-							<OriginalColor>-13027015</OriginalColor>
-						</ColorMapping>
-						<ColorMapping>
-							<Name><![CDATA[MA_Frame]]></Name>
-							<OriginalColor>-14540254</OriginalColor>
-						</ColorMapping>
-						<ColorMapping>
-							<Name><![CDATA[MA_Wheels]]></Name>
-							<OriginalColor>-8355712</OriginalColor>
-						</ColorMapping>
-					</ColorTable>
 					<AutoScale>true</AutoScale>
 					<Scale>1.0</Scale>
 					<Rotation>0.0</Rotation>
@@ -18299,40 +18285,6 @@ can be put into this section.]]></Text>
 					<X>0</X><Y>0</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<FileName><![CDATA[x3d/subway_car_open.x3d]]></FileName>
-					<ColorTable>
-						<ColorMapping>
-							<Name><![CDATA[MA_Windows]]></Name>
-							<OriginalColor>-13027015</OriginalColor>
-						</ColorMapping>
-						<ColorMapping>
-							<Name><![CDATA[MA_Floor]]></Name>
-							<OriginalColor>-8492191</OriginalColor>
-						</ColorMapping>
-						<ColorMapping>
-							<Name><![CDATA[MA_Sub_car_part_1]]></Name>
-							<OriginalColor>-1973791</OriginalColor>
-						</ColorMapping>
-						<ColorMapping>
-							<Name><![CDATA[MA_Sub_car_part_3]]></Name>
-							<OriginalColor>-6721280</OriginalColor>
-						</ColorMapping>
-						<ColorMapping>
-							<Name><![CDATA[MA_Doors]]></Name>
-							<OriginalColor>-6721280</OriginalColor>
-						</ColorMapping>
-						<ColorMapping>
-							<Name><![CDATA[MA_Couplers]]></Name>
-							<OriginalColor>-13027015</OriginalColor>
-						</ColorMapping>
-						<ColorMapping>
-							<Name><![CDATA[MA_Frame]]></Name>
-							<OriginalColor>-14540254</OriginalColor>
-						</ColorMapping>
-						<ColorMapping>
-							<Name><![CDATA[MA_Wheels]]></Name>
-							<OriginalColor>-8355712</OriginalColor>
-						</ColorMapping>
-					</ColorTable>
 					<AutoScale>true</AutoScale>
 					<Scale>0.25</Scale>
 					<Rotation>0.0</Rotation>
