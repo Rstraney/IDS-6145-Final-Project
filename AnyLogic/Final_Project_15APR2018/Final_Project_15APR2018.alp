@@ -35,7 +35,7 @@
 			<ElementsLimitValue>100</ElementsLimitValue>
 			<MakeDefaultViewArea>true</MakeDefaultViewArea>
 			<SceneGridColor/>
-			<SceneBackgroundColor/>
+			<SceneBackgroundColor>11393254</SceneBackgroundColor>
 			<AgentProperties>
 	 			<SpaceType>CONTINUOUS</SpaceType>			
 				<EnvironmentDefinesInitialLocation>true</EnvironmentDefinesInitialLocation>
@@ -8221,6 +8221,9 @@ if (Busqueue.size() < Ferryqueue.size() && Busqueue.size() < Monorailqueue.size(
 										</GenericParameterSubstituteReference>
 									</GenericParameterSubstitute>
 									<Parameters>
+										<Parameter>
+											<Name><![CDATA[appearance]]></Name>
+										</Parameter>
 									</Parameters>
 									<ReplicationFlag>true</ReplicationFlag>
 									<Replication Class="CodeValue">
@@ -10972,12 +10975,11 @@ if (Busqueue.size() < Ferryqueue.size() && Busqueue.size() < Monorailqueue.size(
 				<Rectangle>
 					<Id>1524621346116</Id>
 					<Name><![CDATA[rectangle90]]></Name>
-					<X>1000</X><Y>180</Y>
+					<X>3680</X><Y>180</Y>
 					<Label><X>10</X><Y>10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
-					<Lock>true</Lock>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<AsObject>true</AsObject>
 					<EmbeddedIcon>false</EmbeddedIcon>
@@ -11464,7 +11466,7 @@ Ticket Center (TTC)]]></Text>
 					<ServiceColor>-16744448</ServiceColor>
 					<Id>1523843678208</Id>
 					<Name><![CDATA[BagLines]]></Name>
-					<X>926.638</X><Y>192.005</Y>
+					<X>3606.638</X><Y>192.005</Y>
 					<Label><X>-274.123</X><Y>-255.247</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -11517,7 +11519,7 @@ Ticket Center (TTC)]]></Text>
 				<QueueLine>
 					<Id>1523843678210</Id>
 					<Name><![CDATA[queueLine]]></Name>
-					<X>1089.706</X><Y>473.991</Y>
+					<X>3769.706</X><Y>473.991</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11541,7 +11543,7 @@ Ticket Center (TTC)]]></Text>
 				<QueueLine>
 					<Id>1523843678212</Id>
 					<Name><![CDATA[queueLine1]]></Name>
-					<X>1127.733</X><Y>473.991</Y>
+					<X>3807.733</X><Y>473.991</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11565,7 +11567,7 @@ Ticket Center (TTC)]]></Text>
 				<QueueLine>
 					<Id>1523843720234</Id>
 					<Name><![CDATA[queueLine2]]></Name>
-					<X>1160.76</X><Y>473.991</Y>
+					<X>3840.76</X><Y>473.991</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11589,7 +11591,7 @@ Ticket Center (TTC)]]></Text>
 				<QueueLine>
 					<Id>1523843720577</Id>
 					<Name><![CDATA[queueLine3]]></Name>
-					<X>1193.787</X><Y>473.991</Y>
+					<X>3873.787</X><Y>473.991</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11613,7 +11615,7 @@ Ticket Center (TTC)]]></Text>
 				<QueueLine>
 					<Id>1523843721187</Id>
 					<Name><![CDATA[queueLine4]]></Name>
-					<X>1226.813</X><Y>473.991</Y>
+					<X>3906.813</X><Y>473.991</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11637,7 +11639,7 @@ Ticket Center (TTC)]]></Text>
 				<QueueLine>
 					<Id>1523843722968</Id>
 					<Name><![CDATA[queueLine5]]></Name>
-					<X>1258</X><Y>475</Y>
+					<X>3938</X><Y>475</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11661,7 +11663,7 @@ Ticket Center (TTC)]]></Text>
 				<QueueLine>
 					<Id>1523843724941</Id>
 					<Name><![CDATA[queueLine6]]></Name>
-					<X>1284.867</X><Y>473.991</Y>
+					<X>3964.867</X><Y>473.991</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11685,7 +11687,7 @@ Ticket Center (TTC)]]></Text>
 				<QueueLine>
 					<Id>1523843725207</Id>
 					<Name><![CDATA[queueLine7]]></Name>
-					<X>1315.894</X><Y>473.991</Y>
+					<X>3995.894</X><Y>473.991</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11709,7 +11711,7 @@ Ticket Center (TTC)]]></Text>
 				<QueueLine>
 					<Id>1523843727270</Id>
 					<Name><![CDATA[queueLine8]]></Name>
-					<X>1343.92</X><Y>473.991</Y>
+					<X>4023.92</X><Y>473.991</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11733,7 +11735,7 @@ Ticket Center (TTC)]]></Text>
 				<QueueLine>
 					<Id>1523843727691</Id>
 					<Name><![CDATA[queueLine9]]></Name>
-					<X>1374.947</X><Y>473.991</Y>
+					<X>4054.947</X><Y>473.991</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11757,7 +11759,7 @@ Ticket Center (TTC)]]></Text>
 				<ServicePoint>
 					<Id>1523929042419</Id>
 					<Name><![CDATA[servicePoint]]></Name>
-					<X>1161.472</X><Y>346.677</Y>
+					<X>3841.472</X><Y>346.677</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11772,7 +11774,7 @@ Ticket Center (TTC)]]></Text>
 				<ServicePoint>
 					<Id>1523929042544</Id>
 					<Name><![CDATA[servicePoint1]]></Name>
-					<X>1125.46</X><Y>346.677</Y>
+					<X>3805.46</X><Y>346.677</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11787,7 +11789,7 @@ Ticket Center (TTC)]]></Text>
 				<ServicePoint>
 					<Id>1523929042638</Id>
 					<Name><![CDATA[servicePoint2]]></Name>
-					<X>1194.856</X><Y>346.677</Y>
+					<X>3874.856</X><Y>346.677</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11802,7 +11804,7 @@ Ticket Center (TTC)]]></Text>
 				<ServicePoint>
 					<Id>1523929042747</Id>
 					<Name><![CDATA[servicePoint3]]></Name>
-					<X>1225.609</X><Y>346.677</Y>
+					<X>3905.609</X><Y>346.677</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11817,7 +11819,7 @@ Ticket Center (TTC)]]></Text>
 				<ServicePoint>
 					<Id>1523929042841</Id>
 					<Name><![CDATA[servicePoint4]]></Name>
-					<X>1089.706</X><Y>346.677</Y>
+					<X>3769.706</X><Y>346.677</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11832,7 +11834,7 @@ Ticket Center (TTC)]]></Text>
 				<ServicePoint>
 					<Id>1523929042935</Id>
 					<Name><![CDATA[servicePoint5]]></Name>
-					<X>1257.466</X><Y>347.686</Y>
+					<X>3937.466</X><Y>347.686</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11847,7 +11849,7 @@ Ticket Center (TTC)]]></Text>
 				<ServicePoint>
 					<Id>1523929043029</Id>
 					<Name><![CDATA[servicePoint6]]></Name>
-					<X>1345.457</X><Y>346.677</Y>
+					<X>4025.457</X><Y>346.677</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11862,7 +11864,7 @@ Ticket Center (TTC)]]></Text>
 				<ServicePoint>
 					<Id>1523929046310</Id>
 					<Name><![CDATA[servicePoint7]]></Name>
-					<X>1284.376</X><Y>346.677</Y>
+					<X>3964.376</X><Y>346.677</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11877,7 +11879,7 @@ Ticket Center (TTC)]]></Text>
 				<ServicePoint>
 					<Id>1523929047029</Id>
 					<Name><![CDATA[servicePoint8]]></Name>
-					<X>1375.525</X><Y>346.677</Y>
+					<X>4055.525</X><Y>346.677</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11892,7 +11894,7 @@ Ticket Center (TTC)]]></Text>
 				<ServicePoint>
 					<Id>1523929048795</Id>
 					<Name><![CDATA[servicePoint9]]></Name>
-					<X>1315.703</X><Y>346.677</Y>
+					<X>3995.703</X><Y>346.677</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11923,7 +11925,7 @@ Ticket Center (TTC)]]></Text>
 					<ServiceColor>-16744448</ServiceColor>
 					<Id>1523929185112</Id>
 					<Name><![CDATA[NoBagLines]]></Name>
-					<X>1412</X><Y>470</Y>
+					<X>4092</X><Y>470</Y>
 					<Label><X>169.443</X><Y>-81.649</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -11976,7 +11978,7 @@ Ticket Center (TTC)]]></Text>
 				<QueueLine>
 					<Id>1523929185114</Id>
 					<Name><![CDATA[queueLine10]]></Name>
-					<X>1405</X><Y>470</Y>
+					<X>4085</X><Y>470</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12000,7 +12002,7 @@ Ticket Center (TTC)]]></Text>
 				<QueueLine>
 					<Id>1523929185116</Id>
 					<Name><![CDATA[queueLine11]]></Name>
-					<X>1438.66</X><Y>470</Y>
+					<X>4118.66</X><Y>470</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12024,7 +12026,7 @@ Ticket Center (TTC)]]></Text>
 				<ServicePoint>
 					<Id>1523929185118</Id>
 					<Name><![CDATA[servicePoint10]]></Name>
-					<X>1405</X><Y>347.878</Y>
+					<X>4085</X><Y>347.878</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12039,7 +12041,7 @@ Ticket Center (TTC)]]></Text>
 				<ServicePoint>
 					<Id>1523929185120</Id>
 					<Name><![CDATA[servicePoint11]]></Name>
-					<X>1438.66</X><Y>347.878</Y>
+					<X>4118.66</X><Y>347.878</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12107,7 +12109,7 @@ Ticket Center (TTC)]]></Text>
 				<RectangleWall>
 					<Id>1524446601723</Id>
 					<Name><![CDATA[wall]]></Name>
-					<X>1051</X><Y>380</Y>
+					<X>3731</X><Y>380</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12126,7 +12128,7 @@ Ticket Center (TTC)]]></Text>
 				<TargetLine>
 					<Id>1524619216145</Id>
 					<Name><![CDATA[SecurityEnter]]></Name>
-					<X>1360</X><Y>760</Y>
+					<X>4040</X><Y>760</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -12142,7 +12144,7 @@ Ticket Center (TTC)]]></Text>
 				<TargetLine>
 					<Id>1524619260794</Id>
 					<Name><![CDATA[SecurityExit]]></Name>
-					<X>1360</X><Y>200</Y>
+					<X>4040</X><Y>200</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -12158,7 +12160,7 @@ Ticket Center (TTC)]]></Text>
 				<RectangleWall>
 					<Id>1524622035032</Id>
 					<Name><![CDATA[wall1]]></Name>
-					<X>1462</X><Y>380</Y>
+					<X>4142</X><Y>380</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12259,7 +12261,7 @@ Ticket Center (TTC)]]></Text>
 				<Camera3D>
 					<Id>1523810980183</Id>
 					<Name><![CDATA[cameraTTC]]></Name>
-					<X>1069.29</X><Y>615.99</Y><Z>125.93</Z>
+					<X>3749.29</X><Y>615.99</Y><Z>125.93</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ShowLabel>false</ShowLabel>
 					<RotationX>23.31</RotationX>
@@ -17247,13 +17249,13 @@ can be put into this section.]]></Text>
 				<Figure3D>
 					<Id>1524446465491</Id>
 					<Name><![CDATA[table_2]]></Name>
-					<X>1109</X><Y>360</Y>
+					<X>3789</X><Y>360</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>1109</X><Y>360</Y><Z>0</Z>
+					<X>3789</X><Y>360</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<FileName><![CDATA[x3d/table_2.x3d]]></FileName>
 					<ColorTable>
@@ -17275,13 +17277,13 @@ can be put into this section.]]></Text>
 				<Figure3D>
 					<Id>1524446739320</Id>
 					<Name><![CDATA[table_4]]></Name>
-					<X>1178</X><Y>360</Y>
+					<X>3858</X><Y>360</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>1178</X><Y>360</Y><Z>0</Z>
+					<X>3858</X><Y>360</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<FileName><![CDATA[x3d/table_2.x3d]]></FileName>
 					<ColorTable>
@@ -17303,69 +17305,13 @@ can be put into this section.]]></Text>
 				<Figure3D>
 					<Id>1524446744971</Id>
 					<Name><![CDATA[table_5]]></Name>
-					<X>1240</X><Y>360</Y>
+					<X>3920</X><Y>360</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>1240</X><Y>360</Y><Z>0</Z>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<FileName><![CDATA[x3d/table_2.x3d]]></FileName>
-					<ColorTable>
-						<ColorMapping>
-							<Name><![CDATA[material0]]></Name>
-							<OriginalColor>-10526881</OriginalColor>
-						</ColorMapping>
-						<ColorMapping>
-							<Name><![CDATA[material1]]></Name>
-							<OriginalColor>-3619384</OriginalColor>
-						</ColorMapping>
-					</ColorTable>
-					<AutoScale>true</AutoScale>
-					<Scale>1.0</Scale>
-					<Rotation>270.0</Rotation>
-					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
-					<ApplyShading>true</ApplyShading>
-				</Figure3D>
-				<Figure3D>
-					<Id>1524446761702</Id>
-					<Name><![CDATA[table_6]]></Name>
-					<X>1664</X><Y>360</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>1664</X><Y>360</Y><Z>0</Z>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<FileName><![CDATA[x3d/table_2.x3d]]></FileName>
-					<ColorTable>
-						<ColorMapping>
-							<Name><![CDATA[material0]]></Name>
-							<OriginalColor>-10526881</OriginalColor>
-						</ColorMapping>
-						<ColorMapping>
-							<Name><![CDATA[material1]]></Name>
-							<OriginalColor>-3619384</OriginalColor>
-						</ColorMapping>
-					</ColorTable>
-					<AutoScale>true</AutoScale>
-					<Scale>1.0</Scale>
-					<Rotation>270.0</Rotation>
-					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
-					<ApplyShading>true</ApplyShading>
-				</Figure3D>
-				<Figure3D>
-					<Id>1524446764198</Id>
-					<Name><![CDATA[table_7]]></Name>
-					<X>1600</X><Y>360</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>1600</X><Y>360</Y><Z>0</Z>
+					<X>3920</X><Y>360</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<FileName><![CDATA[x3d/table_2.x3d]]></FileName>
 					<ColorTable>
@@ -17387,13 +17333,13 @@ can be put into this section.]]></Text>
 				<Figure3D>
 					<Id>1524446770066</Id>
 					<Name><![CDATA[table_8]]></Name>
-					<X>1420</X><Y>360</Y>
+					<X>4100</X><Y>360</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>1420</X><Y>360</Y><Z>0</Z>
+					<X>4100</X><Y>360</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<FileName><![CDATA[x3d/table_2.x3d]]></FileName>
 					<ColorTable>
@@ -17415,13 +17361,13 @@ can be put into this section.]]></Text>
 				<Figure3D>
 					<Id>1524446770969</Id>
 					<Name><![CDATA[table_9]]></Name>
-					<X>1299</X><Y>360</Y>
+					<X>3979</X><Y>360</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>1299</X><Y>360</Y><Z>0</Z>
+					<X>3979</X><Y>360</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<FileName><![CDATA[x3d/table_2.x3d]]></FileName>
 					<ColorTable>
@@ -17443,69 +17389,13 @@ can be put into this section.]]></Text>
 				<Figure3D>
 					<Id>1524446771825</Id>
 					<Name><![CDATA[table_10]]></Name>
-					<X>1360</X><Y>360</Y>
+					<X>4040</X><Y>360</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>1360</X><Y>360</Y><Z>0</Z>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<FileName><![CDATA[x3d/table_2.x3d]]></FileName>
-					<ColorTable>
-						<ColorMapping>
-							<Name><![CDATA[material0]]></Name>
-							<OriginalColor>-10526881</OriginalColor>
-						</ColorMapping>
-						<ColorMapping>
-							<Name><![CDATA[material1]]></Name>
-							<OriginalColor>-3619384</OriginalColor>
-						</ColorMapping>
-					</ColorTable>
-					<AutoScale>true</AutoScale>
-					<Scale>1.0</Scale>
-					<Rotation>270.0</Rotation>
-					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
-					<ApplyShading>true</ApplyShading>
-				</Figure3D>
-				<Figure3D>
-					<Id>1524446825448</Id>
-					<Name><![CDATA[table_11]]></Name>
-					<X>1734</X><Y>360</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>1734</X><Y>360</Y><Z>0</Z>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<FileName><![CDATA[x3d/table_2.x3d]]></FileName>
-					<ColorTable>
-						<ColorMapping>
-							<Name><![CDATA[material0]]></Name>
-							<OriginalColor>-10526881</OriginalColor>
-						</ColorMapping>
-						<ColorMapping>
-							<Name><![CDATA[material1]]></Name>
-							<OriginalColor>-3619384</OriginalColor>
-						</ColorMapping>
-					</ColorTable>
-					<AutoScale>true</AutoScale>
-					<Scale>1.0</Scale>
-					<Rotation>270.0</Rotation>
-					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
-					<ApplyShading>true</ApplyShading>
-				</Figure3D>
-				<Figure3D>
-					<Id>1524446860634</Id>
-					<Name><![CDATA[table_12]]></Name>
-					<X>1800</X><Y>360</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>1800</X><Y>360</Y><Z>0</Z>
+					<X>4040</X><Y>360</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<FileName><![CDATA[x3d/table_2.x3d]]></FileName>
 					<ColorTable>
@@ -17527,13 +17417,13 @@ can be put into this section.]]></Text>
 				<Figure3D>
 					<Id>1524447001336</Id>
 					<Name><![CDATA[person]]></Name>
-					<X>1109</X><Y>330</Y>
+					<X>3789</X><Y>330</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>1109</X><Y>330</Y><Z>0</Z>
+					<X>3789</X><Y>330</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<FileName><![CDATA[x3d/person.x3d]]></FileName>
 					<ColorTable>
@@ -17573,13 +17463,13 @@ can be put into this section.]]></Text>
 				<Figure3D>
 					<Id>1524617859835</Id>
 					<Name><![CDATA[person1]]></Name>
-					<X>1179</X><Y>330</Y>
+					<X>3859</X><Y>330</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>1179</X><Y>330</Y><Z>0</Z>
+					<X>3859</X><Y>330</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<FileName><![CDATA[x3d/person.x3d]]></FileName>
 					<ColorTable>
@@ -17619,13 +17509,13 @@ can be put into this section.]]></Text>
 				<Figure3D>
 					<Id>1524618477690</Id>
 					<Name><![CDATA[person2]]></Name>
-					<X>1240</X><Y>330</Y>
+					<X>3920</X><Y>330</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>1240</X><Y>330</Y><Z>0</Z>
+					<X>3920</X><Y>330</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<FileName><![CDATA[x3d/person.x3d]]></FileName>
 					<ColorTable>
@@ -17665,13 +17555,13 @@ can be put into this section.]]></Text>
 				<Figure3D>
 					<Id>1524618558935</Id>
 					<Name><![CDATA[person3]]></Name>
-					<X>1299</X><Y>330</Y>
+					<X>3979</X><Y>330</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>1299</X><Y>330</Y><Z>0</Z>
+					<X>3979</X><Y>330</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<FileName><![CDATA[x3d/person.x3d]]></FileName>
 					<ColorTable>
@@ -17711,13 +17601,13 @@ can be put into this section.]]></Text>
 				<Figure3D>
 					<Id>1524618657098</Id>
 					<Name><![CDATA[person4]]></Name>
-					<X>1360</X><Y>332</Y>
+					<X>4040</X><Y>332</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>1360</X><Y>332</Y><Z>0</Z>
+					<X>4040</X><Y>332</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<FileName><![CDATA[x3d/person.x3d]]></FileName>
 					<ColorTable>
@@ -17757,13 +17647,13 @@ can be put into this section.]]></Text>
 				<Figure3D>
 					<Id>1524618849904</Id>
 					<Name><![CDATA[person5]]></Name>
-					<X>1421</X><Y>331</Y>
+					<X>4101</X><Y>331</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>1421</X><Y>331</Y><Z>0</Z>
+					<X>4101</X><Y>331</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<FileName><![CDATA[x3d/person.x3d]]></FileName>
 					<ColorTable>
@@ -17803,7 +17693,7 @@ can be put into this section.]]></Text>
 				<Group>
 					<Id>1524620789635</Id>
 					<Name><![CDATA[group]]></Name>
-					<X>1260</X><Y>580</Y>
+					<X>3940</X><Y>580</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17907,7 +17797,7 @@ can be put into this section.]]></Text>
 				<Group>
 					<Id>1524621784206</Id>
 					<Name><![CDATA[group1]]></Name>
-					<X>1520</X><Y>240</Y>
+					<X>4200</X><Y>240</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17976,7 +17866,7 @@ can be put into this section.]]></Text>
 				<Group>
 					<Id>1524621802815</Id>
 					<Name><![CDATA[group13]]></Name>
-					<X>1060</X><Y>240</Y>
+					<X>3740</X><Y>240</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18057,6 +17947,29 @@ can be put into this section.]]></Text>
 					<Color>-14774017</Color>
 					<Radius>1</Radius>
 				</PointNode>
+				<Rectangle>
+					<Id>1524710522493</Id>
+					<Name><![CDATA[rectangle93]]></Name>
+					<X>2760</X><Y>177</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor/>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>900</Width>
+					<Height>600</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>tarmac</FillMaterial>
+				</Rectangle>
 			</Shapes>
 			<Controls>
 				<Control Type="Window3D">
@@ -18116,25 +18029,11 @@ can be put into this section.]]></Text>
 					<Camera>cameraParkingLot</Camera>
 				</Control>
 				<Control Type="Window3D">
-					<Id>1523821461931</Id>
-					<Name><![CDATA[window3dTTC]]></Name>
-					<X>3850</X><Y>880</Y>
-					<Width>720</Width>
-					<Height>520</Height>
-					<MakeDefaultViewArea>true</MakeDefaultViewArea>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<ShowLabel>false</ShowLabel>
-					<FollowCamera>false</FollowCamera>
-					<NavigationType>full</NavigationType>
-					<FarClippingDistance>2000</FarClippingDistance>
-					<Camera>cameraTTC</Camera>
-				</Control>
-				<Control Type="Window3D">
 					<Id>1524425747624</Id>
 					<Name><![CDATA[window3d]]></Name>
-					<X>1100</X><Y>-120</Y>
-					<Width>500</Width>
-					<Height>300</Height>
+					<X>3844</X><Y>880</Y>
+					<Width>720</Width>
+					<Height>520</Height>
 					<MakeDefaultViewArea>true</MakeDefaultViewArea>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ShowLabel>false</ShowLabel>
@@ -18255,8 +18154,20 @@ can be put into this section.]]></Text>
 				</Area>
 				<Area>
 					<Id>1523843017451</Id>
-					<Name><![CDATA[viewArea]]></Name>
-					<X>1000</X><Y>180</Y>
+					<Name><![CDATA[View2DTTC]]></Name>
+					<X>3680</X><Y>180</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<Title><![CDATA[]]></Title>
+					<Width>900</Width>
+					<Height>600</Height>
+				</Area>
+				<Area>
+					<Id>1524710254300</Id>
+					<Name><![CDATA[View2DParkingLot]]></Name>
+					<X>2760</X><Y>172</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18353,6 +18264,77 @@ can be put into this section.]]></Text>
 				<InheritedFromParentAgentType>true</InheritedFromParentAgentType>
 			</ScaleRuler>
 			<ConnectionsId>1522982333976</ConnectionsId>
+			<Variables>
+				<Variable Class="Parameter">
+					<Id>1524713665566</Id>
+					<Name><![CDATA[appearance]]></Name>
+					<X>127</X><Y>78</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
+						<Type><![CDATA[int]]></Type>
+						<UnitType><![CDATA[NONE]]></UnitType>
+						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeValue">
+							<Code><![CDATA[uniform_discr(0, 6)]]></Code>
+						</DefaultValue>
+						<ParameterEditor>
+							<Id>1524713665564</Id>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="CollectionVariable">
+					<Id>1524711607175</Id>
+					<Name><![CDATA[colors]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
+					<X>390</X><Y>1850</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" AccessType="public" StaticVariable="true">
+						<CollectionClass><![CDATA[ArrayList]]></CollectionClass>
+						<ElementClass><![CDATA[Color]]></ElementClass>
+						<ValueElementClass><![CDATA[String]]></ValueElementClass>
+						<CollectionInitializer Class="CodeValue">
+							<Code><![CDATA[{olive, blue, indianRed, green, blueViolet, orange, black}]]></Code>
+						</CollectionInitializer>
+					</Properties>
+
+				</Variable>
+			</Variables>
+			<Functions>
+				<Function AccessType="default" StaticFunction="false">
+					<ReturnModificator>VOID</ReturnModificator>
+					<ReturnType><![CDATA[void]]></ReturnType>
+					<Id>1524711607190</Id>
+					<Name><![CDATA[setAnimation]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
+					<X>390</X><Y>1800</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Parameter>
+						<Name><![CDATA[animationIndex]]></Name>
+						<Type><![CDATA[int]]></Type>
+					</Parameter>
+					<Body><![CDATA[for (int i = 0; i < animations.size(); i++) {
+	Shape shape = (Shape)animations.get(i);
+	if (i == animationIndex)
+		shape.setVisible(true);
+	else
+		shape.setVisible(false);
+}
+oval.setFillColor(colors.get(animationIndex));]]></Body>
+				</Function>
+			</Functions>
 			<AgentLinks>
 				<AgentLink>
 					<Id>1522982333976</Id>
@@ -18420,6 +18402,322 @@ can be put into this section.]]></Text>
 					<Rotation>0.0</Rotation>
 					<AxisOrder>YZX_AXIS_ORDER</AxisOrder>
 					<ApplyShading>true</ApplyShading>
+					<VisibleCode><![CDATA[appearance == 1]]></VisibleCode>
+				</Figure3D>
+				<Figure3D>
+					<Id>1524712188736</Id>
+					<Name><![CDATA[girl]]></Name>
+					<X>15</X><Y>0</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>15</X><Y>0</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<FileName><![CDATA[x3d/girl.x3d]]></FileName>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[MA_material]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Shape_006]]></Name>
+							<OriginalColor>-3367560</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_B18]]></Name>
+							<OriginalColor>-10078168</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Shape_003]]></Name>
+							<OriginalColor>-3355444</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_A03]]></Name>
+							<OriginalColor>-39836</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_009]]></Name>
+							<OriginalColor>-16777216</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_000]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Shape_11]]></Name>
+							<OriginalColor>-16777216</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Shape_12]]></Name>
+							<OriginalColor>-2148</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_A01]]></Name>
+							<OriginalColor>-65536</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>0.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<VisibleCode><![CDATA[appearance == 2]]></VisibleCode>
+				</Figure3D>
+				<Figure3D>
+					<Id>1524712194753</Id>
+					<Name><![CDATA[boy]]></Name>
+					<X>45</X><Y>35</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>45</X><Y>35</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<FileName><![CDATA[x3d/boy.x3d]]></FileName>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[MA___auto_1]]></Name>
+							<OriginalColor>-3361146</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA___auto_4]]></Name>
+							<OriginalColor>-3355444</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA___auto_6]]></Name>
+							<OriginalColor>-11442586</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA___auto_3]]></Name>
+							<OriginalColor>-9419222</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA___auto_10]]></Name>
+							<OriginalColor>-13027015</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA___auto_5]]></Name>
+							<OriginalColor>-6712967</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA___auto_]]></Name>
+							<OriginalColor>-15069925</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA___auto_8]]></Name>
+							<OriginalColor>-3367561</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA___auto_9]]></Name>
+							<OriginalColor>-3407872</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA___auto_7]]></Name>
+							<OriginalColor>-7500403</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA___auto_2]]></Name>
+							<OriginalColor>-6123157</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>0.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<VisibleCode><![CDATA[appearance == 4]]></VisibleCode>
+				</Figure3D>
+				<Figure3D>
+					<Id>1524712206138</Id>
+					<Name><![CDATA[woman_1]]></Name>
+					<X>25</X><Y>40</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>25</X><Y>40</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<FileName><![CDATA[x3d/woman_1.x3d]]></FileName>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[MA_material]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_B18]]></Name>
+							<OriginalColor>-10078168</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Shape_006]]></Name>
+							<OriginalColor>-3367560</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Shape_003]]></Name>
+							<OriginalColor>-3355444</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_A03]]></Name>
+							<OriginalColor>-39836</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Shape_12]]></Name>
+							<OriginalColor>-2148</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Shape_11]]></Name>
+							<OriginalColor>-16777216</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_009]]></Name>
+							<OriginalColor>-16777216</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_B24]]></Name>
+							<OriginalColor>-4650994</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_H10]]></Name>
+							<OriginalColor>-6107956</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>0.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<VisibleCode><![CDATA[appearance == 3]]></VisibleCode>
+				</Figure3D>
+				<Figure3D>
+					<Id>1524713799617</Id>
+					<Name><![CDATA[boy1]]></Name>
+					<X>25</X><Y>70</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>25</X><Y>70</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<FileName><![CDATA[x3d/boy.x3d]]></FileName>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[MA___auto_1]]></Name>
+							<OriginalColor>-3361146</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA___auto_4]]></Name>
+							<OriginalColor>-3355444</OriginalColor>
+							<Color>-256</Color>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA___auto_6]]></Name>
+							<OriginalColor>-11442586</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA___auto_3]]></Name>
+							<OriginalColor>-9419222</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA___auto_10]]></Name>
+							<OriginalColor>-13027015</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA___auto_5]]></Name>
+							<OriginalColor>-6712967</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA___auto_]]></Name>
+							<OriginalColor>-15069925</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA___auto_8]]></Name>
+							<OriginalColor>-3367561</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA___auto_9]]></Name>
+							<OriginalColor>-3407872</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA___auto_7]]></Name>
+							<OriginalColor>-7500403</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA___auto_2]]></Name>
+							<OriginalColor>-6123157</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>0.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<VisibleCode><![CDATA[appearance == 5]]></VisibleCode>
+				</Figure3D>
+				<Figure3D>
+					<Id>1524713823860</Id>
+					<Name><![CDATA[girl1]]></Name>
+					<X>50</X><Y>70</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>50</X><Y>70</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<FileName><![CDATA[x3d/girl.x3d]]></FileName>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[MA_material]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Shape_006]]></Name>
+							<OriginalColor>-3367560</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_B18]]></Name>
+							<OriginalColor>-10078168</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Shape_003]]></Name>
+							<OriginalColor>-3355444</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_A03]]></Name>
+							<OriginalColor>-39836</OriginalColor>
+							<Color>-16744320</Color>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_009]]></Name>
+							<OriginalColor>-16777216</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_000]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Shape_11]]></Name>
+							<OriginalColor>-16777216</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Shape_12]]></Name>
+							<OriginalColor>-2148</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_A01]]></Name>
+							<OriginalColor>-65536</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>0.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<VisibleCode><![CDATA[appearance == 6]]></VisibleCode>
 				</Figure3D>
 			</Shapes>
 
