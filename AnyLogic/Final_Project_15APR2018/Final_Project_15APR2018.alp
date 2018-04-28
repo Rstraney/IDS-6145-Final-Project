@@ -4,7 +4,7 @@
 	         AnyLogic Project File 
 *************************************************	         
 -->
-<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.2.3.201712291301" AlpVersion="8.0.4">
+<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.1.0.201706091042" AlpVersion="8.0.4">
 <Model>
 	<Id>1521507251373</Id>
 	<Name><![CDATA[Final_Project_15APR2018]]></Name>
@@ -11007,6 +11007,121 @@ if (Busqueue.size() < Ferryqueue.size() && Busqueue.size() < Monorailqueue.size(
 
 			<Shapes>
 				<Rectangle>
+					<Id>1524924946934</Id>
+					<Name><![CDATA[rectangle102]]></Name>
+					<X>0</X><Y>1400</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor/>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>900</Width>
+					<Height>80</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+				</Rectangle>
+				<Rectangle>
+					<Id>1524924922869</Id>
+					<Name><![CDATA[rectangle101]]></Name>
+					<X>920</X><Y>1400</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor/>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>900</Width>
+					<Height>80</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+				</Rectangle>
+				<Rectangle>
+					<Id>1524924885383</Id>
+					<Name><![CDATA[rectangle100]]></Name>
+					<X>1840</X><Y>1400</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor/>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>900</Width>
+					<Height>80</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+				</Rectangle>
+				<Rectangle>
+					<Id>1524924840318</Id>
+					<Name><![CDATA[rectangle99]]></Name>
+					<X>2760</X><Y>1400</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor/>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>900</Width>
+					<Height>80</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+				</Rectangle>
+				<Rectangle>
+					<Id>1524924775565</Id>
+					<Name><![CDATA[rectangle98]]></Name>
+					<X>3680</X><Y>1400</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<AsObject>true</AsObject>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor/>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>900</Width>
+					<Height>80</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+				</Rectangle>
+				<Rectangle>
 					<Id>1524856332575</Id>
 					<Name><![CDATA[rectangle97]]></Name>
 					<X>0</X><Y>780</Y>
@@ -11078,7 +11193,7 @@ if (Busqueue.size() < Ferryqueue.size() && Busqueue.size() < Monorailqueue.size(
 				<Rectangle>
 					<Id>1524710522493</Id>
 					<Name><![CDATA[rectangle93]]></Name>
-					<X>2722</X><Y>799</Y>
+					<X>2758</X><Y>776</Y>
 					<Label><X>10</X><Y>10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11124,7 +11239,7 @@ if (Busqueue.size() < Ferryqueue.size() && Busqueue.size() < Monorailqueue.size(
 				<Image>
 					<Id>1523108846102</Id>
 					<Name><![CDATA[image]]></Name>
-					<X>160</X><Y>-10</Y>
+					<X>160</X><Y>-8</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19623,12 +19738,12 @@ can be put into this section.]]></Text>
 						<ColorMapping>
 							<Name><![CDATA[MA_material_6]]></Name>
 							<OriginalColor>-16734209</OriginalColor>
-							<Color>-2968436</Color>
+							<Color>-1</Color>
 						</ColorMapping>
 						<ColorMapping>
 							<Name><![CDATA[MA_material_7]]></Name>
 							<OriginalColor>-6750199</OriginalColor>
-							<Color>-2968436</Color>
+							<Color>-1</Color>
 						</ColorMapping>
 					</ColorTable>
 					<AutoScale>true</AutoScale>
@@ -20690,7 +20805,7 @@ can be put into this section.]]></Text>
 				<Control Type="Window3D">
 					<Id>1523112838151</Id>
 					<Name><![CDATA[window3dFerry]]></Name>
-					<X>160</X><Y>1480</Y>
+					<X>162</X><Y>1480</Y>
 					<Width>740</Width>
 					<Height>520</Height>
 					<MakeDefaultViewArea>true</MakeDefaultViewArea>
@@ -20704,7 +20819,7 @@ can be put into this section.]]></Text>
 				<Control Type="Window3D">
 					<Id>1523809919352</Id>
 					<Name><![CDATA[window3dMonorail]]></Name>
-					<X>1080</X><Y>1480</Y>
+					<X>1082</X><Y>1480</Y>
 					<Width>740</Width>
 					<Height>520</Height>
 					<MakeDefaultViewArea>true</MakeDefaultViewArea>
@@ -20718,7 +20833,7 @@ can be put into this section.]]></Text>
 				<Control Type="Window3D">
 					<Id>1523821344998</Id>
 					<Name><![CDATA[window3dBuses]]></Name>
-					<X>2000</X><Y>1480</Y>
+					<X>2002</X><Y>1480</Y>
 					<Width>740</Width>
 					<Height>520</Height>
 					<MakeDefaultViewArea>true</MakeDefaultViewArea>
@@ -20732,7 +20847,7 @@ can be put into this section.]]></Text>
 				<Control Type="Window3D">
 					<Id>1523821453087</Id>
 					<Name><![CDATA[window3dParkingLot]]></Name>
-					<X>2920</X><Y>1480</Y>
+					<X>2922</X><Y>1480</Y>
 					<Width>740</Width>
 					<Height>520</Height>
 					<MakeDefaultViewArea>true</MakeDefaultViewArea>
@@ -20746,7 +20861,7 @@ can be put into this section.]]></Text>
 				<Control Type="Window3D">
 					<Id>1524425747624</Id>
 					<Name><![CDATA[window3d]]></Name>
-					<X>3840</X><Y>1480</Y>
+					<X>3842</X><Y>1480</Y>
 					<Width>740</Width>
 					<Height>520</Height>
 					<MakeDefaultViewArea>true</MakeDefaultViewArea>
