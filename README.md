@@ -183,17 +183,13 @@ As described in the Model section of our report, there are assumptions and param
 
 #### Limitations
 
-_Anylogic_. While we had the opportunity to explore some aspects of Anylogic, we noticed that the personal learning edition (student free version) has some restrictions to the pedestrian features offered. For example, we wanted to run our simulation for longer than an hour but that requires us to purchase the full version of Anylogic. Since we were unable to run our simulation for longer than an hour, we feel that our results may vary due to this single limitation.
+_Anylogic_. While we had the opportunity to explore some aspects of Anylogic, we noticed that the personal learning edition (student free version) has some restrictions to the pedestrian features offered. For example, we wanted to run our simulation for longer than an hour but that required us to purchase the full version of Anylogic. Since we were unable to run our simulation for longer than an hour, we feel that our results may vary due to this single limitation.
+
+We also ran into issues related to computing power. We wanted to implement a full scale of at least 6,000 vistors per hour but our computer systems could not withstand the large scale of vistors we were trying to implement in our model. Therefore, in order to combat this issue, we had to scale the number of vistors down to ten percent. Originally, we wanted to include 6,000 vistors but unfortunately, we had to downsize to 600 people so that the model could fully function. This is a solution we came up with to remedy the limited computing power we experienced. In our results, we converted our model scale to realistic estimates by multiplying our variables by ten. For example, 600 vistors will be multipled by 10 to better represent the 6,000 vistors we originally wanted to implement in our model but couldn't simply because we had limited computing power.
 
 
 
-Couldn't do a full scale of 6,000 people per hour but do computing power limitations we could decided to scale the model down to ten percent (600 people). This is a solution that we came up with and once we run our model we plan to multiple by ten to get more realistic estimates.
-
-
-
-
-
-_Data_.
+_Data_. For our project and model, we found it difficult to implement real data within our model. This is due to the fact that Disney does not provide public records of data. We had to use synthtic data in our model in order to 
 
 _Model Resolution_.
 
