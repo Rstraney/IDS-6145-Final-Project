@@ -57,16 +57,16 @@ An Object Diagram is shown below, which summarizes the main objects of the Magic
 
 
 #### Modes of Transportation:
-Walt Disney Monorail
+Walt Disney Monorails
 ![MK-Monorail.png](./images/MK-Monorail.png)
 
-Walt Disney Ferry boat
+Walt Disney Ferry boats
 ![Mk_ferry.png](./images/Mk_ferry.png)
 
-Walt Disney Bus
+Walt Disney Buses
 ![MK_bus.png](./images/MK_bus.png)
 
-Walt Disney Minnie Van
+Walt Disney Minnie Vans
 ![minnie_van.png](./images/minnie_van.png)
 
 
