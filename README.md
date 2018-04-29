@@ -49,7 +49,7 @@ A member of our team enjoying Space Mountain at Walt Disney World.
 
 ## The Model
 
-An Object Diagram is shown below, which summarizes the main objects of the Magic Kingdom Guest Entrance System. As guests arrive they can park in one of two lots, the Hero lot or the Villain lot. From there, guests travel by foot or by tram to the security checkpoint. Guests are asked to go through the security lines. Security lines are divided into guests with bags and guest without bags. Finally, from the Transportation and Ticket Center (TTC), guests have a choice which mode of  transportation (bus, monorail, ferry boat, or Minnie Van) to take to get to the entrance of the park.
+An Object Diagram shown below depicts the main objects of the Magic Kingdom Guest Entrance System. As guests arrive they are directed to park in one of the two parking lots, the Hero lot or the Villain lot. From the parking lot, guests travel by foot or by tram to the security checkpoint. Guests are randomly to go through the security lines. Security lines are divided into guests with bags and guest without bags. Finally, from the Transportation and Ticket Center (TTC), guests have a choice which mode of  transportation (bus, monorail, ferry boat, or Minnie Van) to take to get to the entrance of the park.
 
 ![**Object Diagram.png**](images/BDFP1.png)
 
@@ -172,14 +172,21 @@ As described in the Model section, there are assumptions and parameters that nee
 
 
 
+#### Limitations
+
+_ Anylogic_. While we had the opportunity to explore some aspects of Anylogic, we noticed that the student free version has some restrictions to the pedestrian features offered in Anylogic. For example, we wanted to run our simulation for longer than an hour but that requires us to purchase the full version of Anylogic. Since we were unable to run our simulation for longer than an hour, we feel that our results may vary due to this single limitation. If given an opprotunity to work with the full version of Anylogic, we would like to further investigate whether or not running our simulation for more than an hour would alter our results. Future studies should consider working with the full version of Anylogic to further investigate this limitation in our study.
+
+_Real data_.
+
+
+
+
+
+
+
+
 
 #### Future Research
-
-#### Limitations
-While we had the opprotunity to explore some aspects of Anylogic, we noticed that the free version has some restrictions to the features offered on Anylogic. For example, we wanted to run our simulation for longer than an hour but that requires us to purchase the full version of Anylogic. Since we were unable to run our simulation for longer than an hour, we feel that our results may vary due to this limitation. If given an opprotunity to work with the full version of Anylogic, we would like to further investigate whether or not running our simulation for more than an hour would alter our results. Future studies should consider purchasing the full version of Anylogic to further investigate this limitation in our study.
-
-
-To make our simulation more realistic to the real world settings of Disney World, we ran into issues with trying to build the logic for the two trams (heroes and villians trams).
 
 
 
