@@ -29,19 +29,6 @@ Walt Disney developed the Transportation and Ticket Center (TTC), where guests c
 From our research, we found that Disney's Magic Kingdom theme park averages roughly 53,000 guests attendence per day. Of this, there are roughly 12,000 at most that can enter the park through the Magic Kingdom parking lot as this is the number of availabe parking spots. We can hypothesize that the high volume of guests that visit the Magic Kingdom park experience extensive wait times to travel to and from the TTC. Extensive wait times is a problem that is both interesting and relevant to Disney's Magic Kingdom park visitors, as it may affect the quality of  the overall experience while also imposing potential safety concerns. We propose the following system: Magic Kingdom Guests Entrance System as an attempt to improve upon the issue related to extensive wait times for the offered modes of transportation. We are interested in investigating and identifying: (1) which mode of transportation is the fastest method to get to the TTC to the park entrance of Magic Kingdom, (2) does the design of the TTC create bottlenecking, and (3) does it lead to unnecessary wait times that can lead to negative experiences for their guests.
 
 
-Walt Disney Monorail transportation:
-![MK-Monorail.png](./images/MK-Monorail.png)
-
-
-Walt Disney Bus transpotation:
-
-
-
-
-
-
-
-
 We found very limited research on Walt Disney's modes of transportation in terms of which option is the fastest or how extensive wait times can affect visitors experience. What we did find in our research is which mode of transportation is the most used, which is the iconic monorail system. We also found limited research on whether or not the TTC creates bottlenecking during different volumes of time and whether or not that it leads to extensive wait times. We believe our project makes the following contributions to answering research questions that have yet to be identified or answered. We beleive the first contribution would benefit Disney's Magic Kingdom park visitors. As our research will investigate the fastest type(s) of transportation offered, if time of day affects which method is the fastest, if bottlenecking occurs and during what time of day does it occur. Our project's contributions will help Disney's employees as well as their guests in terms of how to approach extensive wait times. Our project will also contribute to the overall limited research in this particular area. We hope that our project's contributions become the starting point for future research as well.
 
 Crowd diversion systems have been an area of focus for the theme park industry for a number of years. Disney's FASTPASS and Universal Studios' Express Pass have both been developed and implemented to reduce the amount of lines and wait times once guests are inside the park. However, these solutions do very little to remedy the time it takes guests to enter the park. As this is the first thing guests experience during their visit to the Magic Kingdom, this is a very import piece to the broader park system. Past simulation research can be generalized to our project by substituting rides with the main queuing points of the Magic Kingdom entrance. This project makes the following contributions towards:
@@ -60,6 +47,25 @@ A member of our team enjoying Space Mountain at Walt Disney World.
 An Object Diagram is shown below, which summarizes the main objects of the Magic Kingdom Guest Entrance System. As guests arrive they can park in one of two lots, the Hero lot or the Villain lot. From there, guests travel by foot or by tram to the security checkpoint. Guests are asked to go through the security lines. Security lines are divided into guests with bags and guest without bags. Finally, from the Transportation and Ticket Center (TTC), guests have a choice which mode of  transportation (bus, monorail, ferry boat, or Minnie Van) to take to get to the entrance of the park.
 
 ![**Object Diagram.png**](images/BDFP1.png)
+
+Walt Disney Monorail transportation:
+![MK-Monorail.png](./images/MK-Monorail.png)
+
+Walt Disney Bus transportation:
+![MK_bus.png](./images/MK_bus.png)
+
+Walt Disney Ferry boat transportation:
+![Mk_ferry.png](./images/Mk_ferry.png)
+
+Walt Disney Minnie Van transportation:
+![minnie_van.png](./images/minnie_van.png)
+
+
+
+
+
+
+
 
 ## Fundamental Questions
 The Magic Kingdom Guest Entrance System is being designed for simulation to answer the following fundamental questions:
@@ -199,5 +205,16 @@ Solmaz, G., & Turgut, D. (2017). Modeling pedestrian mobility in disaster areas.
 
 Spence, J. (2011). Transportation and ticket center - TTC. http://land.allears.net/blogs/jackspence/2011/04/transportation_and_ticket_cent.html
 
-WDWMAGIC: An Unofficial Walt Disney World Fan Site. *Facts*. https://www.wdwmagic.com/facts!.htm 
+WDWMAGIC: An Unofficial Walt Disney World Fan Site. *Facts*. https://www.wdwmagic.com/facts!.html
 
+
+##Image References
+http://www.disneyeveryday.com/free-rides-at-the-richard-petty-driving-experience-in-walt-disney-world/
+
+http://www.chipandco.com/monorail-happy-hour-adult-escape-87063/
+
+https://www.undercovertourist.com/blog/rent-or-ride-car-rental-considerations-for-your-orlando-vacation/
+
+https://itsofftoneverland.wordpress.com/tag/magic-kingdom/page/2/
+
+https://www.tripsavvy.com/the-ultimate-guide-to-disney-world-transportation-4149857
