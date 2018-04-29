@@ -120,14 +120,17 @@ For the Magic Kingdom Entrance system the data will be presented in the form of 
 
 
 ![Line Graph Pot Example](images/LineGraphExample2.jpg)
+
 _Line Graph_. A line graph will be used to show the change in average transit time (in minutes) as the time of the day changes from the time the park opens until it closes. This can be useful when validating our model.
 
 
 ![Scatter Plot Example](images/ScatterPlotExample2.jpg)
+
 _Scatter Plot_. A scatter plot by groups will be used to track transit times (in minutes) of agents. The scatter plot will visually show where most of the transit times fall. Visualizations like these can also be used to compare the duration of time to enter the park at peak and non-peak times of the day.
 
 
 ![Histogram Example](images/HistogramExample3.jpg)
+
 _Histogram_. Histograms will be used to plot the time (in minutes) it takes to get into the park by the four different modes of transportation.
 
 
