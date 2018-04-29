@@ -126,12 +126,12 @@ _Line Graph_. A line graph will be used to show the change in average transit ti
 
 ![Scatter Plot Example](images/ScatterPlotExample2.jpg)
 
-_Scatter Plot_. A scatter plot by groups will be used to track transit times (in minutes) of agents. The scatter plot will visually show where most of the transit times fall. Visualizations like these can also be used to compare the duration of time to enter the park at peak and non-peak times of the day.
+_Scatter Plot_. A scatter plot by groups will be used to track transit times (in minutes) of agents. The scatter plot will visually show where most of the transit times fall. Visualizations like scatter plots can also be used to compare the duration of time it takes to enter the park at peak and non-peak times throughout the day.
 
 
 ![Histogram Example](images/HistogramExample3.jpg)
 
-_Histogram_. Histograms will be used to plot the time (in minutes) it takes to get into the park by the four different modes of transportation.
+_Histogram_. Histograms will be used to plot the time (in minutes) it takes to get into the park by the four different modes of transportation (monorail, ferry, bus and Minnie van).
 
 
 
@@ -140,23 +140,25 @@ _Histogram_. Histograms will be used to plot the time (in minutes) it takes to g
 ## Research Methods
 
 #### Methods used in Similar Studies
-There have been numerous publications involving research to estimate visitors at theme parks and evaluate guest traffic flow. The purpose behind much of this research falls into one of two categories: 1. ) Assessment of how wait times impact park visitor experience and 2.) Analysis of emergency or disaster management relative to congestion in the park. For example, Ahmadi (1997) focused on the Six Flags Magic Mountain theme park to address questions of daily operations such as managing traffic flow in the park and suggesting routing tours for guests (Ahmadi, 1997). Data used in his analysis included primary data from a visitor questionnaire and direct measures provided by the park which included park attendance and queue lengths at rides. More recent research by Shih-Fen Cheng, et al. in 2013 and Liou Chu, et al. in 2014 also considered guest satisfaction . Whereas  Shih-Fen Cheng and his team developed and constructed a very large agent-based model, Liou Chu approached their work by designing a Theme Park Queuing System using discrete-event simulation (Cheng, 2013; Chu, 2014). A publication by Gurkan Solmaz and Damla Turgut (2017), on the other hand, is a good example of how simulating theme park attendee traffic can address issues of safety. Their study focused on the foot traffic patterns of guests in theme parks to evaluate mobility in the event of a disaster. The researchers used information collected from mobile devices carried by 11 volunteers to simulate visitor movement around the park. The simulation used in the study was an agent-based model (Solmaz, 2017).
+There is exisiting research relatd to investigating the estimate of vistor attendence at theme park and evaulations of the vistor traffic flow. The purpose behind this research falls into one of the two catergories: 1) assessment of how wait times impact theme park vistor experience and 2) analysis of emergency or disaster management relative to congestion in the park. For example, Ahmadi (1997) focused on the Six Flags Magic Mountain theme park to address questions related to daily operations such as managing traffic flow in the park and suggestions for rerouting of tours offered to guests. Data used in his fomrla analysis included primary data collected from  visitor questionnaires and direct measures provided by the park, which included park attendance and queue lengths at ride attractions.
+
+More recent research by Shih-Fen Cheng et al. (2013) and Liou Chu et al. (2015), considered guest satisfaction. Whereas  Shih-Fen Cheng et al. (2013) developed and constructed a very large agent-based model. Liou Chu et al. (2014) approached their work by designing a Theme Park Queuing System using discrete-event based simulation (Cheng, 2013; Chu, 2014). A publication by Gurkan Solmaz and Damla Turgut (2017), on the other hand, is a good example of how simulating theme park attendence traffic can address issues of safety. Their study focused on the foot traffic patterns of guests in theme parks to evaluate the degree of mobility in the event of a disaster. The researchers used information collected from mobile devices carried by 11 volunteers to simulate visitor movement around the park. The simulation used in the study was an agent-based model (Solmaz, 2017).
 
 
 #### Proposed Methods for our Research
 
-Although there are several approaches to simulating traffic and movement throughout a theme park, our team has elected to develop a discrete-event simulation to address our research questions. Furthermore, we plan to include an agent-based aspect to our simulation since our preliminary research has concluded that characteristics of the park guests play a significant factor in our system. For example, guests visiting in large groups or with small children may take longer to reach the entrance of the park from the Transportation and Ticket Center (TTC). Therefore, agents in our model will be groups of individuals with attributes like average age and number in the group.
+Although there are several approaches to simulating traffic and movement throughout a theme park, our team has elected to develop a discrete-event based simulation to address our research questions. Furthermore, we plan to include an agent-based aspect to our simulation since our preliminary research has concluded that characteristics of the park guests play a significant factor in our system. For example, guests visiting in large groups or with small children may require more time to reach the entrance of the park from the Transportation and Ticket Center (TTC). Therefore, agents in our model will be groups of individuals with attributes like average age and number in the group.
 
-As described in the Model section, there are assumptions and parameters that need to be estimated to develop a meaningful simulation. The resources mentioned above and others will assist us in identifying these estimates. Below are a few of the preliminary estimates for the simulation as well as any relevant assumptions or limitations:
+As described in the Model section of our report, there are assumptions and parameters that need to be estimated to develop a meaningful simulation. The resources mentioned will assist us in identifying these estimates. Below are a few of the preliminary estimates for the simulation as well as any relevant assumptions or limitations:
 - The maximum daily park attendance (groups of guests) by way of the parking lot is 12,156 (https://www.wdwmagic.com/facts!.htm)
 
-- The typical travel time required for each mode of transport into park (using Google maps distance measuring tool the distance of the bus route (and the Minnie van route) is approximately 1.12 miles, the distance of the Monorail route is approximately 1.56 miles and the distance of the ferry route is approximately .67 miles).
+- The typical travel time required for each mode of transportation into the park using Google maps distance measuring tool reports that the distance of the bus route and the Minnie van routes are approximately 1.12 miles, the distance of the Monorail route is approximately 1.56 miles and the distance of the ferry route is approximately .67 miles).
 
-- The typical wait time through security at the Transportation and Ticket Center (TTC) will depend on whether the guests are carrying bags as there are two security lines - one for guests with bags and the other for guests without. For simplicity, if a group is carrying a bag, all members of that group will go through the same security line.
+- The typical wait time through the security checkpoint before arriving at the Transportation and Ticket Center (TTC) will depend on whether or not guests are carrying bags into the park. There is essential two forms of lines at the security checkpoint; guest with bags and guest with no bags. For simplicity, guests with bags, will go through the same security line.
 
-- Although any mechanical issues for the different modes of transportation (e.g. out of service buses, engine problems) will increase travel time for guests, our model assumes all modes of transportation are running continuously during Magic Kingdom's hours of operation. 
+- Although all modes of transportation may experience mechanical issues (e.g., out of service buses, engine problems, system malfunctions, etc.). We excluded this issue to obtain some control in our model. Therefore, we will be assuming that all modes of transportation are running without any mechanical issues during the duration of our model.
 
-- All modes of transportation, excluding the Minnie vans, are included in the price of admission, while a ride in a Minnie van is a flat rate fee of $20 per ride. While this may be a factor in guests' choices for transportation, this information will not be considered in our model.
+- All modes of transportation, excluding the Minnie vans, are complimentary and included in the price of admission with the exception of the Minnie vans. There is a flat rate fee of $20.00 per ride that is associated with the Minnie van transportation option. The cost factor associated with the Minnie vans may affect the guests' choice of which mode of transportation to take. Therefore, this particular mode of transportation will not be implemented in our model.
 
 
 
@@ -164,8 +166,6 @@ As described in the Model section, there are assumptions and parameters that nee
 
 
 ## Results
-- variable assumptions
-- 
 
 
 
