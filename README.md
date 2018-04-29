@@ -174,7 +174,7 @@ As described in the Model section, there are assumptions and parameters that nee
 
 #### Limitations
 
-_ Anylogic_. While we had the opportunity to explore some aspects of Anylogic, we noticed that the student free version has some restrictions to the pedestrian features offered in Anylogic. For example, we wanted to run our simulation for longer than an hour but that requires us to purchase the full version of Anylogic. Since we were unable to run our simulation for longer than an hour, we feel that our results may vary due to this single limitation. If given an opprotunity to work with the full version of Anylogic, we would like to further investigate whether or not running our simulation for more than an hour would alter our results. Future studies should consider working with the full version of Anylogic to further investigate this limitation in our study.
+_Anylogic_. While we had the opportunity to explore some aspects of Anylogic, we noticed that the student free version has some restrictions to the pedestrian features offered in Anylogic. For example, we wanted to run our simulation for longer than an hour but that requires us to purchase the full version of Anylogic. Since we were unable to run our simulation for longer than an hour, we feel that our results may vary due to this single limitation. If given an opprotunity to work with the full version of Anylogic, we would like to further investigate whether or not running our simulation for more than an hour would alter our results. Future studies should consider working with the full version of Anylogic to further investigate this limitation in our study.
 
 _Real data_.
 
