@@ -4,7 +4,7 @@
 	         AnyLogic Project File 
 *************************************************	         
 -->
-<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.2.3.201712291301" AlpVersion="8.0.4">
+<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.1.0.201706091042" AlpVersion="8.0.4">
 <Model>
 	<Id>1521507251373</Id>
 	<Name><![CDATA[Final_Project_28APR2018]]></Name>
@@ -20015,7 +20015,12 @@ oval.setFillColor(colors.get(animationIndex));]]></Body>
 					<Z>0</Z>
 					<Rotation>0.0</Rotation>
 					<Color>-16777216</Color>
-					<Text><![CDATA[objectives of the simulation********]]></Text>
+					<Text><![CDATA[The Magic Kingdom Guests Entrance System is a simulation
+developed to evalaute guest entry into the park. Particular focus is
+placed on the three main modes of transportation into the park: 
+monorail, ferry and bus. The goals of this project include resolving
+the problem of extensive wait times for the offered modes of
+transportation to increase guest satisfaction and safety.]]></Text>
 					<Font>
 						<Name>Arial</Name>
 						<Size>12</Size>
