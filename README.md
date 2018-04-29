@@ -56,7 +56,7 @@ An Object Diagram is shown below, which summarizes the main objects of the Magic
 
 
 
-##### Modes of Transportation:
+#### Modes of Transportation:
 Walt Disney Monorail
 ![MK-Monorail.png](./images/MK-Monorail.png)
 
