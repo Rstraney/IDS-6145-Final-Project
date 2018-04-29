@@ -10,7 +10,8 @@
 > * Project Title: MAGIC KINGDOM GUESTS ENTRANCE SYSTEM
 
 ## Project Roles
-For our final project, we felt that it was in our best interest to assign specific roles and responsibilities to each of our team members. Based on our knowlege, skills and abilities, we wanted to really demonstrate each of our indivdual and collective strengths in our final project. Rachel and Michael have been our project's avid Anylogic model builders. They have been leading the efforts in creating the model of our system. Blake and Adam are responsible for the research and written report of the final project. Collectively, we have been successful at collaborating and supporting one another at various stages of our final project. We strongly believe that our team has performed well together and that our final project represents are efforts and successes.
+For our final project, we felt that it was in our best interest to assign specific roles and responsibilities to each of our team members. Based on our knowlege, skills and abilities, we wanted to demonstrate our indivdual and collective strengths in our final project. Rachel and Michael have been our project's avid Anylogic model builders. They have been leading the efforts in creating the model of our system as well as data analysis. Blake and Adam are responsible for the research and written report of the final project. Collectively, we have been successful at collaborating and supporting one another at various stages of our final project. We strongly believe that our team has performed well together and that our final project represents are efforts and successes.
+
 
 
 
@@ -101,31 +102,36 @@ The sub questions that flow from the 3 fundamental questions are:
 
 ## Expected Results
 
-The fundamental questions are to be answered by the simulation created to represent the system.  However, before the simulation is built there are notions of what answers to some of the questions will be and the simulation will be used to determine if these pre stated answers are correct.
 
-- The Disney buses and Minnie vans are expected to have the shortest travel times. The monorail is expected to have the second shortest travel time and the ferry boats are expected to have the slowest travel time.
+The fundalmental questions are to be answered with the data collected from the model of our system. To some degree we have preliminary results that are supported by the notions of existing research. However, to fully address our fundamental questions a model is needed to better address the questions related to our system.
 
-- The time it takes to travel from the TTC to the Magic Kingdom park entrance, regardless of transportation method, is expected to increase during peak visiting hours during the day. This expectation is from personal experience at the parks during peak times and the perception that the time it took was statistically significantly longer. For example, getting into the park during normal business hours is expected to take longer than as the park is nearing closing time.
+
+- The Disney buses and Minnie vans are expected to have the fastest travel times. The monorail is expected to have the second fastest travel time and the ferry boats are expected to have the slowest travel time.
+
+- The time it takes to travel from the TTC to the Magic Kingdom park entrance, regardless of transportation method, is expected to increase during peak visiting hours during the day. This expectation is interferred by personal experiences of our researchers. The parks during peak times and the perception that the time it took was statistically significantly longer. For example, getting into the park during normal business hours is expected to take longer than as the park is nearing closing time.
 
 - The expectation, before running the simulation, is that a bottleneck is created at the TTC during peak hours due to its design.
 
 
-For the Magic Kingdom Entrance system the data will be presented in the form of line graphs, scatter plots and histograms.
 
 
-Histograms will be used to plot the time (in minutes) it takes to get into the park by the four different modes of transportation.
+#### Visulization Data
+For the Magic Kingdom Entrance system the data will be presented in the form of line graphs, scatter plots, and histograms.
 
 
-![Histogram Example](images/HistogramExample3.jpg)
-
-A scatter plot by groups will be used to track transit times (in minutes) of agents.  The scatter plot will visually show where most of the transit times fall. Visualizations like these can also be used to compare the duration of time to enter the park at peak and non-peak times of the day.
+![Line Graph Pot Example](images/LineGraphExample2.jpg)
+_Line Graph_. A line graph will be used to show the change in average transit time (in minutes) as the time of the day changes from the time the park opens until it closes. This can be useful when validating our model.
 
 
 ![Scatter Plot Example](images/ScatterPlotExample2.jpg)
+_Scatter Plot_. A scatter plot by groups will be used to track transit times (in minutes) of agents. The scatter plot will visually show where most of the transit times fall. Visualizations like these can also be used to compare the duration of time to enter the park at peak and non-peak times of the day.
 
-A line graph will be used to show the change in average transit time (in minutes) as the time of the day changes from the time the park opens until it closes. This can be useful when validating our model.
 
-![Line Graph Pot Example](images/LineGraphExample2.jpg)
+![Histogram Example](images/HistogramExample3.jpg)
+_Histogram_. Histograms will be used to plot the time (in minutes) it takes to get into the park by the four different modes of transportation.
+
+
+
 
 
 ## Research Methods
