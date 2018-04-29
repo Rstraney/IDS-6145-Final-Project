@@ -177,15 +177,15 @@ As described in the Model section of our report, there are assumptions and param
 - limitations of our simulation/study
 - why we didn't use the minnie vans
 - initial assumptions versus our actual results
-- limitations of using anylogic
-- add terminology fidelity (when the model represents the real world)
 - example of that is pedestrians only walk through the parking lot.
 
 
 
 #### Limitations
 
-_Anylogic_. While we had the opportunity to explore some aspects of Anylogic, we noticed that the student free version has some restrictions to the pedestrian features offered in Anylogic. For example, we wanted to run our simulation for longer than an hour but that requires us to purchase the full version of Anylogic. Since we were unable to run our simulation for longer than an hour, we feel that our results may vary due to this single limitation. If given an opprotunity to work with the full version of Anylogic, we would like to further investigate whether or not running our simulation for more than an hour would alter our results. Future studies should consider working with the full version of Anylogic to further investigate this limitation in our study.
+_Anylogic_. While we had the opportunity to explore some aspects of Anylogic, we noticed that the personal learning edition (student free version) has some restrictions to the pedestrian features offered. For example, we wanted to run our simulation for longer than an hour but that requires us to purchase the full version of Anylogic. Since we were unable to run our simulation for longer than an hour, we feel that our results may vary due to this single limitation.
+
+
 
 Couldn't do a full scale of 6,000 people per hour but do computing power limitations we could decided to scale the model down to ten percent (600 people). This is a solution that we came up with and once we run our model we plan to multiple by ten to get more realistic estimates.
 
@@ -214,16 +214,12 @@ _Model Fidelity_.
 #### Future Research
 Kider's email including the paper he wanted us to look over.
 
+If given an opprotunity to work with the full version of Anylogic, we would like to further investigate whether or not running our simulation for more than an hour would alter our results. Future studies should consider working with the full version of Anylogic to further investigate this limitation in our study.
 
 
 
 
 
-
-
-
-https://forums.wdwmagic.com/threads/never-go-to-the-park-without-a-bag.935235/
-(Possible reference for bag and no bag line)
 
 
 
@@ -246,6 +242,9 @@ Solmaz, G., & Turgut, D. (2017). Modeling pedestrian mobility in disaster areas.
 Spence, J. (2011). Transportation and ticket center - TTC. http://land.allears.net/blogs/jackspence/2011/04/transportation_and_ticket_cent.html
 
 WDWMAGIC: An Unofficial Walt Disney World Fan Site. *Facts*. https://www.wdwmagic.com/facts!.html
+
+https://forums.wdwmagic.com/threads/never-go-to-the-park-without-a-bag.935235/
+
 
 
 ## Image References
