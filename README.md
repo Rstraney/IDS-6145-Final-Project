@@ -9,6 +9,11 @@
 > * RACHEL STRANEY
 > * Project Title: MAGIC KINGDOM GUESTS ENTRANCE SYSTEM
 
+## Project Roles
+For our final project, we felt that it was in our best interest to assign specific roles and responsibilities to each of our team members. Based on our knowlege, skills and abilities, we wanted to really demonstrate each of our indivdual and collective strengths in our final project. Rachel and Michael have been our project's avid Anylogic model builders. They have been leading the efforts in creating the model of our system. Blake and Adam are responsible for the research and written report of the final project. Collectively, we have been successful at collaborating and supporting one another at various stages of our final project. We strongly believe that our team has performed well together and that our final project represents are efforts and successes.
+
+
+
 # Abstract
 
 Magic Kingdom, at Walt Disney World theme parks in Orlando Florida, has lived up to its tagline as being "The Most Magical Place on Earth" by becoming one of the most visited theme parks in the world. According to the Themed Entertainment Association Global Attractions Attendance report in 2015, Walt Disney's Magic Kingdom hosted over 20 million visitors. (http://www.teaconnect.org/images/files/TEA_160_611852_160525.pdf). Avid Disney goers and first time guests are well aware of the affects of population size and it's impact on the overall theme park experience. Not only does the population size affect overall experience for guests but it also imposes safety issues.
@@ -175,11 +180,7 @@ To make our simulation more realistic to the real world settings of Disney World
 
 
 
-## Project Roles
-For our final project, we felt that it was in our best interst to assign roles to each of our team members. Based on our knowlege, skills and abilities, we wanted to optimize on our indivdual strengths. Rachel has a background in statisics and some knowledge of coding. Therefore, she is responsible for . Adam has experience in research and theme parks. He 
 
-Michael has a background in 
-Blake has a backround in Psychology, so she is responsible for majority of the formal report. 
 
 
 https://forums.wdwmagic.com/threads/never-go-to-the-park-without-a-bag.935235/
