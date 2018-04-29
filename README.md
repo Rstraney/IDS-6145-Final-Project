@@ -115,7 +115,7 @@ The fundalmental questions are to be answered with the data collected from the m
 
 
 
-#### Visulization Data
+#### Visulized Data of Expected Results
 For the Magic Kingdom Entrance system the data will be presented in the form of line graphs, scatter plots, and histograms.
 
 
