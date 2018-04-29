@@ -208,7 +208,7 @@ Spence, J. (2011). Transportation and ticket center - TTC. http://land.allears.n
 WDWMAGIC: An Unofficial Walt Disney World Fan Site. *Facts*. https://www.wdwmagic.com/facts!.html
 
 
-##Image References
+## Image References
 http://www.disneyeveryday.com/free-rides-at-the-richard-petty-driving-experience-in-walt-disney-world/
 
 http://www.chipandco.com/monorail-happy-hour-adult-escape-87063/
