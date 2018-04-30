@@ -194,6 +194,25 @@ As described in the Model section of our report, there are assumptions and param
 
 
 
+#### Estimates for our AnyLogic Model
+
+<table>
+<tr ><th>Parameter</th><th>Real System Estimate</th><th>Scaled Estimate for Anylogic (if applicable)</th><th>Methods</th></tr><tbody>
+ <tr><td>&nbsp;</td><td> </td><td></td><td>&nbsp;</td></tr>
+ <tr><td>Rate at which guests begin walking through the Magic Kingdom Parking Lot</td><td>100 guests/min</td><td>10 guests/min</td><td>Our research shows that the parking lot holds at most 12,156 cars. Based on anecdotal evidence, we assumed the lot would be half full after one hour as quests typically visit for an entire day. This seems to be a very conservative estimate. This rate is scaled down to 10% to account for the large computing power required to run this model. </td></tr>
+ <tr><td>Proportion of guests that enter from the Heroes lot as opposed to the Villains lot</td><td>0.5</td><td>-</td><td>As guests typically line up at the parking gates prior to the park opening and parking attendants direct cars quickly and efficiently, we assumed the lots would be filled equally.</td></tr>
+ <tr><td>Speed of pedestrians walking</td><td>triangular(1,3,4) miles/hour</td><td>-</td><td>We researched how quickly people tend to walk at a comfortable speed. One of our sources estimated time and distance to walk by location (which the MK parking lot to TTC route was used).</td></tr>
+ <tr><td>Number of security lines available</td><td>20</td><td>2</td><td>As we decided to restrict  our simulation to the first hour the park is open, we estimate the real world number of lines would be close to 20. We scaled the number of lines to 10% to align with the number of guests.  </td></tr>
+ <tr><td>Likelihood of guest bringing a bag to park</td><td>0.65</td><td>-</td><td>Again, due to certain information required for this model being very proprietary and difficult to obtain, we used our experience to estimate for this. As the average age of guests tend to be young children, we assumed their accompanying adults would be carrying bags.</td></tr>
+ <tr><td>Delay time for security lines with bags</td><td>triangular(0.08, 0.25, 0.5)</td><td>-</td><td>Estimates for each delay type were obtained by reenacting the event multiple times with group members and tracking time in seconds. We assume that guests without bags would stay together with members of their group and at times go through the bag security line. Additionally, it has been observed that guests without bags have carried strollers through which although is not considered a bag can take some time to check in the No bag lines. We wanted to keep the model units of time consistent, so time was converted from seconds to minutes.</td></tr>
+ <tr><td>Delay time for security lines without bags</td><td>triangular(0.05, 0.16, 0.33)</td><td>-</td><td>&nbsp;</td></tr>
+ <tr><td>Likelihood of guests selecting a mode of transport to the MK entrance</td><td>Ferry (1/3); Monorail (1/3);    Bus (1/3)</td><td>-</td><td>We were uncertain of this parameter and so we wanted to first test the model assuming that each mode is equally likely. We later ran the model with estimates of Ferry (0.3), Monorail (0.5) and bus (0.2), which we felt was more representative of guest behavior, to see how this impacted guest arrival times.</td></tr>
+ <tr><td>Ferry capacity and resources</td><td>3 ferries; 600 guests each</td><td>3 ferries; 60 guests each</td><td>When the park first opens, there are 3 ferries that run between the TTC and the MK entrance. Each ferry can hold up to 600 guests. These numbers were obtained through public websites and blogs.</td></tr>
+ <tr><td>Monorail capacity and resources</td><td>1 monorail; 360 guests</td><td>1 monorail; 36 guests</td><td>There is only one monorail line that runs between the TTC and the MK entrance. This monorail can hold up to 360 guests. These numbers were obtained through public websites and blogs.</td></tr>
+ <tr><td>Bus capacity and resources</td><td>10 buses; 53 guests</td><td>10 buses; 5 guests</td><td>Although Disney owns and operates roughly 350 buses for all 4 parks and Disney Springs, it was difficult to obtain an estimate for how many of them are reserved for transportation between TTC and the MK entrance. Based on observation, it is likely that no more than 10 buses would be running at a given time for transport. Each bus can hold up to 53 guests. These numbers were obtained through public websites and blogs.</td></tr>
+ <tr><td>Travel time for each  transportation mode</td><td>Ferry - 29 mph; Monorail - 40 mph; Bus - 40 mph</td><td>-</td><td>Research on road speed limits as well as information on average speeds of ferries and monorails were used.</td></tr>
+</tbody></table>
+
 
 
 
