@@ -76,6 +76,38 @@ Walt Disney Minnie Vans
 
 
 
+### Model Description:
+
+The anylogic model created to cover the movement of people from the TTC to MK entrance consists of the following blocks:
+
+  SelectOutputIn (x1)
+  SelectOutputOut (x3)
+  TimeMeasureStart(x3)
+  TimeMeasureEnd(x3)
+  Batch(x3)
+  Unbatch(x3)
+  Service(x3)
+  Sink(x3)
+  ResourcePool (x3)
+
+Each of the three modes of transportation (monorail, ferry and bus) were setup in a similar manner to ensure consistency in how the model was running each method.  The selectOutputIn (called SelectTransport in the model) was used to have each agent determine which mode of transportation to select.  The selection was based on probabilities with 30 percent going to the ferry, 50 percent going to the monorail and 20 percent going to the buses.  The reason for this distribution was based on personal experience of the members and their families.  The group agreed that most new visitors to the park would choose the monorail, the ferry would be the second choice and the buses are mainly used by those who have visited the park before and know about them.
+
+To ensure the model behaved in the way the group members have experienced at Magic Kingdom, the batch block was used.  The batch block was used to allow agents to be grouped together before all the agents took the selected mode of transportation.  The batch size for the ferry was set to 600 agents, the batch size for the monorail was set to 360 and the batch size for the buses was set to 50.  When the model is running the batch size much reach capacity before it pushes the batch to the connected service block.  One limitation of the batch is that the model was not able to get the batch to push agents before the batch was full if enough time expired and would be an improvement for the next iteration of the model.
+
+The service blocks were used to set the time ( in the form of the delay setting) it took each mode of transportation to get to the entrance to Magic Kingdom.  All times were set to a triangular distribution between 13 and 20 minutes with a mean time of 15 minutes.  THe reason for this was to equalize all transit times and determine what effect the time it takes to load each method has on the total time it takes to get to the park.  The resource pool was used in conjunction with the service to set the number of vehicles that can be used at one time to take people to the MK entrance.  The resource pool size for the ferry was set to 3, the resource pool size for the monorail was set to 10, and the resource pool size for the buses was set to 10.  These numbers were taken from the following sources: INSERT SOURCES.
+
+The unbatch block was used to have all agents leave their respective method of transportation and head to the sink which represents the entrance to magic kingdom.  TimeMeasureStart and TimeMesureEnd blocks were inserted to log the time it took each agent to get to the entrance and to calculate a few statistics such as mean time, min time and max time.
+
+
+
+
+
+
+
+
+
+
+
 
 ## Fundamental Questions
 The Magic Kingdom Guest Entrance System is being designed for simulation to answer the following fundamental questions:
@@ -115,7 +147,7 @@ The fundamental questions are to be answered with the data collected from the mo
 
 
 
-#### Visualized Data of Expected Results
+### Visualized Data of Expected Results:
 For the Magic Kingdom Entrance system the data will be presented in the form of line graphs, scatter plots, and histograms.
 
 
@@ -139,14 +171,13 @@ _Histogram_. Histograms will be used to plot the time (in minutes) it takes to g
 
 ## Research Methods
 
-#### Methods used in Similar Studies
+### Methods used in Similar Studies:
 There is existing research related to investigating the estimate of visitor attendance at theme park and evaluations of the visitor traffic flow. The purpose behind this research falls into one of the two categories: 1) assessment of how wait times impact theme park visitor experience and 2) analysis of emergency or disaster management relative to congestion in the park. For example, Ahmadi (1997) focused on the Six Flags Magic Mountain theme park to address questions related to daily operations such as managing traffic flow in the park and suggestions for rerouting of tours offered to guests. Data used in his formal analysis included primary data collected from  visitor questionnaires and direct measures provided by the park, which included park attendance and queue lengths at ride attractions.
 
 More recent research by Shih-Fen Cheng et al. (2013) and Liou Chu et al. (2015), considered guest satisfaction. Whereas  Shih-Fen Cheng et al. (2013) developed and constructed a very large agent-based model. Liou Chu et al. (2014) approached their work by designing a Theme Park Queuing System using discrete-event based simulation (Cheng, 2013; Chu, 2014). A publication by Gurkan Solmaz and Damla Turgut (2017), on the other hand, is a good example of how simulating theme park attendance traffic can address issues of safety. Their study focused on the foot traffic patterns of guests in theme parks to evaluate the degree of mobility in the event of a disaster. The researchers used information collected from mobile devices carried by 11 volunteers to simulate visitor movement around the park. The simulation used in the study was an agent-based model (Solmaz, 2017).
 
 
-#### Proposed Methods for our Research
-
+### Proposed Methods for our Research:
 Although there are several approaches to simulating traffic and movement throughout a theme park, our team has elected to develop a discrete-event based simulation to address our research questions. Furthermore, we plan to include an agent-based aspect to our simulation since our preliminary research has concluded that characteristics of the park guests play a significant factor in our system. For example, guests visiting in large groups or with small children may require more time to reach the entrance of the park from the Transportation and Ticket Center (TTC). Therefore, agents in our model will be groups of individuals with attributes like average age and number in the group.
 
 As described in the Model section of our report, there are assumptions and parameters that need to be estimated to develop a meaningful simulation. The resources mentioned will assist us in identifying these estimates. Below are a few of the preliminary estimates for the simulation as well as any relevant assumptions or limitations:
@@ -162,10 +193,14 @@ As described in the Model section of our report, there are assumptions and param
 
 
 
+<<<<<<< HEAD
 #### Estimates for our AnyLogic Model
 
 The model was built in AnyLogic into two parts: a Pedestrian portion and a Transit portion. The Pedestrian portion included the parking lot and the security lines at the TTC. The Transit portion included the three modes of transportation (ferry, monorail, bus) from the TTC to the MK entrance.
 
+=======
+### Estimates for our AnyLogic:
+>>>>>>> e00d5c820cb8123744d32ee923146982a77862c4
 <table>
 <tr><th>Parameter</th><th>Real System Estimate</th><th>Scaled Estimate for AnyLogic (if applicable)</th><th>Methods</th></tr><tbody>
  <tr><td>Rate at which guests begin walking through the Magic Kingdom Parking Lot</td><td>100 guests/min</td><td>10 guests/min</td><td>Our research shows that the parking lot holds at most 12,156 cars. Based on anecdotal evidence, we assumed the lot would be half full after one hour as quests typically visit for an entire day. This seems to be a very conservative estimate. This rate is scaled down to 10% to account for the large computing power required to run this model. </td></tr>
@@ -181,6 +216,22 @@ The model was built in AnyLogic into two parts: a Pedestrian portion and a Trans
  <tr><td>Bus capacity and resources</td><td>10 buses; 53 guests</td><td>10 buses; 5 guests</td><td>Although Disney owns and operates roughly 350 buses for all 4 parks and Disney Springs, it was difficult to obtain an estimate for how many of them are reserved for transportation between TTC and the MK entrance. Based on observation, it is likely that no more than 10 buses would be running at a given time for transport. Each bus can hold up to 53 guests. These numbers were obtained through public websites and blogs.</td></tr>
  <tr><td>Travel time for each  transportation mode</td><td>Ferry - 29 mph; Monorail - 40 mph; Bus - 40 mph</td><td>-</td><td>Research on road speed limits as well as information on average speeds of ferries and monorails were used.</td></tr>
 </tbody></table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -201,7 +252,7 @@ The model was built in AnyLogic into two parts: a Pedestrian portion and a Trans
 
 
 
-#### Limitations
+### Limitations:
 
 _Anylogic_. While we had the opportunity to explore some aspects of Anylogic, we noticed that the personal learning edition (student free version) has some restrictions to the pedestrian features offered. For example, we wanted to run our simulation for longer than an hour but that required us to purchase the full version of Anylogic. Since we were unable to run our simulation for longer than an hour, we feel that our results may vary due to this single limitation. We also ran into issues related to computing power. We wanted to implement a full scale of at least 6,000 vistors per hour but our computer systems could not withstand the large scale of vistors we were trying to implement in our model. Therefore, in order to combat this issue, we had to scale the number of vistors down to ten percent. Originally, we wanted to include 6,000 vistors but unfortunately, we had to downsize to 600 people so that the model could fully function. This is a solution we came up with to remedy the limited computing power we experienced. In our results, we converted our model scale to realistic estimates by multiplying our variables by ten. For example, 600 vistors will be multipled by 10 to better represent the 6,000 vistors we originally wanted to implement in our model but couldn't simply because we had limited computing power.
 
@@ -225,36 +276,19 @@ _Model Fidelity_.
 
 
 
-#### Future Research
+### Future Research:
+_Future Research for Anylogic_.
+
+_Future Research for Data_.
+
+_Future Research for Model Resoultion and Model Fidelity_.
+
+
 Kider's email including the paper he wanted us to look over.
 
 If given an opportunity to work with the full version of Anylogic, we would like to further investigate whether or not running our simulation for more than an hour would alter our results. Future studies should consider working with the full version of Anylogic to further investigate this limitation in our study.
 
 
-
-
-#### Model Description Mike Section Please check my numbers for what the model is set to ensure I didn't goof
-
-The anylogic model created to cover the movement of people from the TTC to MK entrance consists of the following blocks:
-  
-  SelectOutputIn (x1)
-  SelectOutputOut (x3)
-  TimeMeasureStart(x3)
-  TimeMeasureEnd(x3)
-  Batch(x3)
-  Unbatch(x3)
-  Service(x3)
-  Sink(x3)
-  ResourcePool (x3)
-  
-  Each of the three modes of transportation (monorail, ferry and bus) were setup in a similar manner to ensure consistency in how the model was running each method.  The selectOutputIn (called SelectTransport in the model) was used to have each agent determine which mode of transportation to select.  The selection was based on probabilities with 30 percent going to the ferry, 50 percent going to the monorail and 20 percent going to the buses.  The reason for this distribution was based on personal experience of the members and their families.  The group agreed that most new visitors to the park would choose the monorail, the ferry would be the second choice and the buses are mainly used by those who have visited the park before and know about them.  
-  
-  To ensure the model behaved in the way the group members have experienced at Magic Kingdom, the batch block was used.  The batch block was used to allow agents to be grouped together before all the agents took the selected mode of transportation.  The batch size for the ferry was set to 600 agents, the batch size for the monorail was set to 360 and the batch size for the buses was set to 50.  When the model is running the batch size much reach capacity before it pushes the batch to the connected service block.  One limitation of the batch is that the model was not able to get the batch to push agents before the batch was full if enough time expired and would be an improvement for the next iteration of the model.  
-  
-  The service blocks were used to set the time ( in the form of the delay setting) it took each mode of transportation to get to the entrance to Magic Kingdom.  All times were set to a triangular distribution between 13 and 20 minutes with a mean time of 15 minutes.  THe reason for this was to equalize all transit times and determine what effect the time it takes to load each method has on the total time it takes to get to the park.  The resource pool was used in conjunction with the service to set the number of vehicles that can be used at one time to take people to the MK entrance.  The resource pool size for the ferry was set to 3, the resource pool size for the monorail was set to 10, and the resource pool size for the buses was set to 10.  These numbers were taken from the following sources: INSERT SOURCES.
-  
-  the unbatch block was used to have all agents leave their respective method of transportation and head to the sink which represents the entrance to magic kingdom.  TimeMeasureStart and TimeMesureEnd blocks were inserted to log the time it took each agent to get to the entrance and to calculate a few statistics such as mean time, min time and max time.
-  
 
 
 
