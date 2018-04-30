@@ -13,6 +13,9 @@
 For our final project, we felt that it was in our best interest to assign specific roles and responsibilities to each of our team members. Based on our knowledge, skills and abilities, we wanted to demonstrate our individual and collective strengths in our final project. Rachel and Michael have been our project's avid Anylogic model builders. They have been leading the efforts in creating the model of our system as well as data analysis. Blake and Adam are responsible for the research and written report of the final project. Collectively, we have been successful at collaborating and supporting one another at various stages of our final project. We strongly believe that our team has performed well together and that our final project represents are efforts and successes.
 
 
+## Project Video
+
+## Presentation PowerPoint
 
 
 ## Abstract
@@ -193,14 +196,27 @@ As described in the Model section of our report, there are assumptions and param
 
 
 
-<<<<<<< HEAD
-#### Estimates for our AnyLogic Model
 
-The model was built in AnyLogic into two parts: a Pedestrian portion and a Transit portion. The Pedestrian portion included the parking lot and the security lines at the TTC. The Transit portion included the three modes of transportation (ferry, monorail, bus) from the TTC to the MK entrance.
 
-=======
-### Estimates for our AnyLogic:
->>>>>>> e00d5c820cb8123744d32ee923146982a77862c4
+
+### Final methods used in our AnyLogic Model:
+The model was built in AnyLogic into two parts: a Pedestrian portion and a Transit portion. The Pedestrian portion included the parking lot and the security lines at the TTC. The Transit portion included the three modes of transportation (ferry, monorail, bus) from the TTC to the MK entrance. Some of our estimates were drawn from the image of the transportation map of the Magic Kingdom theme park as well as other sources. A few examples of our sources are shown below.
+
+![Transportation Map](images/TransportationMap.PNG)
+_Transportation map of Magic Kingdom_. This map was used to identify how many transit types run. We concluded that one monorail, three ferries, and ten buses would be implemented in our model.
+
+
+![Transportation Map](images/TimetoWalktoTTC.PNG)
+_Mapwalk_. This was used to evaluate how long it would take guests to walk from the parking lot to the Ticket and Transportation Center (TTC). We used this information to validate this portion of our model.
+
+
+![Transportation Map](images/BusCount.PNG)
+_
+
+
+
+
+### Table of final methods used in our AnyLogic Model:
 <table>
 <tr><th>Parameter</th><th>Real System Estimate</th><th>Scaled Estimate for AnyLogic (if applicable)</th><th>Methods</th></tr><tbody>
  <tr><td>Rate at which guests begin walking through the Magic Kingdom Parking Lot</td><td>100 guests/min</td><td>10 guests/min</td><td>Our research shows that the parking lot holds at most 12,156 cars. Based on anecdotal evidence, we assumed the lot would be half full after one hour as quests typically visit for an entire day. This seems to be a very conservative estimate. This rate is scaled down to 10% to account for the large computing power required to run this model. </td></tr>
@@ -235,17 +251,18 @@ The model was built in AnyLogic into two parts: a Pedestrian portion and a Trans
 
 
 
-
 ## Results
+_Pedestrian model_. 
 
 
+_Modes of transportation model_. 
 
 
 
 
 
 ## Discussion
-- limitations of our simulation/study
+Initally, we hypothesized that the two modes of transportation that were the most efficient and safest for theme park vistors were Disney's monorails and buses. However, based on our results we have concluded that the most efficient and safest mode of transportation is the Disney buses.
 - why we didn't use the Minnie vans
 - initial assumptions versus our actual results
 - example of that is pedestrians only walk through the parking lot.
@@ -260,9 +277,12 @@ _Anylogic_. While we had the opportunity to explore some aspects of Anylogic, we
 
 _Data_. For our project and model, we found it difficult to implement real data within our model. This is due to the fact that Disney does not provide public records of data. We had to use synthtic data in our model in order to
 
-_Model Resolution_. For our project, we felt that we lacked some degree of detail and precision in the sense that there is limited real world aspects in our model
 
-_Model Fidelity_.
+
+_Model resolution and model fidelity_. For our project, we felt that we lacked some degree of detail and precision due to the limited real world aspects in our model.
+
+
+
 
 
 
@@ -277,16 +297,17 @@ _Model Fidelity_.
 
 
 ### Future Research:
-_Future Research for Anylogic_.
+_Future Research for Anylogic_. If given an opportunity to work with the full version of Anylogic, we would like to further investigate whether or not running our simulation for more than an hour would alter our results. Future studies should consider working with the full version of Anylogic to further investigate this limitation in our study.
+
 
 _Future Research for Data_.
 
-_Future Research for Model Resoultion and Model Fidelity_.
+
+_Future Research for Model resoultion and model fidelity_.
 
 
 Kider's email including the paper he wanted us to look over.
 
-If given an opportunity to work with the full version of Anylogic, we would like to further investigate whether or not running our simulation for more than an hour would alter our results. Future studies should consider working with the full version of Anylogic to further investigate this limitation in our study.
 
 
 
@@ -314,6 +335,8 @@ WDWMAGIC: An Unofficial Walt Disney World Fan Site. *Facts*. https://www.wdwmagi
 
 https://forums.wdwmagic.com/threads/never-go-to-the-park-without-a-bag.935235/
 
+https://www.mapwalk.com/#/h/route
+
 
 
 ## Image References
@@ -326,3 +349,5 @@ https://www.undercovertourist.com/blog/rent-or-ride-car-rental-considerations-fo
 https://itsofftoneverland.wordpress.com/tag/magic-kingdom/page/2/
 
 https://www.tripsavvy.com/the-ultimate-guide-to-disney-world-transportation-4149857
+
+http://www.wdwfocus.com/img/map/wdw-transport-map-full.png
