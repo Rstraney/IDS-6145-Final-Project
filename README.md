@@ -195,7 +195,6 @@ As described in the Model section of our report, there are assumptions and param
 
 
 #### Estimates for our AnyLogic Model
-
 <table>
 <tr ><th>Parameter</th><th>Real System Estimate</th><th>Scaled Estimate for Anylogic (if applicable)</th><th>Methods</th></tr><tbody>
  <tr><td>&nbsp;</td><td> </td><td></td><td>&nbsp;</td></tr>
