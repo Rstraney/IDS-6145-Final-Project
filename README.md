@@ -187,7 +187,7 @@ _Anylogic_. While we had the opportunity to explore some aspects of Anylogic, we
 
 
 
-_Data_. For our project and model, we found it difficult to implement real data within our model. This is due to the fact that Disney does not provide public records of data. We had to use synthtic data in our model in order to 
+_Data_. For our project and model, we found it difficult to implement real data within our model. This is due to the fact that Disney does not provide public records of data. We had to use synthtic data in our model in order to
 
 _Model Resolution_.
 
