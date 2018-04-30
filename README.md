@@ -48,6 +48,10 @@ Crowd diversion systems have been an area of focus for the theme park industry f
 
 A member of our team enjoying Space Mountain at Walt Disney World.
 
+![Adam Family at Magic Kingdom](images/AdamDisneypic.png)
+
+A member of our team enjoying Magic Kingdom with his family.
+
 ## The Model
 
 An Object Diagram shown below depicts the main objects of the Magic Kingdom Guest Entrance System. As guests arrive they are directed to park in one of the two parking lots, the Hero lot or the Villain lot. From the parking lot, guests travel by foot or by tram to the security checkpoint. Security lines are divided into guests with bags and guest without bags. Finally, from the Transportation and Ticket Center (TTC), guests have a choice which mode of  transportation (bus, monorail, ferry boat, or Minnie Van) to take to get to the entrance of the park.
