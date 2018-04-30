@@ -10,7 +10,8 @@
 > * Project Title: MAGIC KINGDOM GUESTS ENTRANCE SYSTEM
 
 ## Project Roles
-For our final project, we felt that it was in our best interest to assign specific roles and responsibilities to each of our team members. Based on our knowlege, skills and abilities, we wanted to really demonstrate each of our indivdual and collective strengths in our final project. Rachel and Michael have been our project's avid Anylogic model builders. They have been leading the efforts in creating the model of our system. Blake and Adam are responsible for the research and written report of the final project. Collectively, we have been successful at collaborating and supporting one another at various stages of our final project. We strongly believe that our team has performed well together and that our final project represents are efforts and successes.
+For our final project, we felt that it was in our best interest to assign specific roles and responsibilities to each of our team members. Based on our knowlege, skills and abilities, we wanted to demonstrate our indivdual and collective strengths in our final project. Rachel and Michael have been our project's avid Anylogic model builders. They have been leading the efforts in creating the model of our system as well as data analysis. Blake and Adam are responsible for the research and written report of the final project. Collectively, we have been successful at collaborating and supporting one another at various stages of our final project. We strongly believe that our team has performed well together and that our final project represents are efforts and successes.
+
 
 
 
@@ -49,20 +50,24 @@ A member of our team enjoying Space Mountain at Walt Disney World.
 
 ## The Model
 
-An Object Diagram is shown below, which summarizes the main objects of the Magic Kingdom Guest Entrance System. As guests arrive they can park in one of two lots, the Hero lot or the Villain lot. From there, guests travel by foot or by tram to the security checkpoint. Guests are asked to go through the security lines. Security lines are divided into guests with bags and guest without bags. Finally, from the Transportation and Ticket Center (TTC), guests have a choice which mode of  transportation (bus, monorail, ferry boat, or Minnie Van) to take to get to the entrance of the park.
+An Object Diagram shown below depicts the main objects of the Magic Kingdom Guest Entrance System. As guests arrive they are directed to park in one of the two parking lots, the Hero lot or the Villain lot. From the parking lot, guests travel by foot or by tram to the security checkpoint. Guests are randomly to go through the security lines. Security lines are divided into guests with bags and guest without bags. Finally, from the Transportation and Ticket Center (TTC), guests have a choice which mode of  transportation (bus, monorail, ferry boat, or Minnie Van) to take to get to the entrance of the park.
 
 ![**Object Diagram.png**](images/BDFP1.png)
 
-Walt Disney Monorail transportation:
+
+
+
+### Modes of Transportation:
+Walt Disney Monorail
 ![MK-Monorail.png](./images/MK-Monorail.png)
 
-Walt Disney Ferry boat transportation:
+Walt Disney Ferry boats
 ![Mk_ferry.png](./images/Mk_ferry.png)
 
-Walt Disney Bus transportation:
+Walt Disney Buses
 ![MK_bus.png](./images/MK_bus.png)
 
-Walt Disney Minnie Van transportation:
+Walt Disney Minnie Vans
 ![minnie_van.png](./images/minnie_van.png)
 
 
@@ -97,52 +102,63 @@ The sub questions that flow from the 3 fundamental questions are:
 
 ## Expected Results
 
-The fundamental questions are to be answered by the simulation created to represent the system.  However, before the simulation is built there are notions of what answers to some of the questions will be and the simulation will be used to determine if these pre stated answers are correct.
 
-- The Disney buses and Minnie vans are expected to have the shortest travel times. The monorail is expected to have the second shortest travel time and the ferry boats are expected to have the slowest travel time.
+The fundalmental questions are to be answered with the data collected from the model of our system. To some degree we have preliminary results that are supported by the notions of existing research. However, to fully address our fundamental questions a model is needed to better address the questions related to our system.
 
-- The time it takes to travel from the TTC to the Magic Kingdom park entrance, regardless of transportation method, is expected to increase during peak visiting hours during the day. This expectation is from personal experience at the parks during peak times and the perception that the time it took was statistically significantly longer. For example, getting into the park during normal business hours is expected to take longer than as the park is nearing closing time.
+
+- The Disney buses and Minnie vans are expected to have the fastest travel times. The monorail is expected to have the second fastest travel time and the ferry boats are expected to have the slowest travel time.
+
+- The time it takes to travel from the TTC to the Magic Kingdom park entrance, regardless of transportation method, is expected to increase during peak visiting hours during the day. This expectation is interferred by personal experiences of our researchers. The parks during peak times and the perception that the time it took was statistically significantly longer. For example, getting into the park during normal business hours is expected to take longer than as the park is nearing closing time.
 
 - The expectation, before running the simulation, is that a bottleneck is created at the TTC during peak hours due to its design.
 
 
-For the Magic Kingdom Entrance system the data will be presented in the form of line graphs, scatter plots and histograms.
 
 
-Histograms will be used to plot the time (in minutes) it takes to get into the park by the four different modes of transportation.
+#### Visulized Data of Expected Results
+For the Magic Kingdom Entrance system the data will be presented in the form of line graphs, scatter plots, and histograms.
 
 
-![Histogram Example](images/HistogramExample3.jpg)
+![Line Graph Pot Example](images/LineGraphExample2.jpg)
 
-A scatter plot by groups will be used to track transit times (in minutes) of agents.  The scatter plot will visually show where most of the transit times fall. Visualizations like these can also be used to compare the duration of time to enter the park at peak and non-peak times of the day.
+_Line Graph_. A line graph will be used to show the change in average transit time (in minutes) as the time of the day changes from the time the park opens until it closes. This can be useful when validating our model.
 
 
 ![Scatter Plot Example](images/ScatterPlotExample2.jpg)
 
-A line graph will be used to show the change in average transit time (in minutes) as the time of the day changes from the time the park opens until it closes. This can be useful when validating our model.
+_Scatter Plot_. A scatter plot by groups will be used to track transit times (in minutes) of agents. The scatter plot will visually show where most of the transit times fall. Visualizations like scatter plots can also be used to compare the duration of time it takes to enter the park at peak and non-peak times throughout the day.
 
-![Line Graph Pot Example](images/LineGraphExample2.jpg)
+
+![Histogram Example](images/HistogramExample3.jpg)
+
+_Histogram_. Histograms will be used to plot the time (in minutes) it takes to get into the park by the four different modes of transportation (monorail, ferry, bus and Minnie van).
+
+
+
 
 
 ## Research Methods
 
-## Methods used in Similar Studies
-There have been numerous publications involving research to estimate visitors at theme parks and evaluate guest traffic flow. The purpose behind much of this research falls into one of two categories: 1. ) Assessment of how wait times impact park visitor experience and 2.) Analysis of emergency or disaster management relative to congestion in the park. For example, Reza H. Ahmadi focused on the Six Flags Magic Mountain theme park to address questions of daily operations such as managing traffic flow in the park and suggesting routing tours for guests (Ahmadi, 1997). Data used in his analysis included primary data from a visitor questionnaire and direct measures provided by the park which included park attendance and queue lengths at rides. More recent research by Shih-Fen Cheng, et al. in 2013 and Liou Chu, et al. in 2014 also considered guest satisfaction . Whereas  Shih-Fen Cheng and his team developed and constructed a very large agent-based model, Liou Chu approached their work by designing a Theme Park Queuing System using discrete-event simulation (Cheng, 2013; Chu, 2014). A publication by Gurkan Solmaz and Damla Turgut (2017), on the other hand, is a good example of how simulating theme park attendee traffic can address issues of safety. Their study focused on the foot traffic patterns of guests in theme parks to evaluate mobility in the event of a disaster. The researchers used information collected from mobile devices carried by 11 volunteers to simulate visitor movement around the park. The simulation used in the study was an agent-based model (Solmaz, 2017).
+#### Methods used in Similar Studies
+There is exisiting research relatd to investigating the estimate of vistor attendence at theme park and evaulations of the vistor traffic flow. The purpose behind this research falls into one of the two catergories: 1) assessment of how wait times impact theme park vistor experience and 2) analysis of emergency or disaster management relative to congestion in the park. For example, Ahmadi (1997) focused on the Six Flags Magic Mountain theme park to address questions related to daily operations such as managing traffic flow in the park and suggestions for rerouting of tours offered to guests. Data used in his fomrla analysis included primary data collected from  visitor questionnaires and direct measures provided by the park, which included park attendance and queue lengths at ride attractions.
 
-## Proposed Methods for our Research
+More recent research by Shih-Fen Cheng et al. (2013) and Liou Chu et al. (2015), considered guest satisfaction. Whereas  Shih-Fen Cheng et al. (2013) developed and constructed a very large agent-based model. Liou Chu et al. (2014) approached their work by designing a Theme Park Queuing System using discrete-event based simulation (Cheng, 2013; Chu, 2014). A publication by Gurkan Solmaz and Damla Turgut (2017), on the other hand, is a good example of how simulating theme park attendence traffic can address issues of safety. Their study focused on the foot traffic patterns of guests in theme parks to evaluate the degree of mobility in the event of a disaster. The researchers used information collected from mobile devices carried by 11 volunteers to simulate visitor movement around the park. The simulation used in the study was an agent-based model (Solmaz, 2017).
 
-Although there are several approaches to simulating traffic and movement throughout a theme park, our team has elected to develop a discrete-event simulation to address our research questions. Furthermore, we plan to include an agent-based aspect to our simulation since our preliminary research has concluded that characteristics of the park guests play a significant factor in our system. For example, guests visiting in large groups or with small children may take longer to reach the entrance of the park from the Transportation and Ticket Center (TTC). Therefore, agents in our model will be groups of individuals with attributes like average age and number in the group.
 
-As described in the Model section, there are assumptions and parameters that need to be estimated to develop a meaningful simulation. The resources mentioned above and others will assist us in identifying these estimates. Below are a few of the preliminary estimates for the simulation as well as any relevant assumptions or limitations:
+#### Proposed Methods for our Research
+
+Although there are several approaches to simulating traffic and movement throughout a theme park, our team has elected to develop a discrete-event based simulation to address our research questions. Furthermore, we plan to include an agent-based aspect to our simulation since our preliminary research has concluded that characteristics of the park guests play a significant factor in our system. For example, guests visiting in large groups or with small children may require more time to reach the entrance of the park from the Transportation and Ticket Center (TTC). Therefore, agents in our model will be groups of individuals with attributes like average age and number in the group.
+
+As described in the Model section of our report, there are assumptions and parameters that need to be estimated to develop a meaningful simulation. The resources mentioned will assist us in identifying these estimates. Below are a few of the preliminary estimates for the simulation as well as any relevant assumptions or limitations:
 - The maximum daily park attendance (groups of guests) by way of the parking lot is 12,156 (https://www.wdwmagic.com/facts!.htm)
 
-- The typical travel time required for each mode of transport into park (using Google maps distance measuring tool the distance of the bus route (and the Minnie van route) is approximately 1.12 miles, the distance of the Monorail route is approximately 1.56 miles and the distance of the ferry route is approximately .67 miles).
+- The typical travel time required for each mode of transportation into the park using Google maps distance measuring tool reports that the distance of the bus route and the Minnie van routes are approximately 1.12 miles, the distance of the Monorail route is approximately 1.56 miles and the distance of the ferry route is approximately .67 miles).
 
-- The typical wait time through security at the Transportation and Ticket Center (TTC) will depend on whether the guests are carrying bags as there are two security lines - one for guests with bags and the other for guests without. For simplicity, if a group is carrying a bag, all members of that group will go through the same security line.
+- The typical wait time through the security checkpoint before arriving at the Transportation and Ticket Center (TTC) will depend on whether or not guests are carrying bags into the park. There is essential two forms of lines at the security checkpoint; guest with bags and guest with no bags. For simplicity, guests with bags, will go through the same security line.
 
-- Although any mechanical issues for the different modes of transportation (e.g. out of service buses, engine problems) will increase travel time for guests, our model assumes all modes of transportation are running continuously during Magic Kingdom's hours of operation. 
+- Although all modes of transportation may experience mechanical issues (e.g., out of service buses, engine problems, system malfunctions, etc.). We excluded this issue to obtain some control in our model. Therefore, we will be assuming that all modes of transportation are running without any mechanical issues during the duration of our model.
 
-- All modes of transportation, excluding the Minnie vans, are included in the price of admission, while a ride in a Minnie van is a flat rate fee of $20 per ride. While this may be a factor in guests' choices for transportation, this information will not be considered in our model.
+- All modes of transportation, excluding the Minnie vans, are complimentary and included in the price of admission with the exception of the Minnie vans. There is a flat rate fee of $20.00 per ride that is associated with the Minnie van transportation option. The cost factor associated with the Minnie vans may affect the guests' choice of which mode of transportation to take. Therefore, this particular mode of transportation will not be implemented in our model.
 
 
 
@@ -150,8 +166,6 @@ As described in the Model section, there are assumptions and parameters that nee
 
 
 ## Results
-- variable assumptions
-- 
 
 
 
@@ -163,29 +177,43 @@ As described in the Model section, there are assumptions and parameters that nee
 - limitations of our simulation/study
 - why we didn't use the minnie vans
 - initial assumptions versus our actual results
-- limitations of using anylogic
+- example of that is pedestrians only walk through the parking lot.
+
+
+
+#### Limitations
+
+_Anylogic_. While we had the opportunity to explore some aspects of Anylogic, we noticed that the personal learning edition (student free version) has some restrictions to the pedestrian features offered. For example, we wanted to run our simulation for longer than an hour but that required us to purchase the full version of Anylogic. Since we were unable to run our simulation for longer than an hour, we feel that our results may vary due to this single limitation. We also ran into issues related to computing power. We wanted to implement a full scale of at least 6,000 vistors per hour but our computer systems could not withstand the large scale of vistors we were trying to implement in our model. Therefore, in order to combat this issue, we had to scale the number of vistors down to ten percent. Originally, we wanted to include 6,000 vistors but unfortunately, we had to downsize to 600 people so that the model could fully function. This is a solution we came up with to remedy the limited computing power we experienced. In our results, we converted our model scale to realistic estimates by multiplying our variables by ten. For example, 600 vistors will be multipled by 10 to better represent the 6,000 vistors we originally wanted to implement in our model but couldn't simply because we had limited computing power.
+
+
+
+_Data_. For our project and model, we found it difficult to implement real data within our model. This is due to the fact that Disney does not provide public records of data. We had to use synthtic data in our model in order to 
+
+_Model Resolution_.
+
+_Model Fidelity_.
+
+
+
+
+- tram is missing
+- acknowledge that we developed the system in a way that it could not
 
 
 
 
 
-## Limitations
-While we had the opprotunity to explore some aspects of Anylogic, we noticed that the free version has some restrictions to the features offered on Anylogic. For example, we wanted to run our simulation for longer than an hour but that requires us to purchase the full version of Anylogic. Since we were unable to run our simulation for longer than an hour, we feel that our results may vary due to this limitation. If given an opprotunity to work with the full version of Anylogic, we would like to further investigate whether or not running our simulation for more than an hour would alter our results. Future studies should consider purchasing the full version of Anylogic to further investigate this limitation in our study.
 
 
-To make our simulation more realistic to the real world settings of Disney World, we ran into issues with trying to build the logic for the two trams (heroes and villians trams). 
+#### Future Research
+Kider's email including the paper he wanted us to look over.
 
-
-
-
+If given an opprotunity to work with the full version of Anylogic, we would like to further investigate whether or not running our simulation for more than an hour would alter our results. Future studies should consider working with the full version of Anylogic to further investigate this limitation in our study.
 
 
 
 
 
-
-https://forums.wdwmagic.com/threads/never-go-to-the-park-without-a-bag.935235/
-(Possible reference for bag and no bag line)
 
 
 
@@ -208,6 +236,9 @@ Solmaz, G., & Turgut, D. (2017). Modeling pedestrian mobility in disaster areas.
 Spence, J. (2011). Transportation and ticket center - TTC. http://land.allears.net/blogs/jackspence/2011/04/transportation_and_ticket_cent.html
 
 WDWMAGIC: An Unofficial Walt Disney World Fan Site. *Facts*. https://www.wdwmagic.com/facts!.html
+
+https://forums.wdwmagic.com/threads/never-go-to-the-park-without-a-bag.935235/
+
 
 
 ## Image References
