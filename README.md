@@ -164,9 +164,10 @@ As described in the Model section of our report, there are assumptions and param
 
 #### Estimates for our AnyLogic Model
 
+The model was built in AnyLogic into two parts: a Pedestrian portion and a Transit portion. The Pedestrian portion included the parking lot and the security lines at the TTC. The Transit portion included the three modes of transportation (ferry, monorail, bus) from the TTC to the MK entrance.
+
 <table>
-<tr ><th>Parameter</th><th>Real System Estimate</th><th>Scaled Estimate for Anylogic (if applicable)</th><th>Methods</th></tr><tbody>
- <tr><td>&nbsp;</td><td> </td><td></td><td>&nbsp;</td></tr>
+<tr><th>Parameter</th><th>Real System Estimate</th><th>Scaled Estimate for AnyLogic (if applicable)</th><th>Methods</th></tr><tbody>
  <tr><td>Rate at which guests begin walking through the Magic Kingdom Parking Lot</td><td>100 guests/min</td><td>10 guests/min</td><td>Our research shows that the parking lot holds at most 12,156 cars. Based on anecdotal evidence, we assumed the lot would be half full after one hour as quests typically visit for an entire day. This seems to be a very conservative estimate. This rate is scaled down to 10% to account for the large computing power required to run this model. </td></tr>
  <tr><td>Proportion of guests that enter from the Heroes lot as opposed to the Villains lot</td><td>0.5</td><td>-</td><td>As guests typically line up at the parking gates prior to the park opening and parking attendants direct cars quickly and efficiently, we assumed the lots would be filled equally.</td></tr>
  <tr><td>Speed of pedestrians walking</td><td>triangular(1,3,4) miles/hour</td><td>-</td><td>We researched how quickly people tend to walk at a comfortable speed. One of our sources estimated time and distance to walk by location (which the MK parking lot to TTC route was used).</td></tr>
