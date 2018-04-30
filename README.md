@@ -213,7 +213,28 @@ If given an opprotunity to work with the full version of Anylogic, we would like
 
 
 
+#### Model Description Mike Section Please check my numbers for what the model is set to ensure I didn't goof
 
+The anylogic model created to cover the movement of people from the TTC to MK entracne consists of the following blocks:
+  
+  SelectOutputIn (x1)
+  SelectOutputOut (x3)
+  TimeMeasureStart(x3)
+  TimeMeasureEnd(x3)
+  Batch(x3)
+  Unbatch(x3)
+  Service(x3)
+  Sink(x3)
+  ResourcePool (x3)
+  
+  Each of the three modes of transportation (monorail, ferry and bus) were setup in a similar manner to ensure consistency in how the model was running each method.  The selectOutputIn (called SelectTransport in the model) was used to have each agent determine which mode of transportation to select.  The selection was based on probabilites with 30 percent going to the ferry, 50 percent going to the monorail and 20 percent going to the buses.  The reason for this distribution was based on personal experience of the memebers and their families.  The group agreed that most new vistors to the park would choose the monorail, the ferry would be the second choice and the buses are mainly used by those who have visisted the park before and know about them.  
+  
+  To ensure the model behaved in the way the group memebers have experienced at Magic Kingdom, the batch block was used.  The batch block was used to allow agents to be grouped together before all the agents took the selected mode of transportation.  The batch size for the ferry was set to 600 agents, the batch size for the monorail was set to 360 and the batch size for the buses was set to 50.  When the model is running the batch size much reach capacity before it pushes the batch to the connected service block.  One limitation of the batch is that the model was not able to get the batch to push agents before the batch was full if enough time expired and would be an improvement for the next iteration of the model.  
+  
+  The service blocks were used to set the time ( in the form of the delay setting) it took each mode of transportation to get to the entrance to Magic Kingdom.  All times were set to a triangular distribution between 13 and 20 minutes with a mean time of 15 minutes.  THe reason for this was to equalize all transit times and determine what effect the time it takes to load each method has on the total time it takes to get to the park.  The reseource pool was used in conjunction with the service to set the number of vehicles that can be used at one time to take people to the MK entrance.  The resource pool size for the ferry was set to 3, the resource pool size for the monorail was set to 10, and the resource pool size for the buses was set to 10.  These numbers were taken from the following sources: INSERT SOURCES.
+  
+  the unbatch block was used to have all agents leave their respective method of transportation and head to the sink which represents the entrance to magic kingdom.  TimeMeasureStart and TimeMesureEnd blocks were inserted to log the time it took each agent to get to the entrance and to calculate a few statistics such as mean time, min time and max time.
+  
 
 
 
