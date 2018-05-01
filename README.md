@@ -293,7 +293,9 @@ Initally, we hypothesized that the two modes of transportation that were the mos
 _Anylogic_. While we had the opportunity to explore some aspects of Anylogic, we noticed that the personal learning edition (student free version) has some restrictions to the pedestrian features offered. For example, we wanted to run our simulation for longer than an hour but that required us to purchase the full version of Anylogic. Since we were unable to run our simulation for longer than an hour, we feel that our results may vary due to this single limitation. Initially, we wanted to implement a full scale of at least 6,000 vistors per hour but our computer systems could not withstand the large scale of vistors in our model. Therefore, in order to combat this issue, we had to scale the number of vistors down to ten percent. Originally, we wanted to include 6,000 vistors but unfortunately, we had to downsize to 600 people so that the model could fully function. This is a solution we came up with to remedy the limited computing power we experienced.
 
 
-_Data_. For our model, we found it difficult to implement real data within our model. This is due to the fact that Disney does not provide public data sets. As stated earlier in our written report, the Walt Disney company operates in a proprietery nature. Due to the company's proprietery nature, we found limited to no real data sets for our model. As a result we could not implement real data sets from Disney World. Therefore, we had to implement synthetic data and use antedotal information to meet specific needs in the Anylogic features.
+_Data_. For our model, we found it difficult to implement real data within our model. This is due to the fact that Disney does not provide public data sets. As stated earlier in our written report, the Walt Disney company operates in a proprietery nature. Due to the company's proprietery nature, we found limited to no real data sets for our model. As a result we could not implement real data sets from Disney World. Therefore, we had to implement synthetic data and use antedotal information to meet specific needs in the Anylogic features. There are also limitations to the ability to answer the fundamental questions such as:
+- How often do each of the four methods run?
+- What are the hours of operation of the four transportation methods?
 
 
 _Model resolution and model fidelity_. For our model, we identified limitiations in regards to model resolution and model fidelity. In our Modeling and Simulation course, we learned that model resolution refers to detail and precision of real world aspects in a model or simulation. Model fidelity refers to the accuracy of the representation when compared to the real world. We  identified limitations regarding model resolution and model fidelity. In regards to model resolution, for example, there are three docks for three ferries, however  by using batches in our model each ferry was assumed to leave in a sequence rather than parallel to one another. This detail limited model resolution and most likely resulted in low estimates for arrival to the MK entrance.
@@ -304,9 +306,14 @@ We believe that our model provides some degree of accuracy when it comes to comp
 
 
 
-### Future Research:
-If given an opportunity to work with the full version of Anylogic, we would like to further investigate whether or not running our simulation for more than an hour would alter our results. Future studies should consider working with the full version of Anylogic to further investigate this limitation in our study. It would benefit our model and research study if we were to observe and collect real data from the Magic Kingdom theme park. This would address some of the limitaitons to our estimates in our model such as the scale of vistors. With the use of real data sets, we could also improve in the areas of model resolution and model fidelity as it creates more detail, precision and accuracy. The foundation of our project and model would serve as a starting point for future research in this area.
 
+
+### Future Research:
+If given an opportunity to work with the full version of Anylogic, we would like to further investigate whether or not running our simulation for more than an hour would alter our results. Future studies should consider working with the full version of Anylogic to further investigate this limitation in our study. It would benefit our model and research study if we were to observe and collect real data from the Magic Kingdom theme park. This would address some of the limitaitons to our estimates in our model such as the scale of vistors. With the use of real data sets, we could also improve in the areas of model resolution and model fidelity as it creates more detail, precision and accuracy. The foundation of our project and model would serve as a starting point for future research in this area. Future research should also address the following:
+- Are any of the transportation methods on a set schedule?
+- Does travel time of the four methods vary depending on the time of day?
+- What is the travel time at different times of the day?
+- If there was an emergency could park visitors exit the park in a safe and efficient manner?
 
 
 
