@@ -261,9 +261,11 @@ _Pedestrian model_.
 
 _Modes of transportation model_. 
 
+![Analysis 1](./images/Analysis_equaltransport.PNG)
 
+![Analysis 2](./images/Analysis_unequaltransport.PNG)
 
-
+![Analysis 3](./images/Analysis_nobagline.PNG)
 
 ## Discussion
 Initally, we hypothesized that the two modes of transportation that were the most efficient and safest for theme park vistors were Disney's monorails and buses. However, based on our results we have concluded that the most efficient and safest mode of transportation is the Disney buses.
