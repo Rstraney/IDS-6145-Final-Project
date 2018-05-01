@@ -277,22 +277,17 @@ Initally, we hypothesized that the two modes of transportation that were the mos
 
 _Anylogic_. While we had the opportunity to explore some aspects of Anylogic, we noticed that the personal learning edition (student free version) has some restrictions to the pedestrian features offered. For example, we wanted to run our simulation for longer than an hour but that required us to purchase the full version of Anylogic. Since we were unable to run our simulation for longer than an hour, we feel that our results may vary due to this single limitation. We also ran into issues related to computing power. We wanted to implement a full scale of at least 6,000 vistors per hour but our computer systems could not withstand the large scale of vistors we were trying to implement in our model. Therefore, in order to combat this issue, we had to scale the number of vistors down to ten percent. Originally, we wanted to include 6,000 vistors but unfortunately, we had to downsize to 600 people so that the model could fully function. This is a solution we came up with to remedy the limited computing power we experienced. In our results, we converted our model scale to realistic estimates by multiplying our variables by ten. For example, 600 vistors will be multipled by 10 to better represent the 6,000 vistors we originally wanted to implement in our model but couldn't simply because we had limited computing power.
 
+- tram is missing and why we couldn't implement the tram into our model on Anylogic.
+- acknowledge how we developed a model of our system that could not fully implement all the aspects of the Disney transporation system.
 
 
 _Data_. For our project and model, we found it difficult to implement real data within our model. This is due to the fact that Disney does not provide public records of data. We had to use synthtic data in our model in order to
-
 
 
 _Model resolution and model fidelity_. For our project, we felt that we lacked some degree of detail and precision due to the limited real world aspects in our model.
 
 
 
-
-
-
-
-- tram is missing
-- acknowledge that we developed the system in a way that it could not
 
 
 
