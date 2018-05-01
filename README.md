@@ -221,7 +221,7 @@ _Nova bus_. Research indicated that the bus fleet NOVA bus used by the Walt Disn
 
 
 ### Model Description:
-In this section, we wanted to further elaborate the different features we implemented in our Anylogic model.
+In this section, we wanted to further elaborate the different features we implemented in our Anylogic model. It should be noted that the model units of time was set to minutes. Additionally, since we were using the Personal Learing Edition of Anylogic we were restricted to a model run time of 60 minutes while using the pedestrian flow tools. 
 
 #### Pedestrian model:
 The pedestrian model used pedestrian flow tools in Anylogic. Pedestrians entered at a rate of 10 per minute. This rate was scaled down due to the high computation required to run the simulation (real world estimates were 100 guests per minute). A pedestrian select output was to direct guests from either the Hero lot or the Villian lot. Guests walked the length of the parking lot, then entered the TTC. As mentioned in our final methods table, sixty-five percent of guests go through the bag security line. While the remaining percent proceed through the no bag security line. Once guests pass through the security checkpoint they are to proceed to one of the modes of transportation. We have included a screenshot of our pedestrian logic that depicts the flow of guests on foot.
@@ -256,14 +256,23 @@ _Transit logic_. This is a screenshot of the transit logic in Anylogic.
 
 
 ## Results
-_Pedestrian model_. 
+#### Default Simulation:
+We ran our simulation to include default estimates of our system parameters. Two sets of estimates that were of interest to us, as they were difficult to obtain information on, were 1.) the likelihood of guests selecting one mode of transportation over the other and 2.) the likelihood a guest will have a bag to take through security. The default simulation assumed that selection for the mode of transportation (ferry, monorail or bus) was equally likely. Furthermore, we assumed that 65% of guests enter security with bags compared to only 35% without. We looked at four outputs of our model, which are displayed below. 
 
-
-_Modes of transportation model_. 
+> **First chart (top left)**: provides a histogram for minutes taken to walk from the parking lot to the TTC. The yellow vertical line marks the average to be a little over 5 minutes. This is a good validation for our mmodel as we expected guests to take approximately that long based on our preliminary research.
+> **Second chart (top right)**: shows histograms for the minutes taken to pass through security at the TTC. The distribution in blue is from guests going through the 'No bag' security lines and the pink is for guests with bags. It is clear that since so many guests carry bags with them (65%) the amount of time taken to get through security is much longer for them at approximately 15 minutes. Guests without bags only take 4 mintes to pass through.
+> **Third chart (bottom left)**: provides a bar chart for the mean amount of total time (in minutes) that it takes guests to arrive from the parking lot to the MK entrance. This includes average time from both the pedestrain and trasit models constructed in Anylogic. The monorail takes guests the shortest amount of time (38 mintues) whereas the longest mode of transportation is the ferry.
+> **Fourth chart (bottom right)**: this is a timeplot that tracks the amount of guests who have arrived at the MK entrance. We can see that although the buses are the first to dispatch after approximately 20 minutes, they do not carry many guests. Alternatively, the ferry takes over 50 minutes to load and depart from the TTC but moves the most people in one trip. The monorail brings in the most number of guests to the entrance. 
 
 ![Analysis 1](./images/Analysis_equaltransport.PNG)
 
+#### Guest Choice for Mode of Transportation Simulation:
+
+From personal observation and restricted research, we hypothesized that most guests choose to take the monorail into the park. We wanted to see how the outcomes of out model would change if guests had the following probabilities of chosing one mode over the other: ferry = 0.3, monorail = 0.5 and bus = 0.2. The final outputs after a simulation of 60 minutes is shown below. This change in parameter estimates did not alter the total number of guests who arrive at the MK entrance (1,470). However, we find if more guests choose to ride the monorail and ferry, the total travel time increases marginally. This is beneficial knowledge from a operational perspective, as maintence of a single ferry or monorail may be more cost effective that maintanence of multiple buses.  
+
 ![Analysis 2](./images/Analysis_unequaltransport.PNG)
+
+Estimating the likelihood a guest will carry a bag into the park was a difficult piece of information to find for this project. We wanted to run our model to test what would happen if the likelihood of carrying a bag was only 50% as opposed to the 65% we initially assumed. From the default simulation we found that guests with bags take approximately 15 minutes to get through security and those without take 4 minutes. When we changed our model to assume a 50-50 split, guests with and without bags take close to the same amount of time, 8 and 7 minutes respectively.
 
 ![Analysis 3](./images/Analysis_nobagline.PNG)
 
