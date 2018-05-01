@@ -256,35 +256,35 @@ _Transit logic_. This is a screenshot of the transit logic in Anylogic.
 
 ## Results
 #### Default Simulation:
-We ran our simulation to include default estimates of our system parameters. Two sets of estimates that were of interest to us, as they were difficult to obtain information on, were 1.) the likelihood of guests selecting one mode of transportation over the other and 2.) the likelihood a guest will have a bag to take through security. The default simulation assumed that selection for the mode of transportation (ferry, monorail or bus) was equally likely. Furthermore, we assumed that 65% of guests enter security with bags compared to only 35% without. We looked at four outputs of our model, which are displayed below. 
+We ran our simulation to include default estimates of our system parameters. Two sets of estimates that were of interest to us, as they were difficult to obtain information on, were 1.) the likelihood of guests selecting one mode of transportation over the other and 2.) the likelihood a guest will have a bag to take through security. The default simulation assumed that selection for the mode of transportation (ferry, monorail or bus) was equally likely. Furthermore, we assumed that 65% of guests enter security with bags compared to only 35% without. We looked at four outputs of our model, which are displayed below.
 
-<<<<<<< HEAD
 > **First chart (top left)**: provides a histogram for minutes taken to walk from the parking lot to the TTC. The yellow vertical line marks the average to be a little over 5 minutes. This is a good validation for our mmodel as we expected guests to take approximately that long based on our preliminary research.
-> **Second chart (top right)**: shows histograms for the minutes taken to pass through security at the TTC. The distribution in blue is from guests going through the 'No bag' security lines and the pink is for guests with bags. It is clear that since so many guests carry bags with them (65%) the amount of time taken to get through security is much longer for them at approximately 15 minutes. Guests without bags only take 4 mintes to pass through.
-> **Third chart (bottom left)**: provides a bar chart for the mean amount of total time (in minutes) that it takes guests to arrive from the parking lot to the MK entrance. This includes average time from both the pedestrain and trasit models constructed in Anylogic. The monorail takes guests the shortest amount of time (38 mintues) whereas the longest mode of transportation is the ferry.
-> **Fourth chart (bottom right)**: this is a timeplot that tracks the amount of guests who have arrived at the MK entrance. We can see that although the buses are the first to dispatch after approximately 20 minutes, they do not carry many guests. Alternatively, the ferry takes over 50 minutes to load and depart from the TTC but moves the most people in one trip. The monorail brings in the most number of guests to the entrance. 
-=======
 
-_Transit model_. 
->>>>>>> f4d9f74420d4048f9b64b278c11750ed2e3025f9
+> **Second chart (top right)**: shows histograms for the minutes taken to pass through security at the TTC. The distribution in blue is from guests going through the 'No bag' security lines and the pink is for guests with bags. It is clear that since so many guests carry bags with them (65%) the amount of time taken to get through security is much longer for them at approximately 15 minutes. Guests without bags only take 4 mintes to pass through.
+
+> **Third chart (bottom left)**: provides a bar chart for the mean amount of total time (in minutes) that it takes guests to arrive from the parking lot to the MK entrance. This includes average time from both the pedestrain and trasit models constructed in Anylogic. The monorail takes guests the shortest amount of time (38 mintues) whereas the longest mode of transportation is the ferry.
+
+> **Fourth chart (bottom right)**: this is a timeplot that tracks the amount of guests who have arrived at the MK entrance. We can see that although the buses are the first to dispatch after approximately 20 minutes, they do not carry many guests. Alternatively, the ferry takes over 50 minutes to load and depart from the TTC but moves the most people in one trip. The monorail brings in the most number of guests to the entrance.
+
+
 
 ![Analysis 1](./images/Analysis_equaltransport.PNG)
 
 #### Guest Choice for Mode of Transportation Simulation:
 
-From personal observation and restricted research, we hypothesized that most guests choose to take the monorail into the park. We wanted to see how the outcomes of out model would change if guests had the following probabilities of chosing one mode over the other: ferry = 0.3, monorail = 0.5 and bus = 0.2. The final outputs after a simulation of 60 minutes is shown below. This change in parameter estimates did not alter the total number of guests who arrive at the MK entrance (1,470). However, we find if more guests choose to ride the monorail and ferry, the total travel time increases marginally. This is beneficial knowledge from a operational perspective, as maintence of a single ferry or monorail may be more cost effective that maintanence of multiple buses.  
+From personal observation and restricted research, we hypothesized that most guests choose to take the monorail into the park. We wanted to see how the outcomes of out model would change if guests had the following probabilities of chosing one mode over the other: ferry = 0.3, monorail = 0.5 and bus = 0.2. The final outputs after a simulation of 60 minutes is shown below. This change in parameter estimates did not alter the total number of guests who arrive at the MK entrance (1,470). However, we find if more guests choose to ride the monorail and ferry, the total travel time increases marginally. This is beneficial knowledge from a operational perspective, as maintence of a single ferry or monorail may be more cost effective that maintanence of multiple buses.
 
 ![Analysis 2](./images/Analysis_unequaltransport.PNG)
+
+
+#### Likelihood of Carry a Bag through Security Simulation:
 
 Estimating the likelihood a guest will carry a bag into the park was a difficult piece of information to find for this project. We wanted to run our model to test what would happen if the likelihood of carrying a bag was only 50% as opposed to the 65% we initially assumed. From the default simulation we found that guests with bags take approximately 15 minutes to get through security and those without take 4 minutes. When we changed our model to assume a 50-50 split, guests with and without bags take close to the same amount of time, 8 and 7 minutes respectively.
 
 ![Analysis 3](./images/Analysis_nobagline.PNG)
 
 ## Discussion
-Initally, we hypothesized that the two modes of transportation that were the most efficient and safest for theme park vistors were Disney's monorails and buses. However, based on our results we have concluded that the most efficient and safest mode of transportation is the Disney buses.
-- why we didn't use the Minnie vans
-- initial assumptions versus our actual results
-- example of that is pedestrians only walk through the parking lot.
+Initally, we hypothesized that the two modes of transportation that were the most efficient for theme park vistors were Disney's monorails and buses. However, based on our results we have concluded that the most efficient mode of transportation are the Disney buses. We did not measure safety or satisfaction directly even though these were interesting aspects to investigate. For our model we focused on investigating the time of arrival.
 
 
 
@@ -292,17 +292,13 @@ Initally, we hypothesized that the two modes of transportation that were the mos
 
 _Anylogic_. While we had the opportunity to explore some aspects of Anylogic, we noticed that the personal learning edition (student free version) has some restrictions to the pedestrian features offered. For example, we wanted to run our simulation for longer than an hour but that required us to purchase the full version of Anylogic. Since we were unable to run our simulation for longer than an hour, we feel that our results may vary due to this single limitation. Initially, we wanted to implement a full scale of at least 6,000 vistors per hour but our computer systems could not withstand the large scale of vistors in our model. Therefore, in order to combat this issue, we had to scale the number of vistors down to ten percent. Originally, we wanted to include 6,000 vistors but unfortunately, we had to downsize to 600 people so that the model could fully function. This is a solution we came up with to remedy the limited computing power we experienced.
 
-- tram is missing and why we couldn't implement the tram into our model on Anylogic.
-- acknowledge how we developed a model of our system that could not fully implement all the aspects of the Disney transporation system.
+
+_Data_. For our model, we found it difficult to implement real data within our model. This is due to the fact that Disney does not provide public data sets. As stated earlier in our written report, the Walt Disney company operates in a proprietery nature. Due to the company's proprietery nature, we found limited to no real data sets for our model. As a result we could not implement real data sets from Disney World. Therefore, we had to implement synthetic data and use antedotal information to meet specific needs in the Anylogic features.
 
 
-_Data_. For our model, we found it difficult to implement real data within our model. This is due to the fact that Disney does not provide public data sets. As stated earlier in our written report, the Walt Disney company operates in a proprietery nature. Due to the company's proprietery nature, we found limited to no real data sets for our model. As a result we could not implement real data sets from Disney World. Therefore, we had to implement synthetic data to meet specific needs in the Anylogic features. In our research, we found that the Walt Disney company discloses their real data sets for the protection, privacy, and confidentiality of their guests. Thus, we had to use synthetic data in our model on Anylogic.
+_Model resolution and model fidelity_. For our model, we identified limitiations in regards to model resolution and model fidelity. In our Modeling and Simulation course, we learned that model resolution refers to detail and precision of real world aspects in a model or simulation. Model fidelity refers to the accuracy of the representation when compared to the real world. We  identified limitations regarding model resolution and model fidelity. In regards to model resolution, for example, there are three docks for three ferries, however  by using batches in our model each ferry was assumed to leave in a sequence rather than parallel to one another. This detail limited model resolution and most likely resulted in low estimates for arrival to the MK entrance.
 
-
-_Model resolution and model fidelity_. For our model, we identified limitiations in regards to model resolution and model fidelity. In our Modeling and Simultion course, we learned that model resolution refers to detail and precision of real world aspects in a model or simulation. We felt that we had limited model resolution becasue we ran into issues with implementing ...
-
-
-We also identified limitations regarding model fidelity. Model fidelity refers to the accuracy of the representation when compared to the real world. We believe that our model provides some degree of accuracy when it comes to comparing our model to the real world. However, there were aspects of the Disney World Magic Kingdom transportation system that we did not implement in our model. For example, we did not implement the logic for the trams that operate from the guest parking lots (Hero and Villian lot) to the TTC. This was not implemented due to the complexity of our model's logic. We could not get the logic for the tram piece to work in conjuction with transit logic we have running. Therefore, we believe that we have limited model fidelity in our model.
+We believe that our model provides some degree of accuracy when it comes to comparing our model to the real world. However, there were aspects of the Disney World Magic Kingdom transportation system that we did not implement in our model. For example, we did not implement the logic for the trams that operate from the guest parking lots (Hero and Villian lot) to the TTC. This was not implemented due to the complexity of our model's logic. We could not get the logic for the tram piece to work in conjuction with transit logic we have running. Therefore, we believe that we have limited model fidelity in our model.
 
 
 
@@ -311,18 +307,7 @@ We also identified limitations regarding model fidelity. Model fidelity refers t
 
 
 ### Future Research:
-_Future Research for Anylogic_. If given an opportunity to work with the full version of Anylogic, we would like to further investigate whether or not running our simulation for more than an hour would alter our results. Future studies should consider working with the full version of Anylogic to further investigate this limitation in our study.
-
-
-_Future Research for Data_.
-
-
-_Future Research for Model resolution and model fidelity_.
-
-
-Kider's email including the paper he wanted us to look over.
-
-
+If given an opportunity to work with the full version of Anylogic, we would like to further investigate whether or not running our simulation for more than an hour would alter our results. Future studies should consider working with the full version of Anylogic to further investigate this limitation in our study. It would benefit our model and research study if we were to observe and collect real data from the Magic Kingdom theme park. This would address some of the limitaitons to our estimates in our model such as the scale of vistors. With the use of real data sets, we could also improve in the areas of model resolution and model fidelity as it creates more detail, precision and accuracy. The foundation of our project and model would serve as a starting point for future research in this area.
 
 
 
