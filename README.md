@@ -179,7 +179,7 @@ As described in the Model section of our report, there are assumptions and param
 
 
 ### Final Methods Used in Our AnyLogic Model:
-The model was built in AnyLogic into two parts: a Pedestrian portion and a Transit portion. The Pedestrian portion included the parking lot and the security lines at the TTC. The Transit portion included the three modes of transportation (ferry, monorail, bus) from the TTC to the MK entrance. The information that we collected was difficult to obtain due to the proprietary nature of the Walt Disney World operations. Therefore, some of our estimates were drawn from the image of the transportation map of the Magic Kingdom theme park as well as other sources. A few examples of our sources are shown below.
+The model was built in AnyLogic into two parts: a Pedestrian portion and a Transit portion. The Pedestrian portion included the parking lot and the security lines at the TTC. The Transit portion included the three modes of transportation (ferry, monorail, bus) from the TTC to the MK entrance. The information that we collected was difficult to obtain due to the proprietary nature of the Walt Disney World operations. Therefore, some of our estimates were drawn from the image of the transportation map of the Magic Kingdom theme park as well as other sources. We plan to investigate the first hour of opening operations at Magic Kingdom. We decided to look at the first hour simply because we wanted to control for some varaiblity in our system. A few examples of our sources are shown below.
 
 
 ![Transportation Map](images/TransportationMap.PNG)
@@ -220,7 +220,7 @@ _Nova bus_. Research indicated that the bus fleet NOVA bus used by the Walt Disn
 
 
 ### Model Description:
-In this section, we wanted to further elaborate the different features we implemented in our Anylogic model. It should be noted that the model units of time was set to minutes. Additionally, since we were using the Personal Learing Edition of Anylogic we were restricted to a model run time of 60 minutes while using the pedestrian flow tools. 
+In this section, we wanted to further elaborate the different features we implemented in our Anylogic model. It should be noted that the model units of time was set to minutes. Additionally, since we were using the Personal Learing Edition of Anylogic we were restricted to a model run time of 60 minutes while using the pedestrian flow tools.
 
 #### Pedestrian model:
 The pedestrian model used pedestrian flow tools in Anylogic. Pedestrians entered at a rate of 10 per minute. This rate was scaled down due to the high computation required to run the simulation (real world estimates were 100 guests per minute). A pedestrian select output was to direct guests from either the Hero lot or the Villian lot. Guests walked the length of the parking lot, then entered the TTC. As mentioned in our final methods table, sixty-five percent of guests go through the bag security line. While the remaining percent proceed through the no bag security line. Once guests pass through the security checkpoint they are to proceed to one of the modes of transportation. We have included a screenshot of our pedestrian logic that depicts the flow of guests on foot.
@@ -258,7 +258,7 @@ _Transit logic_. This is a screenshot of the transit logic in Anylogic.
 #### Default Simulation:
 We ran our simulation to include default estimates of our system parameters. Two sets of estimates that were of interest to us, as they were difficult to obtain information on, were 1.) the likelihood of guests selecting one mode of transportation over the other and 2.) the likelihood a guest will have a bag to take through security. The default simulation assumed that selection for the mode of transportation (ferry, monorail or bus) was equally likely. Furthermore, we assumed that 65% of guests enter security with bags compared to only 35% without. We looked at four outputs of our model, which are displayed below.
 
-> **First chart (top left)**: provides a histogram for minutes taken to walk from the parking lot to the TTC. The yellow vertical line marks the average to be a little over 5 minutes. This is a good validation for our mmodel as we expected guests to take approximately that long based on our preliminary research.
+> **First chart (top left)**: provides a histogram for minutes taken to walk from the parking lot to the TTC. The yellow vertical line marks the average to be a little over 5 minutes. This is a good validation for our model as we expected guests to take approximately that long based on our preliminary research.
 
 > **Second chart (top right)**: shows histograms for the minutes taken to pass through security at the TTC. The distribution in blue is from guests going through the 'No bag' security lines and the pink is for guests with bags. It is clear that since so many guests carry bags with them (65%) the amount of time taken to get through security is much longer for them at approximately 15 minutes. Guests without bags only take 4 mintes to pass through.
 
@@ -284,7 +284,7 @@ Estimating the likelihood a guest will carry a bag into the park was a difficult
 ![Analysis 3](./images/Analysis_nobagline.PNG)
 
 ## Discussion
-Initally, we hypothesized that the two modes of transportation that were the most efficient for theme park vistors were Disney's monorails and buses. However, based on our results we have concluded that the most efficient mode of transportation are the Disney buses. We did not measure safety or satisfaction directly even though these were interesting aspects to investigate. For our model we focused on investigating the time of arrival.
+Initally, we hypothesized that the two modes of transportation that were the most efficient for theme park vistors were Disney's monorails and buses. However, based on our results we have concluded that the most efficient mode of transportation are the Disney buses. We did not measure safety or satisfaction directly even though these were interesting aspects to investigate. For our model we focused on investigating the time of arrival. From our results, we found that the although buses ran most frequently in comparion to the other modes of transportation, they did not carry as many passengers. Choosing to take the bus as a guest will reduce the amount of travel time, however from a corporate perspective it is not as efficient as the other modes of transportation.
 
 
 
