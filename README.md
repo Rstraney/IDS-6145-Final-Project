@@ -15,7 +15,7 @@ For our final project, we felt that it was in our best interest to assign specif
 
 ## Project Video
 
-[**Video of Simulation for Logic Transportation**}(https://youtu.be/V-6Ksmzxg4I)
+[**Video of Simulation for Logic Transportation**](https://youtu.be/V-6Ksmzxg4I)
 
 ## Presentation PowerPoint
 
