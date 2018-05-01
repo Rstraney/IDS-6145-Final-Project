@@ -304,12 +304,8 @@ We believe that our model provides some degree of accuracy when it comes to comp
 
 
 
-
-
 ### Future Research:
 If given an opportunity to work with the full version of Anylogic, we would like to further investigate whether or not running our simulation for more than an hour would alter our results. Future studies should consider working with the full version of Anylogic to further investigate this limitation in our study. It would benefit our model and research study if we were to observe and collect real data from the Magic Kingdom theme park. This would address some of the limitaitons to our estimates in our model such as the scale of vistors. With the use of real data sets, we could also improve in the areas of model resolution and model fidelity as it creates more detail, precision and accuracy. The foundation of our project and model would serve as a starting point for future research in this area.
-
-
 
 
 
