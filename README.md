@@ -318,8 +318,6 @@ Kider's email including the paper he wanted us to look over.
 
 
 ## References
-
-
 Ahmadi, R. H. (1997). Managing Capacity and Flow at Theme Parks. Operations Research. https://doi.org/10.1287/opre.45.1.1
 
 Cheng, S., & Lin, L. (2013). An agent-based simulation approach to experience management in theme parks. In Winter Simulation Conference (pp. 1527–1538).
