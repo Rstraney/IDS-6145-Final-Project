@@ -281,13 +281,13 @@ _Anylogic_. While we had the opportunity to explore some aspects of Anylogic, we
 - acknowledge how we developed a model of our system that could not fully implement all the aspects of the Disney transporation system.
 
 
-_Data_. For our project and model, we found it difficult to implement real data within our model. This is due to the fact that Disney does not provide public records of data. We had to use synthtic data in our model in order to
+_Data_. For our model, we found it difficult to implement real data within our model. This is due to the fact that Disney does not provide public data sets. As states earlier in our written report, the Walt Disney company operates in a proprietery nature. Due to the company's proprietery nature, we found limited to no real data sets. As a result we could not implement real data sets from Disney World. Therefore, we had to implement synthetic data to meet specific needs in the Anylogic features. In our research, we found that the Walt Disney company discloses their real data sets for the protection, privacy, and confidentiality of their guests. Thus, we had to use synthetic data in our model on Anylogic.
 
 
-_Model resolution and model fidelity_. For our project, we felt that we lacked some degree of detail and precision due to the limited real world aspects in our model.
+_Model resolution and model fidelity_. For our model, we identified limitiations in regards to model resolution and model fidelity. In our Modeling and Simultion course, we learned that model resolution refers to detail and precision of real world aspects in a model or simulation. We felt that we had limited model resolution becasue we ran into issues with implementing ...
 
 
-
+We also identified limitations regarding model fidelity. Model fidelity refers to the accuracy of the representation when compared to the real world. We believe that our model provides some degree of accuracy when it comes to comparing our model to the real world. However, there were aspects of the Disney World Magic Kingdom transportation system that we did not implement in our model. For example, we did not implement the logic for the trams that operate from the guest parking lots (Hero and Villian lot) to the TTC. This was not implemented due to the complexity of our model's logic. We could not get the logic for the tram piece to work in conjuction with transit logic we have running. Therefore, we believe that we have limited model fidelity in our model.
 
 
 
