@@ -220,12 +220,14 @@ In this section, we wanted to further elaborate the different features we implem
 The pedestrian model used pedestrian flow tools in Anylogic. Pedestrians entered at a rate of 10 per minute. This rate was scaled down due to the high computation required to run the simulation (real world estimates were 100 guests per minute). A pedestrian select output was to direct guests from either the Hero lot or the Villian lot. Guests walked the length of the parking lot, then entered the TTC. As mentioned in our final methods table, sixty-five percent of guests go through the bag security line. While the remaining percent proceed through the no bag security line. Once guests pass through the security checkpoint they are to proceed to one of the modes of transportation. We have included a screenshot of our pedestrian logic that depicts the flow of guests on foot.
 
 ![Ped Logic](./images/PedLogic_Model.PNG)
+
 _Pedestrain logic_. This is a screenshot of the pedestrain logic in Anylogic.
 
 #### Transit logic:
 We intially assumed that guests would choose a means of transportation equally. A batch and unbatch tool was used in Anylogic to group guests together to move them to the Magic Kingdom entrance. The ferry maximum capacity was 600 guests, the monorail maximum capacity was 360 and the bus maximum capacity was 53. These were the real world estimates that were later scaled down due to the issue we had with running a large model. We decided to scale them to (60, 36, and 5) respectively. The travel time for the modes of transporation was also assumed to be equally distributed. The travel time in minutes for all three modes of transportation was assumed to be triangular (13, 15, and 18). The resource pool was used in conjunction with the service to set the number of vehicles that can be used at one time. The resource pool size for the ferry was set to 3, the resource pool size for the monorail was set to 10, and the resource pool size for the buses was set to 10.
 
 ![Transit Logic](./images/TransportLogic_Model.PNG)
+
 _Transit logic_. This is a screenshot of the transit logic in Anylogic.
 
 
