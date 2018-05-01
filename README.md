@@ -117,7 +117,6 @@ The sub questions that flow from the 3 fundamental questions are:
 
 ## Expected Results
 
-
 The fundamental questions are to be answered with the data collected from the model of our system. To some degree we have preliminary results that are supported by the notions of existing research. However, to fully address our fundamental questions a model is needed to better address the questions related to our system.
 
 
@@ -259,7 +258,7 @@ _Transit logic_. This is a screenshot of the transit logic in Anylogic.
 _Pedestrian model_. 
 
 
-_Modes of transportation model_. 
+_Transit model_. 
 
 ![Analysis 1](./images/Analysis_equaltransport.PNG)
 
@@ -304,7 +303,7 @@ _Future Research for Anylogic_. If given an opportunity to work with the full ve
 _Future Research for Data_.
 
 
-_Future Research for Model resoultion and model fidelity_.
+_Future Research for Model resolution and model fidelity_.
 
 
 Kider's email including the paper he wanted us to look over.
