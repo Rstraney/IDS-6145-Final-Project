@@ -177,14 +177,17 @@ The model was built in AnyLogic into two parts: a Pedestrian portion and a Trans
 
 
 ![Transportation Map](images/TransportationMap.PNG)
+
 _Transportation map of Magic Kingdom_. This map was used to identify how many transit types run. We concluded that one monorail, three ferries, and ten buses would be implemented in our model.
 
 
 ![Transportation Map](images/TimetoWalktoTTC.PNG)
+
 _Mapwalk_. This was used to evaluate how long it would take guests to walk from the parking lot to the Ticket and Transportation Center (TTC). We used this information to validate this portion of our model.
 
 
 ![Transportation Map](images/BusCount.PNG)
+
 _Nova bus_. Research indicated that the bus fleet NOVA bus used by the Walt Disney company. We used this information to identify the capacity of each of the Disney buses.
 
 
