@@ -49,11 +49,18 @@ Crowd diversion systems have been an area of focus for the theme park industry f
 
 ![Mike Space Mountain](images/MikeSpaceMountain.png)
 
-A member of our team enjoying Space Mountain at Walt Disney World.
+Michael Sterkel, a member of our team enjoying Space Mountain at Walt Disney World.
 
 ![Adam Family at Magic Kingdom](images/AdamDisneypic.png)
 
-A member of our team enjoying Magic Kingdom with his family.
+Adam Hardney, a member of our team enjoying Magic Kingdom with his family.
+
+
+![blake_space.png](./images/blake_space.png)
+
+Blake Nguyen, a member of our team enjoying Space Mountain at Disneyland.
+
+
 
 ## The Model
 
