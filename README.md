@@ -19,6 +19,8 @@ For our final project, we felt that it was in our best interest to assign specif
 
 [**Video of Simulation for Logic Transportation**](https://youtu.be/V-6Ksmzxg4I)
 
+[**Video of Simulation of Analysis**](https://youtu.be/T9rhOWSSvrE)
+
 ## Presentation PowerPoint
 
 
